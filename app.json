@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "simulaconc",
+    "name": "Simulaconc",
     "slug": "simulaconc",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,12 +21,9 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0A0F0F"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
   }
 }
