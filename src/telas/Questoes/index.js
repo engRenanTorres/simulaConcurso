@@ -1,10 +1,14 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 import { Text,FlatList } from 'react-native';
 import estilos from '../../estilos';
+import CabecalhoDaQuestao from './CabecalhoDaQuestao';
 import Questao from './Questao';
 
 export default function Questoes(){ 
+    let questaoExibidaNaTela;
+    let indexExibidaNaTela=0;
+
     let questions = [
         {
             id: 1,
@@ -33,16 +37,45 @@ export default function Questoes(){
             opcao4: 'Noira',
             answer: 4
         },
-    ];
+    ]
     
+    const criaNovaOrdenacao = (tamanhoArray)=> {
+        let indexAleatorio;
+        let ordemAleatoriaDosIndex= [];
+        const ordemProvisoria = [];
+        for(let i=0;i<tamanhoArray;i++) ordemProvisoria [i] = i;
+        for(let i=0;i<tamanhoArray;i++) {
+            indexAleatorio = Math.floor(Math.random() * ordemProvisoria.length);
+            ordemAleatoriaDosIndex[i] = ordemProvisoria[indexAleatorio];
+            ordemProvisoria.splice(indexAleatorio,1);
+        }
+        return ordemAleatoriaDosIndex;
+    }
+    const novaOrdemDasQuestoes = criaNovaOrdenacao(questions.length);
+
+    const [numeroQuestao,setnumeroQuestao] = useState(indexExibidaNaTela); 
+    const alteraQuestao = (valor,totalDeQuestoes) => {
+        const proximaQuestao = numeroQuestao+valor;
+        if(proximaQuestao<0||proximaQuestao==totalDeQuestoes)return;
+        setnumeroQuestao(proximaQuestao)};
+    //const alteraQuestaoAtual = (valor) => this.indexExibidaNaTela = valor;
+    
+
+    questaoExibidaNaTela = questions[novaOrdemDasQuestoes[numeroQuestao]];
     return (
         <>
             <Text style={estilos.titulo}>Lista de Questões</Text>
-            <FlatList 
+            <CabecalhoDaQuestao 
+                indiceQuestao={(numeroQuestao)} 
+                acao={alteraQuestao}
+                totalDeQuestoes={questions.length} />
+            <Questao {...questaoExibidaNaTela}/>
+            {/* <FlatList 
                 data={questions}
                 renderItem={({item})=><Questao {...item}/>}
                 keyExtractor={({id})=> String(id)}
-            />
+            /> */}
+            
             
             
         </>
