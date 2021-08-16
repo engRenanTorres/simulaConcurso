@@ -8,6 +8,8 @@ import Questao from './Questao';
 export default function Questoes(){ 
     let questaoExibidaNaTela;
     let indexExibidaNaTela=0;
+    const [numeroQuestao,setnumeroQuestao] = useState(indexExibidaNaTela);
+    
 
     let questions = [
         {
@@ -53,12 +55,11 @@ export default function Questoes(){
     }
     const novaOrdemDasQuestoes = criaNovaOrdenacao(questions.length);
 
-    const [numeroQuestao,setnumeroQuestao] = useState(indexExibidaNaTela); 
+     
     const alteraQuestao = (valor,totalDeQuestoes) => {
         const proximaQuestao = numeroQuestao+valor;
         if(proximaQuestao<0||proximaQuestao==totalDeQuestoes)return;
         setnumeroQuestao(proximaQuestao)};
-    //const alteraQuestaoAtual = (valor) => this.indexExibidaNaTela = valor;
     
 
     questaoExibidaNaTela = questions[novaOrdemDasQuestoes[numeroQuestao]];
