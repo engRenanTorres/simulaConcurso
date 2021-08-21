@@ -4,9 +4,11 @@ import { Text, View } from 'react-native';
 import estilos from './estilos';
 import Alternativas from '../../../componentes/Alternativas';
 
-export default function Questao({id, enunciado,alternativas,answer}) {
+export default function Questao({id, enunciado,alternativas,answer,atualizaRespostas}) {
     
     const [alternativaMarcada,setAlternativaMarcada] = useState([]);
+    
+ 
 
     return (
     <View style={estilos.informacao}>
@@ -18,6 +20,7 @@ export default function Questao({id, enunciado,alternativas,answer}) {
                 checado={alternativaMarcada} 
                 id2={id} 
                 alternativas={alternativas}
+                // resposta={atualizaRespostas}
             />
         </View>
     </View>

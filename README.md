@@ -9,7 +9,7 @@ A fazer:
 [X] adicionar botões de "proxima", "anterior" abaixo da questão;
 [ ] Incluir botao de submit e verificar questoes certas;
 [ ] adicionar observação em cada questão;
-[ ] Buscar questoes em um json;
+[X] Buscar questoes em um json;
 [ ] Fazer pagina inicial;
 [ ] Fazer registro dos recordes;
 [ ] Fazer pagina de recordes;

@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Quem é o maior eng do brasil?",
+        "alternativas":[
+            "Renan",
+            "Diego",
+            "Peçanha",
+            "Noira"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 2,
+        "enunciado": "Quem é o mais bonito do brasil?",
+        "alternativas":[
+            "Renan",
+            "Diego",
+            "Peçanha",
+            "Noira"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 3,
+        "enunciado": "Quem é o mais feio do brasil?",
+        "alternativas":[
+            "Renan",
+            "Diego",
+            "Peçanha",
+            "Noira"
+        ],
+        "answer": 3
+    }
+]

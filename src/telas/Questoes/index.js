@@ -1,56 +1,28 @@
 import React,{useState} from 'react';
 
-import { Text, View, TouchableOpacity, FlatList } from 'react-native';
+import { Text } from 'react-native';
 import estilos from '../../estilos';
 import CabecalhoDaQuestao from './CabecalhoDaQuestao';
 import Questao from './Questao';
+import BotoesPassadores from '../../componentes/BotoesPassadores';
 
 export default function Questoes(){ 
     let questaoExibidaNaTela;
     let indexExibidaNaTela=0;
     let quantidadeDeQuestoesNoTeste = 3;
     const [numeroQuestao,setnumeroQuestao] = useState(indexExibidaNaTela);
-    // const listaDeResposta = [];
-    // for(let i=0;i<quantidadeDeQuestoesNoTeste;i++) listaDeResposta[i]=5;
-    
-    
 
-    let questions = [
-    {
-        id: 1,
-        enunciado: 'Quem é o maior eng do brasil?',
-        alternativas:[
-            'Renan',
-            'Diego',
-            'Peçanha',
-            'Noira',
-        ],
-        answer: 1
-    },
-    {
-        id: 2,
-        enunciado: 'Quem é o mais bonito do brasil?',
-        alternativas:[
-            'Renan',
-            'Diego',
-            'Peçanha',
-            'Noira',
-        ],
-        answer: 1
-    },
-    {
-        id: 3,
-        enunciado: 'Quem é o mais feio do brasil?',
-        alternativas:[
-            'Renan',
-            'Diego',
-            'Peçanha',
-            'Noira',
-        ],
-        answer: 4
-    },
-    ]
-    if (quantidadeDeQuestoesNoTeste > questions.length) quantidadeDeQuestoesNoTeste = questions.length;
+    const bancoDeQuestoes = require('./questoes.json');
+    if (quantidadeDeQuestoesNoTeste > bancoDeQuestoes.length) quantidadeDeQuestoesNoTeste = bancoDeQuestoes.length;
+    
+    // let listaDeResposta = [];
+    // for (let i =0; i<3;i++) listaDeResposta[i]=5;
+    //     console.log(`console 1 lista é ${listaDeResposta}`);
+    // const setListaDeResposta = (valor,index) => {
+    //     listaDeResposta[(index-1)]=valor;
+    //     console.log(`valor é ${valor} e index é ${index}`)
+    //     console.log(`console 2 lista é ${listaDeResposta}`);
+    // }
     
     const criaNovaOrdenacao = (tamanhoArray)=> {
         let indexAleatorio;
@@ -73,7 +45,7 @@ export default function Questoes(){
         setnumeroQuestao(proximaQuestao)};
     
 
-    questaoExibidaNaTela = questions[novaOrdemDasQuestoes[numeroQuestao]];
+    questaoExibidaNaTela = bancoDeQuestoes[novaOrdemDasQuestoes[numeroQuestao]];
     return (
         <>
             <Text style={estilos.titulo}>Lista de Questões</Text>
@@ -86,15 +58,13 @@ export default function Questoes(){
                 enunciado={questaoExibidaNaTela.enunciado}
                 alternativas = {questaoExibidaNaTela.alternativas} 
                 answer={questaoExibidaNaTela.answer}
+                // atualizaRespostas={setListaDeResposta}
             />
-            <View style={{flexDirection: 'row'}}>
-                {numeroQuestao>0 && <TouchableOpacity onPress={()=>alteraQuestao(-1,quantidadeDeQuestoesNoTeste)}>
-                    <Text> Anterior </Text>
-                </TouchableOpacity>}
-                {numeroQuestao<(quantidadeDeQuestoesNoTeste-1) && <TouchableOpacity onPress={()=>alteraQuestao(+1,quantidadeDeQuestoesNoTeste)}>
-                    <Text> Próxima </Text>
-                </TouchableOpacity>}
-            </View> 
+            <BotoesPassadores
+                numeroQuestao= {numeroQuestao}
+                alteraQuestao= {alteraQuestao}
+                quantidadeDeQuestoesNoTeste = {quantidadeDeQuestoesNoTeste}
+            />
         </>
         );
 }
