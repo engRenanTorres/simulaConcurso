@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 
-import { Text,FlatList } from 'react-native';
+import { Text, View, TouchableOpacity, FlatList } from 'react-native';
 import estilos from '../../estilos';
 import CabecalhoDaQuestao from './CabecalhoDaQuestao';
 import Questao from './Questao';
@@ -8,38 +8,49 @@ import Questao from './Questao';
 export default function Questoes(){ 
     let questaoExibidaNaTela;
     let indexExibidaNaTela=0;
+    let quantidadeDeQuestoesNoTeste = 3;
     const [numeroQuestao,setnumeroQuestao] = useState(indexExibidaNaTela);
+    // const listaDeResposta = [];
+    // for(let i=0;i<quantidadeDeQuestoesNoTeste;i++) listaDeResposta[i]=5;
+    
     
 
     let questions = [
-        {
-            id: 1,
-            enunciado: 'Quem é o maior eng do brasil?',
-            opcao1:'Renan',
-            opcao2: 'Diego',
-            opcao3: 'Peçanha',
-            opcao4: 'Noira',
-            answer: 1
-        },
-        {
-            id: 2,
-            enunciado: 'Quem é o mais bonito do brasil?',
-            opcao1:'Renan',
-            opcao2: 'Diego',
-            opcao3: 'Peçanha',
-            opcao4: 'Noira',
-            answer: 1
-        },
-        {
-            id: 3,
-            enunciado: 'Quem é o mais feio do brasil?',
-            opcao1:'Renan',
-            opcao2: 'Diego',
-            opcao3: 'Peçanha',
-            opcao4: 'Noira',
-            answer: 4
-        },
+    {
+        id: 1,
+        enunciado: 'Quem é o maior eng do brasil?',
+        alternativas:[
+            'Renan',
+            'Diego',
+            'Peçanha',
+            'Noira',
+        ],
+        answer: 1
+    },
+    {
+        id: 2,
+        enunciado: 'Quem é o mais bonito do brasil?',
+        alternativas:[
+            'Renan',
+            'Diego',
+            'Peçanha',
+            'Noira',
+        ],
+        answer: 1
+    },
+    {
+        id: 3,
+        enunciado: 'Quem é o mais feio do brasil?',
+        alternativas:[
+            'Renan',
+            'Diego',
+            'Peçanha',
+            'Noira',
+        ],
+        answer: 4
+    },
     ]
+    if (quantidadeDeQuestoesNoTeste > questions.length) quantidadeDeQuestoesNoTeste = questions.length;
     
     const criaNovaOrdenacao = (tamanhoArray)=> {
         let indexAleatorio;
@@ -53,7 +64,7 @@ export default function Questoes(){
         }
         return ordemAleatoriaDosIndex;
     }
-    const novaOrdemDasQuestoes = criaNovaOrdenacao(questions.length);
+    const novaOrdemDasQuestoes = criaNovaOrdenacao(quantidadeDeQuestoesNoTeste);
 
      
     const alteraQuestao = (valor,totalDeQuestoes) => {
@@ -67,18 +78,23 @@ export default function Questoes(){
         <>
             <Text style={estilos.titulo}>Lista de Questões</Text>
             <CabecalhoDaQuestao 
-                indiceQuestao={(numeroQuestao)} 
+                indiceQuestao={numeroQuestao} 
                 acao={alteraQuestao}
-                totalDeQuestoes={questions.length} />
-            <Questao {...questaoExibidaNaTela}/>
-            {/* <FlatList 
-                data={questions}
-                renderItem={({item})=><Questao {...item}/>}
-                keyExtractor={({id})=> String(id)}
-            /> */}
-            
-            
-            
+                totalDeQuestoes={quantidadeDeQuestoesNoTeste} />
+            <Questao 
+                id={questaoExibidaNaTela.id}
+                enunciado={questaoExibidaNaTela.enunciado}
+                alternativas = {questaoExibidaNaTela.alternativas} 
+                answer={questaoExibidaNaTela.answer}
+            />
+            <View style={{flexDirection: 'row'}}>
+                {numeroQuestao>0 && <TouchableOpacity onPress={()=>alteraQuestao(-1,quantidadeDeQuestoesNoTeste)}>
+                    <Text> Anterior </Text>
+                </TouchableOpacity>}
+                {numeroQuestao<(quantidadeDeQuestoesNoTeste-1) && <TouchableOpacity onPress={()=>alteraQuestao(+1,quantidadeDeQuestoesNoTeste)}>
+                    <Text> Próxima </Text>
+                </TouchableOpacity>}
+            </View> 
         </>
         );
 }

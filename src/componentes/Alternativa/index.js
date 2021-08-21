@@ -17,12 +17,14 @@ export default function Alternativa({checado, valor, acao}){
               console.log("Desculpe erro na escolha da letra");
           }
     }
-    const numeroEscolhido = retornaOValorApertado(String(valor).charAt(0));
+    const numeroDaAlternativa = retornaOValorApertado(String(valor).charAt(0));
     
 
-    return <TouchableOpacity 
-        onPress={()=>acao(numeroEscolhido)}
-        style={ checado==numeroEscolhido? estiloPadrao.alternativaMarcada : estiloPadrao.alternativaDesmarcada}>
-        <Text style={ checado==numeroEscolhido? estiloPadrao.textoMarcado : estiloPadrao.textoDesmarcado }> {valor} </Text>
-    </TouchableOpacity>
+    return  <>
+        <TouchableOpacity 
+            onPress={()=>acao(numeroDaAlternativa)}
+            style={ checado==numeroDaAlternativa? estiloPadrao.alternativaMarcada : estiloPadrao.alternativaDesmarcada}>
+            <Text style={ checado==numeroDaAlternativa? estiloPadrao.textoMarcado : estiloPadrao.textoDesmarcado }> {valor} </Text>
+        </TouchableOpacity>
+    </>
 }
