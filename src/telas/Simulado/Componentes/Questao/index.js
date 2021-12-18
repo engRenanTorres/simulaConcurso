@@ -2,13 +2,12 @@ import React, {useState} from 'react';
 
 import { Text, View } from 'react-native';
 import estilos from './estilos';
-import Alternativas from '../../../componentes/Alternativas';
+import Alternativas from '../Alternativas';
 
 export default function Questao({id, enunciado,alternativas,answer,atualizaRespostas}) {
     
-    const [alternativaMarcada,setAlternativaMarcada] = useState([]);
-    
- 
+    // let bsc = []; bsc = [...bsc,6]; bsc = [...bsc,6]; bsc = [...bsc,6];
+    const [alternativaMarcada,setAlternativaMarcada] = useState([6,6,6,6]); 
 
     return (
     <View style={estilos.informacao}>
@@ -17,7 +16,7 @@ export default function Questao({id, enunciado,alternativas,answer,atualizaRespo
         <View style={estilos.opcoes}>
             <Alternativas 
                 acao={setAlternativaMarcada} 
-                checado={alternativaMarcada} 
+                alternativaMarcada={alternativaMarcada} 
                 id2={id} 
                 alternativas={alternativas}
                 // resposta={atualizaRespostas}

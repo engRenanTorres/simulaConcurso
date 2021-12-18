@@ -1,12 +1,14 @@
 import React from 'react';
-import Questoes from './src/telas/Questoes';
+import Simulado from './src/telas/Simulado';
+import Configuracao from './src/telas/Configuracao';
 import {SafeAreaView, StatusBar} from 'react-native';
 
 export default function App() {
   return (
     <SafeAreaView>
       <StatusBar/>
-      <Questoes/>
+      {/* <Configuracao/> */}
+      <Simulado/>
     </SafeAreaView>
   );
 }

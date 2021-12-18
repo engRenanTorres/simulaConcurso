@@ -23,11 +23,11 @@ export default function CampoInteiro({valor,acao}){
     return <View>
     
         <TextInput
-        style={estilos.campo}
-        keyboardType='number-pad'
-        selectTextOnFocus
-        value={numeroEmTexto}
-        onChangeText={(evento)=>{atualiza(evento,acao)}}
+            style={estilos.campo}
+            keyboardType='number-pad'
+            selectTextOnFocus
+            value={numeroEmTexto}
+            onChangeText={(evento)=>{atualiza(evento,acao)}}
         />
     </View>
 }

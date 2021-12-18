@@ -9,15 +9,14 @@ export default function CabecalhoDaQuestao({indiceQuestao,totalDeQuestoes,acao})
     <View style={estilos.informacao}>
         <View style={estilos.qualQuestao}>
             {indiceQuestao>0 && <TouchableOpacity onPress={()=>acao(-1,totalDeQuestoes)}>
-                <Text> {"<"} </Text>
+                <Text style={estilos.botoesPassadores}> {"<"} </Text>
             </TouchableOpacity>}
-            <Text>Questão {(indiceQuestao+1)} de {totalDeQuestoes}  </Text> 
+            <Text > Questão {(indiceQuestao+1)} de {totalDeQuestoes} </Text> 
             {indiceQuestao<(totalDeQuestoes-1) &&<TouchableOpacity onPress={()=>acao(+1,totalDeQuestoes)}>
-                <Text> {">"} </Text>
+                <Text style={estilos.botoesPassadores}> {">"} </Text>
             </TouchableOpacity>}
-
-            {/*<CampoInteiro valor={numeroQuestao} acao={setNumeroQuestao} totalDeQuestoes={totalDeQuestoes}/>*/} 
         </View>
+        <View style={estilos.divisor}/>
     </View>
     )
 }

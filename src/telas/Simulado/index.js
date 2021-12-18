@@ -2,41 +2,35 @@ import React,{useState} from 'react';
 
 import { Text } from 'react-native';
 import estilos from '../../estilos';
-import CabecalhoDaQuestao from './CabecalhoDaQuestao';
-import Questao from './Questao';
-import BotoesPassadores from '../../componentes/BotoesPassadores';
+import CabecalhoDaQuestao from './Componentes/CabecalhoDaQuestao';
+import Questao from './Componentes/Questao';
+import BotoesPassadores from './Componentes/BotoesPassadores';
 
-export default function Questoes(){ 
+export default function Simulado(){ 
     let questaoExibidaNaTela;
     let indexExibidaNaTela=0;
-    let quantidadeDeQuestoesNoTeste = 3;
+    let quantidadeDeQuestoesNoTeste = 4;
     const [numeroQuestao,setnumeroQuestao] = useState(indexExibidaNaTela);
 
     const bancoDeQuestoes = require('./questoes.json');
     if (quantidadeDeQuestoesNoTeste > bancoDeQuestoes.length) quantidadeDeQuestoesNoTeste = bancoDeQuestoes.length;
     
-    // let listaDeResposta = [];
-    // for (let i =0; i<3;i++) listaDeResposta[i]=5;
-    //     console.log(`console 1 lista é ${listaDeResposta}`);
-    // const setListaDeResposta = (valor,index) => {
-    //     listaDeResposta[(index-1)]=valor;
-    //     console.log(`valor é ${valor} e index é ${index}`)
-    //     console.log(`console 2 lista é ${listaDeResposta}`);
-    // }
     
-    const criaNovaOrdenacao = (tamanhoArray)=> {
-        let indexAleatorio;
-        let ordemAleatoriaDosIndex= [];
-        const ordemProvisoria = [];
-        for(let i=0;i<tamanhoArray;i++) ordemProvisoria [i] = i;
-        for(let i=0;i<tamanhoArray;i++) {
-            indexAleatorio = Math.floor(Math.random() * ordemProvisoria.length);
-            ordemAleatoriaDosIndex[i] = ordemProvisoria[indexAleatorio];
-            ordemProvisoria.splice(indexAleatorio,1);
-        }
-        return ordemAleatoriaDosIndex;
-    }
-    const novaOrdemDasQuestoes = criaNovaOrdenacao(quantidadeDeQuestoesNoTeste);
+    // const criaNovaOrdenacao = (tamanhoArray)=> {
+    //     let indexAleatorio;
+    //     let ordemAleatoriaDosIndex= [];
+    //     const ordemProvisoria = [];
+    //     for(let i=0;i<tamanhoArray;i++) ordemProvisoria [i] = i;
+    //     for(let i=0;i<tamanhoArray;i++) {
+    //         indexAleatorio = Math.floor(Math.random() * ordemProvisoria.length);
+    //         ordemAleatoriaDosIndex[i] = ordemProvisoria[indexAleatorio];
+    //         ordemProvisoria.splice(indexAleatorio,1);
+    //     }
+    //     return ordemAleatoriaDosIndex;
+    // }
+    // const novaOrdemDasQuestoes = criaNovaOrdenacao(quantidadeDeQuestoesNoTeste);
+    const novaOrdemDasQuestoes = [0,1,2,3,4];
+
 
      
     const alteraQuestao = (valor,totalDeQuestoes) => {

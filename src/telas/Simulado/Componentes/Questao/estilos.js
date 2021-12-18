@@ -1,9 +1,9 @@
 import { StyleSheet } from "react-native";
-import { cores } from "../../../estilos";
+import { cores } from "../../../../estilos";
 
 export default StyleSheet.create({
     informacao: {
-        padding: 24
+        padding: 5,
       },
     qualQuestao:{
         flexDirection: 'row',
@@ -11,15 +11,21 @@ export default StyleSheet.create({
         flexWrap: 'wrap',
     },
     enunciado: {
-        color: '#aaa',
+        backgroundColor: '#FFF',
+        color: '#000',
         fontSize: 16,
+        textAlignVertical: 'top',
+        paddingBottom: 20,
+        borderRadius: 15,
+        paddingHorizontal: 10,
     },
     divisor: {
         marginHorizontal: 24,
         borderBottomWidth: 1,
         borderBottomColor: cores.cinza,
+        marginBottom:10,
     },
     opcoes: {
-      textAlign: 'right',
+      textAlign: 'justify',
     },
 });

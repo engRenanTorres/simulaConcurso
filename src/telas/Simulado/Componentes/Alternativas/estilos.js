@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { cores } from '../../estilos';
+import { cores } from '../../../../estilos';
 
 export default StyleSheet.create({
   alternativaMarcada: {
@@ -41,12 +41,12 @@ export default StyleSheet.create({
   
   textoMarcado: {
     fontWeight: 'bold',
-    textAlign: 'left',
+    textAlign: 'justify',
     color: cores.claro,
   },
   textoDesmarcado: {
     fontWeight: 'bold',
-    textAlign: 'left',
+    textAlign: 'justify',
     color: cores.azul,
   }
 });
