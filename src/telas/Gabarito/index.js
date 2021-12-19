@@ -2,12 +2,12 @@ import React,{useState} from 'react';
 
 import { Text } from 'react-native';
 import estilos from '../../estilos';
-import CabecalhoDaQuestao from './Componentes/CabecalhoDaQuestao';
+import CabecalhoDaQuestao from '../Componentes/CabecalhoDaQuestao';
 import Questao from './Componentes/Questao';
-import BotoesPassadores from './Componentes/BotoesPassadores';
+import BotoesPassadores from '../Componentes/BotoesPassadores';
 import TelaPadrao from '../../componentes/TelaPadrao';
 
-export default function Simulado(){ 
+export default function Gabarito(){ 
     let questaoExibidaNaTela;
     let indexExibidaNaTela=0;
     let quantidadeDeQuestoesNoTeste = 4;
@@ -17,22 +17,7 @@ export default function Simulado(){
     if (quantidadeDeQuestoesNoTeste > bancoDeQuestoes.length) quantidadeDeQuestoesNoTeste = bancoDeQuestoes.length;
     
     
-    // const criaNovaOrdenacao = (tamanhoArray)=> {
-    //     let indexAleatorio;
-    //     let ordemAleatoriaDosIndex= [];
-    //     const ordemProvisoria = [];
-    //     for(let i=0;i<tamanhoArray;i++) ordemProvisoria [i] = i;
-    //     for(let i=0;i<tamanhoArray;i++) {
-    //         indexAleatorio = Math.floor(Math.random() * ordemProvisoria.length);
-    //         ordemAleatoriaDosIndex[i] = ordemProvisoria[indexAleatorio];
-    //         ordemProvisoria.splice(indexAleatorio,1);
-    //     }
-    //     return ordemAleatoriaDosIndex;
-    // }
-    // const novaOrdemDasQuestoes = criaNovaOrdenacao(quantidadeDeQuestoesNoTeste);
     const novaOrdemDasQuestoes = [0,1,2,3,4];
-
-
      
     const alteraQuestao = (valor,totalDeQuestoes) => {
         const proximaQuestao = numeroQuestao+valor;
@@ -43,7 +28,7 @@ export default function Simulado(){
     questaoExibidaNaTela = bancoDeQuestoes[novaOrdemDasQuestoes[numeroQuestao]];
     return (
         <TelaPadrao>
-            <Text style={estilos.titulo}>Lista de Questões</Text>
+            <Text style={estilos.titulo}>Correção das Questões</Text>
             <CabecalhoDaQuestao 
                 indiceQuestao={numeroQuestao} 
                 acao={alteraQuestao}
@@ -52,8 +37,7 @@ export default function Simulado(){
                 id={questaoExibidaNaTela.id}
                 enunciado={questaoExibidaNaTela.enunciado}
                 alternativas = {questaoExibidaNaTela.alternativas} 
-                answer={questaoExibidaNaTela.answer}
-                // atualizaRespostas={setListaDeResposta}
+                respostas={questaoExibidaNaTela.resposta.charCodeAt(0)-65}
             />
             <BotoesPassadores
                 numeroQuestao= {numeroQuestao}

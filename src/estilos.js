@@ -18,4 +18,5 @@ export const cores = {
     claro: '#fff',
     cinza: '#C7C7C7',
     azul: '#20b2aa',
+    vermelho: '#DC143C'
 };

@@ -1,16 +1,11 @@
 import React from 'react';
+import Rotas from './src/Rotas';
 import Simulado from './src/telas/Simulado';
-import Configuracao from './src/telas/Configuracao';
-import {SafeAreaView, StatusBar} from 'react-native';
+import Gabarito from './src/telas/Gabarito';
+
 
 export default function App() {
-  return (
-    <SafeAreaView>
-      <StatusBar/>
-      {/* <Configuracao/> */}
-      <Simulado/>
-    </SafeAreaView>
-  );
+  return <Simulado/> 
 }
 
 

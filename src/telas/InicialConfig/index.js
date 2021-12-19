@@ -4,7 +4,7 @@ import { Text, View, TouchableOpacity } from 'react-native';
 import estilos from './estilos';
 import CampoInteiro from '../../componentes/CampoInteiro';
 
-export default function Configuracao() {
+export default function InicialConfig() {
 
     const [quantidadeDeQuestoesPorVez, setQuantidadeDeQuestoes] = useState(3);
 

@@ -14,8 +14,8 @@ export default function Alternativas({alternativaMarcada, acao, id2, alternativa
                 acao(bsc);
                 // resposta(index,id2);
             }}
-            style={ alternativaMarcada[id2]==index? estiloPadrao.alternativaMarcada : estiloPadrao.alternativaDesmarcada}>
-                <Text style={ alternativaMarcada[id2]==index? estiloPadrao.textoMarcado : estiloPadrao.textoDesmarcado }> {alternativa} </Text>
+            style={ alternativaMarcada[id2]==index? estiloPadrao(true).alternativaMarcada : estiloPadrao(false).alternativaMarcada}>
+                <Text style={ alternativaMarcada[id2]==index? estiloPadrao(true).textoMarcado : estiloPadrao(false).textoMarcado }> {alternativa} </Text>
             </TouchableOpacity>
         )}
     </>

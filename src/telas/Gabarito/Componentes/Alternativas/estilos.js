@@ -1,12 +1,12 @@
 import { StyleSheet } from 'react-native';
 import { cores } from '../../../../estilos';
 
-export default (marcado) => StyleSheet.create({
+export default (correta) => StyleSheet.create({
   alternativaMarcada: {
     width: '100%',
     paddingVertical: 9,
     paddingHorizontal: 20,
-    backgroundColor: marcado? cores.azul : cores.claro,
+    backgroundColor: correta? cores.claro: cores.vermelho,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -16,7 +16,7 @@ export default (marcado) => StyleSheet.create({
     shadowRadius: 2.62,
     elevation: 4,
     borderRadius:4,
-    borderWidth: marcado? 6 : 0,
+    borderWidth: correta? 0: 6,
     margin: 2,
     
   },
@@ -24,7 +24,7 @@ export default (marcado) => StyleSheet.create({
   textoMarcado: {
     fontWeight: 'bold',
     textAlign: 'justify',
-    color: marcado? cores.claro : cores.azul,
+    color: correta? cores.azul : cores.claro,
   },
 
 });
