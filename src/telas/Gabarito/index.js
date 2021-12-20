@@ -1,19 +1,20 @@
 import React,{useState} from 'react';
 
-import { Text } from 'react-native';
+import { FlatList, Text } from 'react-native';
 import estilos from '../../estilos';
 import CabecalhoDaQuestao from '../Componentes/CabecalhoDaQuestao';
-import Questao from './Componentes/Questao';
 import BotoesPassadores from '../Componentes/BotoesPassadores';
 import TelaPadrao from '../../componentes/TelaPadrao';
+import QuestaoResolvida from './Componentes/QuestaoResolvida';
 
-export default function Gabarito(){ 
+export default function Gabarito({route}){ 
     let questaoExibidaNaTela;
     let indexExibidaNaTela=0;
     let quantidadeDeQuestoesNoTeste = 4;
     const [numeroQuestao,setnumeroQuestao] = useState(indexExibidaNaTela);
-
-    const bancoDeQuestoes = require('./questoes.json');
+    const alternativaMarcada = route.params.questoesMarcadas;
+    
+    const bancoDeQuestoes = require('../questoes.json');
     if (quantidadeDeQuestoesNoTeste > bancoDeQuestoes.length) quantidadeDeQuestoesNoTeste = bancoDeQuestoes.length;
     
     
@@ -33,11 +34,12 @@ export default function Gabarito(){
                 indiceQuestao={numeroQuestao} 
                 acao={alteraQuestao}
                 totalDeQuestoes={quantidadeDeQuestoesNoTeste} />
-            <Questao 
+            <QuestaoResolvida 
                 id={questaoExibidaNaTela.id}
                 enunciado={questaoExibidaNaTela.enunciado}
                 alternativas = {questaoExibidaNaTela.alternativas} 
                 respostas={questaoExibidaNaTela.resposta.charCodeAt(0)-65}
+                alternativasMarcadas = {alternativaMarcada}
             />
             <BotoesPassadores
                 numeroQuestao= {numeroQuestao}

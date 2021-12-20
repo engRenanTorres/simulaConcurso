@@ -2,22 +2,20 @@ import React, {useState} from 'react';
 
 import { Text, View } from 'react-native';
 import estilos from './estilos';
-import Alternativas from '../Alternativas';
+import Alternativas from '../AlternativasVerificadas';
 
-export default function Questao({id, enunciado,alternativas,respostas}) {
+export default function QuestaoResolvida({id, enunciado,alternativas,respostas,alternativasMarcadas}) {
     
-    // let bsc = []; bsc = [...bsc,6]; bsc = [...bsc,6]; bsc = [...bsc,6];
-    const [alternativaMarcada,setAlternativaMarcada] = useState([6,6,6,6]); 
+    const alternativaMarcada = alternativasMarcadas; 
 
     return (
     <View style={estilos.informacao}>
         <Text style={estilos.enunciado}> {enunciado} </Text>
         <View style={estilos.divisor}/>
         <View style={estilos.opcoes}>
-            <Alternativas 
-                acao={setAlternativaMarcada} 
+            <Alternativas  
                 alternativaMarcada={alternativaMarcada} 
-                id2={id} 
+                id2={id-1} 
                 alternativas={alternativas}
                 resposta={respostas}
             />

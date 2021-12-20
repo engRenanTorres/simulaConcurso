@@ -1,9 +1,15 @@
+import { useNavigation } from '@react-navigation/native';
 import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import estilos from './estilos';
 
-export default function BotoesPassadores ({numeroQuestao,alteraQuestao,quantidadeDeQuestoesNoTeste}) {
+export default function BotoesPassadores ({numeroQuestao,alteraQuestao,quantidadeDeQuestoesNoTeste,alternativasMarcadas}) {
     const primeiraQuestao = numeroQuestao == 0? true:false;
+    const ultimaQuestao = numeroQuestao ==(quantidadeDeQuestoesNoTeste-1)? true:false;
+    const navigation = useNavigation();
+    const transferir = {
+        questoesMarcadas: alternativasMarcadas
+    }
 
     return(
         <View style={estilos(primeiraQuestao).containerPassadores}>       
@@ -14,7 +20,14 @@ export default function BotoesPassadores ({numeroQuestao,alteraQuestao,quantidad
                     <Text style={estilos(false).botoesPassadores}> Anterior </Text>
                 </TouchableOpacity>
             }
-            {numeroQuestao<(quantidadeDeQuestoesNoTeste-1) && 
+            {ultimaQuestao && 
+                <TouchableOpacity 
+                    onPress={()=>navigation.push('Corrigir',transferir)}
+                >
+                <Text style={estilos(false).botoesPassadores}> Corrigir Simulado </Text>
+                </TouchableOpacity>
+            }
+            {!ultimaQuestao && 
                 <TouchableOpacity 
                     onPress={()=>alteraQuestao(+1,quantidadeDeQuestoesNoTeste)}
                 >

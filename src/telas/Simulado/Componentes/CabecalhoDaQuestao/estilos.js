@@ -10,7 +10,7 @@ export default StyleSheet.create({
         alignItems: 'center',
         flexWrap: 'wrap',
         justifyContent: 'center',
-        backgroundColor: '#fff'       
+        backgroundColor: cores.quaseBranco,       
     },
     divisor: {
         marginHorizontal: 24,

@@ -12,8 +12,9 @@ export default function Simulado(){
     let indexExibidaNaTela=0;
     let quantidadeDeQuestoesNoTeste = 4;
     const [numeroQuestao,setnumeroQuestao] = useState(indexExibidaNaTela);
+    const [alternativasMarcadas,setAlternativaMarcada] = useState([5,5,5,5]);
 
-    const bancoDeQuestoes = require('./questoes.json');
+    const bancoDeQuestoes = require('../questoes.json');
     if (quantidadeDeQuestoesNoTeste > bancoDeQuestoes.length) quantidadeDeQuestoesNoTeste = bancoDeQuestoes.length;
     
     
@@ -51,14 +52,15 @@ export default function Simulado(){
             <Questao 
                 id={questaoExibidaNaTela.id}
                 enunciado={questaoExibidaNaTela.enunciado}
-                alternativas = {questaoExibidaNaTela.alternativas} 
-                answer={questaoExibidaNaTela.answer}
-                // atualizaRespostas={setListaDeResposta}
+                alternativas = {questaoExibidaNaTela.alternativas}
+                alternativasMarcadas = {alternativasMarcadas}
+                acaoDeMarcar = {setAlternativaMarcada}
             />
             <BotoesPassadores
                 numeroQuestao= {numeroQuestao}
                 alteraQuestao= {alteraQuestao}
                 quantidadeDeQuestoesNoTeste = {quantidadeDeQuestoesNoTeste}
+                alternativasMarcadas = {alternativasMarcadas}
             />
         </TelaPadrao>
         );

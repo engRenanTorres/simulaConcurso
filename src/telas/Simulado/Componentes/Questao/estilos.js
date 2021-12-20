@@ -11,12 +11,12 @@ export default StyleSheet.create({
         flexWrap: 'wrap',
     },
     enunciado: {
-        backgroundColor: '#FFF',
+        backgroundColor: cores.quaseBranco,
         color: '#000',
         fontSize: 16,
         textAlignVertical: 'top',
         paddingBottom: 20,
-        borderRadius: 15,
+        borderRadius: 5,
         paddingHorizontal: 10,
     },
     divisor: {

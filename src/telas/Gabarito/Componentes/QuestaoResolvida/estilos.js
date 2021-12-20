@@ -4,6 +4,7 @@ import { cores } from "../../../../estilos";
 export default StyleSheet.create({
     informacao: {
         padding: 5,
+
       },
     qualQuestao:{
         flexDirection: 'row',
@@ -11,7 +12,7 @@ export default StyleSheet.create({
         flexWrap: 'wrap',
     },
     enunciado: {
-        backgroundColor: '#FFF',
+        backgroundColor: cores.quaseBranco,
         color: '#000',
         fontSize: 16,
         textAlignVertical: 'top',

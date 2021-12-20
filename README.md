@@ -9,7 +9,10 @@ A fazer:
 [X] adicionar botões de "proxima", "anterior" abaixo da questão;
 [ ] Incluir botao de submit e verificar questoes certas;
 [ ] Fazer Página de configuração do simulado;
-[ ] Fazer Pagina p verificao das respostas (substituir touchbleopacity por view nesta tela);
+[X] Fazer Pagina p verificao das respostas (substituir touchbleopacity por view nesta tela);
+[ ] Adicionar as questões marcadas pelo usuário no gabarito;
+[ ] Usar Flatlist no gabarito;
+[ ] Readicionar as questoes aletórias e colocar seu código em pasta própria;
 [ ] Fazer uma configuracao padrao ;
 [ ] Criar componente para statusBar;
 [ ] Opcao para perguntas sorteadas ou nao;
