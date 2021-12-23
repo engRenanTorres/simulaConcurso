@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { cores } from '../../../estilos';
+import { cores } from '../../../../estilos';
 
 export default (primeiraQuestao) => StyleSheet.create({
     containerPassadores: {

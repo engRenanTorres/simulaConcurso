@@ -1,12 +1,13 @@
 import React, {useState} from 'react';
 
-import { Text, View } from 'react-native';
+import { Text, View, TouchableOpacity } from 'react-native';
 import estilos from './estilos';
 import Alternativas from '../AlternativasVerificadas';
 
-export default function QuestaoResolvida({id, enunciado,alternativas,respostas,alternativasMarcadas}) {
+export default function QuestaoResolvida({id,enunciado,alternativas,respostas,alternativasMarcadas,observacao}) {
     
     const alternativaMarcada = alternativasMarcadas; 
+    const [mostraComentario,setMostraComentario] = useState(false);
 
     return (
     <View style={estilos.informacao}>
@@ -20,6 +21,16 @@ export default function QuestaoResolvida({id, enunciado,alternativas,respostas,a
                 resposta={respostas}
             />
         </View>
+        <View style={estilos.divisor}/>
+        <View>
+        <TouchableOpacity onPress={()=>setMostraComentario(!mostraComentario)}>
+                <Text style={estilos.botoesPassadores}> Visualizar comentário do autor </Text>
+        </TouchableOpacity>
+        {mostraComentario && <View>
+                <Text>{observacao}</Text>
+            </View>}
+        </View>
+        <View style={estilos.divisor}/>
     </View>
     )
 }
