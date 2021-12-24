@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 
 import { Text } from 'react-native';
-import estilos from '../../estilos';
+import estilos from '../../estilosGerais';
 import CabecalhoDaQuestao from '../Componentes/CabecalhoDaQuestao';
 import Questao from './Componentes/Questao';
 import BotoesPassadores from './Componentes/BotoesPassadores';
@@ -40,7 +40,7 @@ export default function Simulado(){
     let questaoExibidaNaTela = bancoDeQuestoes[novaOrdemDasQuestoes[numeroQuestao]];
     return (
         <TelaPadrao>
-            <Text style={estilos.titulo}>Lista de Questões</Text>
+            <Text h1 style={estilos.titulo}>Lista de Questões</Text>
             <CabecalhoDaQuestao 
                 indiceQuestao={numeroQuestao} 
                 acao={alteraQuestao}

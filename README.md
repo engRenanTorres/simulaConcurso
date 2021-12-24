@@ -4,7 +4,9 @@ O simulaConcurso tem o intuito de ser um app gratuito para simular provas de con
 
 A fazer:
 [X] colocar uma questão aleatória por vez;
-[ ] Estilizar comentário e informações das questões
+[X] Estilizar comentário e informações das questões;
+[ ] Renomear estilos;
+[ ] Marcar tags h1 h2.. nos <Text>
 
 Tela inicial:
 [ ] Fazer pagina inicial;

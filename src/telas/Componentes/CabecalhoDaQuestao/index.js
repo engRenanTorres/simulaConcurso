@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import { TouchableOpacity, Text, View } from 'react-native';
+import BotaoMostraESome from '../../../componentes/BotaoMostraESome';
 import estilos from './estilos';
 
 export default function CabecalhoDaQuestao({indiceQuestao,totalDeQuestoes,acao, ano,banca, concurso}) {
@@ -16,18 +17,16 @@ export default function CabecalhoDaQuestao({indiceQuestao,totalDeQuestoes,acao, 
                 <Text style={estilos.botoesPassadores}> {">"} </Text>
             </TouchableOpacity>}
         </View>
-        <View style={estilos.divisor}/>
-        <View>
-        <TouchableOpacity onPress={()=>setMostraInformacoes(!mostraInformacoes)}>
-                <Text style={estilos.botoesPassadores}> Exibir informações sobre a questão </Text>
-        </TouchableOpacity>
-        {mostraInformacoes && <View>
+        <BotaoMostraESome ativador={mostraInformacoes}
+            alteraAtivador={setMostraInformacoes}
+            txtAtivo={"Esconder Informações"}
+            txtDesativo={"Informações sobre a questão"}>
+            <View>
                 <Text>Concurso: {concurso}</Text>
                 <Text>Banca: {banca}</Text>
                 <Text>Ano: {ano}</Text>
-            </View>}
-        </View>
-        <View style={estilos.divisor}/>
+            </View>
+        </BotaoMostraESome>
     </View>
     )
 }

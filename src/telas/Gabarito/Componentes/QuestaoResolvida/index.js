@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 
-import { Text, View, TouchableOpacity } from 'react-native';
+import { Text, View } from 'react-native';
 import estilos from './estilos';
 import Alternativas from '../AlternativasVerificadas';
+import BotaoMostraESome from '../../../../componentes/BotaoMostraESome';
 
-export default function QuestaoResolvida({id,enunciado,alternativas,respostas,alternativasMarcadas,observacao}) {
-    
+export default function QuestaoResolvida({id,enunciado,alternativas,resposta,alternativasMarcadas,observacao}) {
+
     const alternativaMarcada = alternativasMarcadas; 
     const [mostraComentario,setMostraComentario] = useState(false);
 
@@ -18,19 +19,16 @@ export default function QuestaoResolvida({id,enunciado,alternativas,respostas,al
                 alternativaMarcada={alternativaMarcada} 
                 id2={id-1} 
                 alternativas={alternativas}
-                resposta={respostas}
+                resposta={resposta.charCodeAt(0)-65}
             />
         </View>
-        <View style={estilos.divisor}/>
-        <View>
-        <TouchableOpacity onPress={()=>setMostraComentario(!mostraComentario)}>
-                <Text style={estilos.botoesPassadores}> Visualizar comentário do autor </Text>
-        </TouchableOpacity>
-        {mostraComentario && <View>
-                <Text>{observacao}</Text>
-            </View>}
-        </View>
-        <View style={estilos.divisor}/>
+        <BotaoMostraESome 
+            ativador={mostraComentario} 
+            alteraAtivador={setMostraComentario}
+            txtAtivo={"Esconder comentário"}
+            txtDesativo={"Mostrar comentário do autor"}>
+            {observacao}
+        </BotaoMostraESome>
     </View>
     )
 }

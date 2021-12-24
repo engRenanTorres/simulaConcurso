@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { cores } from "../../../estilos";
+import { cores } from "../../../estilosGerais";
 
 export default StyleSheet.create({
     informacao: {

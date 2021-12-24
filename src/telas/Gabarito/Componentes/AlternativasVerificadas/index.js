@@ -1,9 +1,8 @@
 import React from 'react';
-import { View, TouchableOpacity, Text } from 'react-native';
+import { View, Text } from 'react-native';
 import estiloPadrao from './estilos';
 
 export default function AlternativasVerificadas ({alternativaMarcada, id2, alternativas,resposta}){
-    
     return  <>
         { alternativas.map((alternativa,index) => 
             <View 

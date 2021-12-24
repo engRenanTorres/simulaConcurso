@@ -4,13 +4,18 @@ export default StyleSheet.create({
     preencher: {
         flex:1,
     },
-    titulo: {
+    titulosTela: {
         fontWeight: 'bold',
         fontSize: 20,
         textAlign: 'center',
+        marginVertical: 10,
     },
+    corpoTextoGeral: {
+        fontSize: 16,
+        textAlign: 'center',
+    },
+    
 });
-
 export const cores = {
     roxo: '#A050BE',
     laranja: '#FABE50',

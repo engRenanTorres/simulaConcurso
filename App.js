@@ -1,10 +1,10 @@
 import React from 'react';
 import Rotas from './src/Rotas';
-import Gabarito from './src/telas/Gabarito';
+import Pontuacao from './src/telas/Pontuacao';
 
 
 export default function App() {
-  return <Rotas/> 
+  return <Pontuacao/> 
 }
 
 

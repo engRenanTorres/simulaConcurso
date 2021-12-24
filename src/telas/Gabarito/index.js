@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 
 import { Text } from 'react-native';
-import estilos from '../../estilos';
+import estilos from '../../estilosGerais';
 import CabecalhoDaQuestao from '../Componentes/CabecalhoDaQuestao';
 import BotoesPassadores from './Componentes/BotoesPassadores';
 import TelaPadrao from '../../componentes/TelaPadrao';
@@ -22,12 +22,11 @@ export default function Gabarito({route}){
         if(proximaQuestao<0||proximaQuestao==totalDeQuestoes)return;
         setnumeroQuestao(proximaQuestao)};
     
-
     let questaoExibidaNaTela = bancoDeQuestoes[novaOrdemDasQuestoes[numeroQuestao]];
 
     return (
         <TelaPadrao>
-            <Text style={estilos.titulo}>Correção das Questões</Text>
+            <Text h1 style={estilos.titulo}>Correção das Questões</Text>
             <CabecalhoDaQuestao 
                 indiceQuestao={numeroQuestao} 
                 acao={alteraQuestao}
