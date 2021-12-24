@@ -1,8 +1,25 @@
 [
     {
+        "id": 0,
+        "banca": "FGV",
+        "nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP",
+        "ano":  2010,
+        "assunto": "NR23",
+        "enunciado": "Associe o tipo de extintor de incêndio (numerados na coluna da direita) à classe de fogo (na coluna da esquerda) na qual ele deve ser utilizado, segundo determina a NR-23. \n        Classe de fogo tipo de extintor \n               A                                    I- Espuma \n               B                                    II-Dióxido de Carbono \n               C                                    III-Químico Seco \n               D                                   IV- Água pressurizada ou Água-Gás \n        Assinale a alternativa que apresente somente associações corretas.",
+        "alternativas":[
+      "(A)A-I/B-II/C-IV",
+      "(B)A-IV/B-III/C-II",
+      "(C)A-II/B-I/D-IV",
+      "(D)A-III/B-II/C-I",
+      "(E)A-IV/B-III/D-II"
+        ],
+        "resposta":"B",
+        "observacao":"Classe A = Materiais combustíveis sólidos, \n        Classe B= Materiais combustíveis líquidos \n        Classe C=Ignição elétrica, \n        Classe D="
+    },
+    {
         "id": 1,
         "banca": "FGV",
-        "concurso" : "CODESP",
+        "nivel": "superior", "cargo": "Engenharia", "concurso" : "CODESP",
         "ano":  2010,
         "assunto": "NR23",
         "enunciado": "Quem é o maior eng do brasil?",
@@ -17,7 +34,7 @@
     {
         "id": 2,
         "banca": "FGV",
-        "concurso" : "CODESP",
+        "nivel": "superior", "cargo": "Engenharia", "concurso" : "CODESP",
         "ano":  2010,
         "assunto": "NR23",
         "enunciado": "Quem é o mais \n \"bonito\" do brasil?",
@@ -32,7 +49,7 @@
     {
         "id": 3,
         "banca": "FGV",
-        "concurso" : "CODESP",
+        "nivel": "superior", "cargo": "Engenharia","concurso" : "CODESP",
         "ano":  2010,
         "assunto": "NR23",
         "enunciado": "Quem é o mais \n feio do brasil?",
@@ -47,7 +64,7 @@
     {
         "id":4,
         "banca": "FGV",
-        "concurso" : "CODESP",
+        "nivel": "superior", "cargo": "Engenharia","concurso" : "CODESP",
         "ano":  2010,
         "assunto": "NR23",
         "enunciado": "O fenômeno conhecido como Boilover pode ser mais bem definido quando",
@@ -64,7 +81,7 @@
       {
         "id":5,
         "banca": "FGV",
-        "concurso" : "CODESP",
+        "nivel": "superior", "cargo": "Engenharia","concurso" : "CODESP",
         "ano":  2010,
         "assunto": "NR15",
         "enunciado": "Considere as afirmativas abaixo: \n I.A dose média de radiação natural absorvida pela população mundial é  de 2,6 Gy x 10^3 x ano^-1, isto é, 2,6 mGy por ano. \n II. Radiação gama é do tipo partículas. \nIII. Radiação alfa do tipo eletromagnética. \n IV. Radiação nucleares do tipo partículas possuem massa, carga elétrica e velocidade, esta dependente do valor de sua energia. \n V.Ondas eletromagnéticas não possuem massa e se propagam com a velocidade 300.000 km/s, para qualquer valor de sua energia. \n Assinale",
@@ -81,7 +98,7 @@
       {
         "id":6,
         "banca": "FGV",
-        "concurso" : "CODESP",
+        "nivel": "superior", "cargo": "Engenharia","concurso" : "CODESP",
         "ano":  2010,
         "assunto": "NR15",
         "enunciado": "Um radioisótopo tem meia-vida de 200 dias. Após quantos dias o radioisótopo terá decaído a valores correspondentes a 12,5% da sua atividade inicial?",
@@ -94,5 +111,22 @@
         ],
         "resposta":"E",
         "observacao":" 200 dias = 50 % da vida \n400 dias = 50% de 50% da vida = 25% \n600 dias = 50% de 25% da vida = 15,5% "
-      }
+      },
+      {
+        "id": 7,
+        "banca": "FGV",
+        "nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP",
+        "ano":  2010,
+        "assunto": "Previdência",
+        "enunciado": "A definição de natureza da lesão, segundo a NBR 14.280, é",
+        "alternativas":[
+        "(A)Qualquer dano sofrido pelo organismo humano, como consequência de acidente do trabalho.",
+        "(B)Expressão que identifica a lesão, segundo suas características principais.",
+        "(C)Indicação da sede da lesão.",
+        "(D)Lesão que se manifesta no momento do acidente.",
+        "(E)Lesão que não se manifesta imediatamente após a circunstância acidental da qual resultou."
+        ],
+          "resposta":"B",
+          "observacao":"Texto da NBR"
+    }  
 ]
