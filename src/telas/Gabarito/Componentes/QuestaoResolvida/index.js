@@ -5,7 +5,7 @@ import estilos from './estilos';
 import Alternativas from '../AlternativasVerificadas';
 import BotaoMostraESome from '../../../../componentes/BotaoMostraESome';
 
-export default function QuestaoResolvida({id,enunciado,alternativas,resposta,alternativasMarcadas,observacao}) {
+export default function QuestaoResolvida({numeroQuestao,enunciado,alternativas,resposta,alternativasMarcadas,observacao}) {
 
     const alternativaMarcada = alternativasMarcadas; 
     const [mostraComentario,setMostraComentario] = useState(false);
@@ -17,7 +17,7 @@ export default function QuestaoResolvida({id,enunciado,alternativas,resposta,alt
         <View style={estilos.opcoes}>
             <Alternativas  
                 alternativaMarcada={alternativaMarcada} 
-                id2={id-1} 
+                id2={numeroQuestao} 
                 alternativas={alternativas}
                 resposta={resposta.charCodeAt(0)-65}
             />

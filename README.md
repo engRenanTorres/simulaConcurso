@@ -57,3 +57,4 @@ Bugs:
 [X] Corrigir seleçao de alternativas porque a selecao de uma esta selecionando a alternativa em todas as questoes; (16/12/2021)
 [ ] Questoes estao sortando o tempo inteiro;
 [X] Colocar scroll para questoes maiores;
+[ ] Ordem do gabarito está sempre cresce em relação ao id no json;

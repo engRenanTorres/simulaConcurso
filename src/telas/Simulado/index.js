@@ -1,17 +1,17 @@
 import React,{useState} from 'react';
 
 import { Text } from 'react-native';
-import estilos from '../../estilosGerais';
 import CabecalhoDaQuestao from '../Componentes/CabecalhoDaQuestao';
 import Questao from './Componentes/Questao';
 import BotoesPassadores from './Componentes/BotoesPassadores';
 import TelaPadrao from '../../componentes/TelaPadrao';
+import estilosGerais from '../../estilosGerais';
 
 export default function Simulado(){ 
     let indexExibidaNaTela=0;
     let quantidadeDeQuestoesNoTeste = 3;
     const [numeroQuestao,setnumeroQuestao] = useState(indexExibidaNaTela);
-    const [alternativasMarcadas,setAlternativaMarcada] = useState([5,5,5,5]);
+    const [alternativasMarcadas,setAlternativaMarcada] = useState([]);
 
     const bancoDeQuestoes = require('../../dados/questoes.json');
     if (quantidadeDeQuestoesNoTeste > bancoDeQuestoes.length) quantidadeDeQuestoesNoTeste = bancoDeQuestoes.length;
@@ -29,7 +29,7 @@ export default function Simulado(){
     //     return ordemAleatoriaDosIndex;
     // }
     // const novaOrdemDasQuestoes = criaNovaOrdenacao(quantidadeDeQuestoesNoTeste);
-    const novaOrdemDasQuestoes = [3,4,5];
+    const novaOrdemDasQuestoes = [3,5,2];
      
     const alteraQuestao = (valor,totalDeQuestoes) => {
         const proximaQuestao = numeroQuestao+valor;
@@ -40,7 +40,7 @@ export default function Simulado(){
     let questaoExibidaNaTela = bancoDeQuestoes[novaOrdemDasQuestoes[numeroQuestao]];
     return (
         <TelaPadrao>
-            <Text h1 style={estilos.titulo}>Lista de Questões</Text>
+            <Text h1 style={estilosGerais.titulosTela}>Lista de Questões</Text>
             <CabecalhoDaQuestao 
                 indiceQuestao={numeroQuestao} 
                 acao={alteraQuestao}
@@ -49,6 +49,7 @@ export default function Simulado(){
             />
             <Questao 
                 {...questaoExibidaNaTela}
+                numeroQuestao = {numeroQuestao}
                 alternativasMarcadas = {alternativasMarcadas}
                 acaoDeMarcar = {setAlternativaMarcada}
             />

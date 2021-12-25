@@ -1,21 +1,5 @@
 [
-    {
-        "id": 0,
-        "banca": "FGV",
-        "nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP",
-        "ano":  2010,
-        "assunto": "NR23",
-        "enunciado": "Associe o tipo de extintor de incêndio (numerados na coluna da direita) à classe de fogo (na coluna da esquerda) na qual ele deve ser utilizado, segundo determina a NR-23. \n        Classe de fogo tipo de extintor \n               A                                    I- Espuma \n               B                                    II-Dióxido de Carbono \n               C                                    III-Químico Seco \n               D                                   IV- Água pressurizada ou Água-Gás \n        Assinale a alternativa que apresente somente associações corretas.",
-        "alternativas":[
-      "(A)A-I/B-II/C-IV",
-      "(B)A-IV/B-III/C-II",
-      "(C)A-II/B-I/D-IV",
-      "(D)A-III/B-II/C-I",
-      "(E)A-IV/B-III/D-II"
-        ],
-        "resposta":"B",
-        "observacao":"Classe A = Materiais combustíveis sólidos, \n        Classe B= Materiais combustíveis líquidos \n        Classe C=Ignição elétrica, \n        Classe D="
-    },
+
     {
         "id": 1,
         "banca": "FGV",
@@ -128,5 +112,22 @@
         ],
           "resposta":"B",
           "observacao":"Texto da NBR"
-    }  
+    }  ,
+    {
+        "id": 8,
+        "banca": "FGV",
+        "nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP",
+        "ano":  2010,
+        "assunto": "NR23",
+        "enunciado": "Associe o tipo de extintor de incêndio (numerados na coluna da direita) à classe de fogo (na coluna da esquerda) na qual ele deve ser utilizado, segundo determina a NR-23. \n        Classe de fogo tipo de extintor \n               A                                    I- Espuma \n               B                                    II-Dióxido de Carbono \n               C                                    III-Químico Seco \n               D                                   IV- Água pressurizada ou Água-Gás \n        Assinale a alternativa que apresente somente associações corretas.",
+        "alternativas":[
+      "(A)A-I/B-II/C-IV",
+      "(B)A-IV/B-III/C-II",
+      "(C)A-II/B-I/D-IV",
+      "(D)A-III/B-II/C-I",
+      "(E)A-IV/B-III/D-II"
+        ],
+        "resposta":"B",
+        "observacao":"Classe A = Materiais combustíveis sólidos, \n        Classe B= Materiais combustíveis líquidos \n        Classe C=Ignição elétrica, \n        Classe D="
+    }
 ]

@@ -6,6 +6,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 import Simulado from "./telas/Simulado";
 import Gabarito from "./telas/Gabarito";
+import Pontuacao from "./telas/Pontuacao";
 
 // const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -15,6 +16,10 @@ export default function Rotas() {
         <Stack.Navigator initialRouteName="Simulado">
             <Stack.Screen name="Simulado"
                 component={Simulado}
+                options={{headerShown:false}}
+            />
+            <Stack.Screen name="Pontuacao"
+                component={Pontuacao}
                 options={{headerShown:false}}
             />
             <Stack.Screen name="Corrigir"

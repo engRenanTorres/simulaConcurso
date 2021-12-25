@@ -23,7 +23,7 @@ export default function BotoesPassadores ({numeroQuestao,alteraQuestao,quantidad
             }
             {ultimaQuestao && 
                 <TouchableOpacity 
-                    onPress={()=>navigation.push('Corrigir',transferir)}
+                    onPress={()=>navigation.push('Pontuacao',transferir)}
                 >
                 <Text style={estilos(false).botoesPassadores}> Corrigir Simulado </Text>
                 </TouchableOpacity>

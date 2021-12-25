@@ -4,7 +4,7 @@ import Pontuacao from './src/telas/Pontuacao';
 
 
 export default function App() {
-  return <Pontuacao/> 
+  return <Rotas/> 
 }
 
 

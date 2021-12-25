@@ -4,7 +4,7 @@ import { Text, View } from 'react-native';
 import estilos from './estilos';
 import Alternativas from '../Alternativas';
 
-export default function Questao({id, enunciado,alternativas,alternativasMarcadas,acaoDeMarcar}) {
+export default function Questao({numeroQuestao, enunciado,alternativas,alternativasMarcadas,acaoDeMarcar}) {
     
     return (
         <View style={estilos.informacao}>
@@ -14,7 +14,7 @@ export default function Questao({id, enunciado,alternativas,alternativasMarcadas
                 <Alternativas 
                     acao={acaoDeMarcar} 
                     alternativaMarcada={alternativasMarcadas} 
-                    id2={id-1} 
+                    id2={numeroQuestao} 
                     alternativas={alternativas}
                 />
             </View>

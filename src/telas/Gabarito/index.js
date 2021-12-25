@@ -1,16 +1,17 @@
 import React,{useState} from 'react';
 
 import { Text } from 'react-native';
-import estilos from '../../estilosGerais';
 import CabecalhoDaQuestao from '../Componentes/CabecalhoDaQuestao';
 import BotoesPassadores from './Componentes/BotoesPassadores';
 import TelaPadrao from '../../componentes/TelaPadrao';
 import QuestaoResolvida from './Componentes/QuestaoResolvida';
+import estilosGerais from '../../estilosGerais';
 
 export default function Gabarito({route}){ 
     let indexExibidaNaTela=0;
     const [numeroQuestao,setnumeroQuestao] = useState(indexExibidaNaTela);
     const alternativaMarcada = route.params.questoesMarcadas;
+    
     const novaOrdemDasQuestoes = route.params.novaOrdemDasQuestoes;
     let quantidadeDeQuestoesNoTeste = novaOrdemDasQuestoes.length;
     
@@ -26,7 +27,7 @@ export default function Gabarito({route}){
 
     return (
         <TelaPadrao>
-            <Text h1 style={estilos.titulo}>Correção das Questões</Text>
+            <Text h1 style={estilosGerais.titulosTela}>Correção das Questões</Text>
             <CabecalhoDaQuestao 
                 indiceQuestao={numeroQuestao} 
                 acao={alteraQuestao}
@@ -35,6 +36,7 @@ export default function Gabarito({route}){
             />
             <QuestaoResolvida
                 {...questaoExibidaNaTela}
+                numeroQuestao = {numeroQuestao}
                 alternativasMarcadas = {alternativaMarcada}
             />
             <BotoesPassadores
