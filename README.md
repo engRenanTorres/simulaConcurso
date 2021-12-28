@@ -10,7 +10,7 @@ A fazer:
 
 Tela inicial:
 [ ] Fazer pagina inicial;
-[ ] Nome do App: "Quem quer ser um Concursado?"
+[ ] Nome do App: "Quem quer ser um Concursado?" ou SESMC;
 
 Tela de config:
 [ ] Fazer Página de configuração do simulado;
@@ -28,9 +28,10 @@ Tela de questoes:
 [ ] Colocar enfeites tipo show do milhao;
 [X] Incluir botao de submit e verificar questoes certas (18/12/21);
 [ ] incluir ajuda dos universitarios;
+[ ] Colocar as questoes no api context;
 
 Tela pos-simulado (estatisticas):
-[ ] Contar questões certas, erradas e saldo;
+[X] Contar questões certas, erradas e saldo; (24/12/21)
 [ ] Adicionar questoes já feitas;
 [ ] Fazer registro dos recordes;
 [ ] Fazer pagina de recordes;
@@ -44,7 +45,7 @@ Tela de gabarito:
 [X] adicionar observação em cada questão(21/12/21);
 [X] Buscar questoes em um json;
 
-Tela sobre mim
+Tela saiba mais:
 [ ] Colocar informações para divulgação;
 
 Tela de Cola
@@ -55,6 +56,7 @@ Tela de Cola
 Bugs:
 [X] Corrigir seleçao de alternativas porque a selecao de uma esta selecionando todas;
 [X] Corrigir seleçao de alternativas porque a selecao de uma esta selecionando a alternativa em todas as questoes; (16/12/2021)
-[ ] Questoes estao sortando o tempo inteiro;
+[X] Questoes estao sortando o tempo inteiro;
 [X] Colocar scroll para questoes maiores;
-[ ] Ordem do gabarito está sempre cresce em relação ao id no json;
+[X] Ordem do gabarito está sempre cresce em relação ao id no json;
+[ ] Evitar questão repetida no mesmo teste;

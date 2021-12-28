@@ -32,15 +32,4 @@ export default (primeiraQuestao) => StyleSheet.create({
       borderWidth: 6,
       margin: 2,
     },
-    botoesNavegacao: {
-      fontWeight: 'bold',
-      textAlign: 'center',
-      color: '#fff',
-      backgroundColor: cores.azul,
-      justifyContent: 'space-between',
-      borderRadius: 24,
-      marginTop: 10,
-      marginHorizontal: 84,
-      paddingVertical: 8,
-    },
 });

@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useContext} from 'react';
 
 import { Text } from 'react-native';
 import CabecalhoDaQuestao from '../Componentes/CabecalhoDaQuestao';
@@ -6,6 +6,7 @@ import BotoesPassadores from './Componentes/BotoesPassadores';
 import TelaPadrao from '../../componentes/TelaPadrao';
 import QuestaoResolvida from './Componentes/QuestaoResolvida';
 import estilosGerais from '../../estilosGerais';
+import FiltroQuestoes from '../../componentes/FiltroQuestoes';
 
 export default function Gabarito({route}){ 
     let indexExibidaNaTela=0;
@@ -15,7 +16,8 @@ export default function Gabarito({route}){
     const novaOrdemDasQuestoes = route.params.novaOrdemDasQuestoes;
     let quantidadeDeQuestoesNoTeste = novaOrdemDasQuestoes.length;
     
-    const bancoDeQuestoes = require('../../dados/questoes.json');
+    // const bancoDeQuestoes = require('../../dados/questoes.json');
+    const bancoDeQuestoes = FiltroQuestoes();
     if (quantidadeDeQuestoesNoTeste > bancoDeQuestoes.length) quantidadeDeQuestoesNoTeste = bancoDeQuestoes.length;
     
     const alteraQuestao = (valor,totalDeQuestoes) => {

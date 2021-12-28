@@ -18,12 +18,7 @@ export default StyleSheet.create({
         paddingBottom: 20,
         borderRadius: 5,
         paddingHorizontal: 10,
-    },
-    divisor: {
-        marginHorizontal: 24,
-        borderBottomWidth: 1,
-        borderBottomColor: cores.cinza,
-        marginBottom:10,
+        textAlign: 'justify'
     },
     opcoes: {
       textAlign: 'justify',

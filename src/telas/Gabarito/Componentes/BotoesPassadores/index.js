@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import estilos from './estilos';
 import { useNavigation } from '@react-navigation/native';
+import estilosGerais from '../../../../estilosGerais';
 
 export default function BotoesPassadores ({numeroQuestao,alteraQuestao,quantidadeDeQuestoesNoTeste}) {
     const primeiraQuestao = numeroQuestao == 0? true:false;
@@ -28,14 +29,13 @@ export default function BotoesPassadores ({numeroQuestao,alteraQuestao,quantidad
             <TouchableOpacity 
                 onPress={()=>navigation.goBack()}
                 >
-                <Text style={estilos(false).botoesNavegacao}> Voltar para Pontuação </Text>
+                <Text style={estilosGerais.botoesNavegacao}> Voltar para Pontuação </Text>
             </TouchableOpacity>
-            {/* <TouchableOpacity
+            <TouchableOpacity
                 onPress={() => navigation.navigate('Home')}
                 >
-                <Text> Voltar à Página Inicial </Text>
-            </TouchableOpacity> */}
-        
+                <Text style={estilosGerais.botoesNavegacao}> Voltar à Tela Inicial </Text>
+            </TouchableOpacity>
         </View>
     )
 }
