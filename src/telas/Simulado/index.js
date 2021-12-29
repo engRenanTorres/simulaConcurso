@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useContext} from 'react';
 
 import { Text } from 'react-native';
 import CabecalhoDaQuestao from '../Componentes/CabecalhoDaQuestao';
@@ -6,18 +6,20 @@ import Questao from './Componentes/Questao';
 import BotoesPassadores from './Componentes/BotoesPassadores';
 import TelaPadrao from '../../componentes/TelaPadrao';
 import estilosGerais from '../../estilosGerais';
-import FiltroQuestoes from '../../componentes/FiltroQuestoes';
+import { DataContext } from '../../provider';
 
-export default function Simulado({route}){ 
+export default function Simulado(){ 
     let indexExibidaNaTela=0;
-    let quantidadeDeQuestoesNoTeste = route.params.quantidadeDeQuestoesNoTeste;
-    const novaOrdemDasQuestoes = route.params.novaOrdemDasQuestoes;
- 
+
+    const {provideBDFiltrado} = useContext(DataContext);
     const [numeroQuestao,setnumeroQuestao] = useState(indexExibidaNaTela);
-    const [alternativasMarcadas,setAlternativaMarcada] = useState([]);
+
+    let marcacaoInicial = []
+    for(let i=0; i<provideBDFiltrado.length;i++) {marcacaoInicial.push(undefined)};
+    const [alternativasMarcadas,setAlternativaMarcada] = useState(marcacaoInicial);
 
     // const bancoDeQuestoes = require('../../dados/questoes.json');
-    const bancoDeQuestoes = FiltroQuestoes();
+    const bancoDeQuestoes = provideBDFiltrado;
      
     const alteraQuestao = (valor,totalDeQuestoes) => {
         const proximaQuestao = numeroQuestao+valor;
@@ -25,14 +27,14 @@ export default function Simulado({route}){
         setnumeroQuestao(proximaQuestao)};
     
 
-    let questaoExibidaNaTela = bancoDeQuestoes[novaOrdemDasQuestoes[numeroQuestao]];
+    let questaoExibidaNaTela = bancoDeQuestoes[numeroQuestao];
     return (
         <TelaPadrao>
             <Text h1 style={estilosGerais.titulosTela}>Lista de Questões</Text>
             <CabecalhoDaQuestao 
                 indiceQuestao={numeroQuestao} 
                 acao={alteraQuestao}
-                totalDeQuestoes={quantidadeDeQuestoesNoTeste} 
+                totalDeQuestoes={provideBDFiltrado.length} 
                 {...questaoExibidaNaTela}   
             />
             <Questao 
@@ -44,9 +46,8 @@ export default function Simulado({route}){
             <BotoesPassadores
                 numeroQuestao= {numeroQuestao}
                 alteraQuestao= {alteraQuestao}
-                quantidadeDeQuestoesNoTeste = {quantidadeDeQuestoesNoTeste}
+                quantidadeDeQuestoesNoTeste = {provideBDFiltrado.length}
                 alternativasMarcadas = {alternativasMarcadas}
-                novaOrdemDasQuestoes = {novaOrdemDasQuestoes}
             />
         </TelaPadrao>
         );

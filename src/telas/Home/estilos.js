@@ -7,4 +7,9 @@ export default StyleSheet.create({
         justifyContent: 'center',
         marginVertical: 10,
     },
+    quadroVariavel:{
+        textAlign:'center',
+        borderColor: '#000',
+        justifyContent: 'center',
+    }
 });

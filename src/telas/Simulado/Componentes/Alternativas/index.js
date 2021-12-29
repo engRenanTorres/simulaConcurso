@@ -10,7 +10,8 @@ export default function Alternativas({alternativaMarcada, acao, id2, alternativa
             key = {index}
             onPress={()=>{
                 let bsc = [...alternativaMarcada];
-                bsc[id2] = index; 
+                if(alternativaMarcada[id2]==index) bsc[id2] = undefined;
+                else bsc[id2] = index; 
                 acao(bsc);
             }}
             style={ alternativaMarcada[id2]==index? estiloPadrao(true).alternativaMarcada : estiloPadrao(false).alternativaMarcada}>

@@ -10,7 +10,7 @@ export default function BotaoPassadorSimples({children, minimo,maximo, valor,aca
             {valor > minimo && <TouchableOpacity onPress={()=>acao(valor-variacao)}>
                 <Text style={estilosPass.botoesPassadores}> {"<"} </Text>
             </TouchableOpacity>}
-            <Text > {children} </Text> 
+            <Text style={estilosPass.textoPassadores}> {children} </Text> 
             {valor+variacao<=(maximo) &&<TouchableOpacity onPress={()=>{acao(valor+variacao)}}>
                 <Text style={estilosPass.botoesPassadores}> {">"} </Text>
             </TouchableOpacity>}

@@ -28,7 +28,8 @@ Tela de questoes:
 [ ] Colocar enfeites tipo show do milhao;
 [X] Incluir botao de submit e verificar questoes certas (18/12/21);
 [ ] incluir ajuda dos universitarios;
-[ ] Colocar as questoes no api context;
+[X] Colocar as questoes no api context;
+[X] Dar a posibilidade de desmarcar as alternativas;
 
 Tela pos-simulado (estatisticas):
 [X] Contar questões certas, erradas e saldo; (24/12/21)

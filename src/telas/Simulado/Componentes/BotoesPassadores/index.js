@@ -3,13 +3,12 @@ import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import estilos from './estilos';
 
-export default function BotoesPassadores ({numeroQuestao,alteraQuestao,quantidadeDeQuestoesNoTeste,alternativasMarcadas,novaOrdemDasQuestoes}) {
+export default function BotoesPassadores ({numeroQuestao,alteraQuestao,quantidadeDeQuestoesNoTeste,alternativasMarcadas}) {
     const primeiraQuestao = numeroQuestao == 0? true:false;
     const ultimaQuestao = numeroQuestao ==(quantidadeDeQuestoesNoTeste-1)? true:false;
     const navigation = useNavigation();
     const transferir = {
         questoesMarcadas: alternativasMarcadas,
-        novaOrdemDasQuestoes: novaOrdemDasQuestoes
     }
 
     return(

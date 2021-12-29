@@ -8,14 +8,14 @@ import { useNavigation } from '@react-navigation/native';
 import BotaoPassadorSimples from '../../componentes/BotaoPassadorSimples';
 import FiltroQuestoes from '../../componentes/FiltroQuestoes';
 import { DataContext } from '../../provider';
-import BotaoMostraESome from '../../componentes/BotaoMostraESome';
+import FiltroBanca from './Componentes/FiltroBanca';
+import FiltroAssunto from './Componentes/FiltroAssunto';
 
 export default function Home() {
 
     const {provideBDFiltrado,setProvideBDFiltrado} = useContext(DataContext);
     const [quantidadeDeQuestoesPorVez, setQuantidadeDeQuestoes] = useState(5);
     const navigation = useNavigation();
-    const [mostraSome, setMostraSome] = useState(false);
 
     const bancoDeQuestoes = FiltroQuestoes();
     if (quantidadeDeQuestoesPorVez > bancoDeQuestoes.length) setQuantidadeDeQuestoes(bancoDeQuestoes.length);
@@ -32,12 +32,14 @@ export default function Home() {
         }
         return ordemAleatoriaDosIndex;
     }
-
+    
+    // cont geraQuestoes= () =>
     const novaOrdemDasQuestoes = criaNovaOrdenacao(quantidadeDeQuestoesPorVez,bancoDeQuestoes.length);
     const transferir = {
             quantidadeDeQuestoesNoTeste: quantidadeDeQuestoesPorVez,
-            novaOrdemDasQuestoes: novaOrdemDasQuestoes
     };
+    let questoesSimulado = [];
+    novaOrdemDasQuestoes.forEach((item)=>{questoesSimulado.push(bancoDeQuestoes[item])})
 
     return (
         <TelaPadrao>
@@ -54,57 +56,21 @@ export default function Home() {
                 variacao={5}>
                 {quantidadeDeQuestoesPorVez}
             </BotaoPassadorSimples>
-            <View style={estilosGerais.divisor}/>
-            <BotaoMostraESome
-                ativador={mostraSome}
-                alteraAtivador={setMostraSome}
-                txtAtivo= {"Filtrar questões por assunto"}
-                txtDesativo= {"Filtrar questões por assunto"} >  
-                    <Text>
-                        Geral
-                        Ambiental
-                        Legislação
-                        Previdência
-                        Análise de acidentes
-                        Investigação de acidentes
-                        Análise de riscos
-                        NR1
-                        NR3
-                        NR4
-                        NR5
-                        NR6
-                        NR7
-                        NR9
-                        NR10                        
-                        NR11
-                        NR12
-                        NR13
-                        NR15
-                        NR16
-                        NR17
-                        NR18
-                        NR20
-                        NR23
-                        NR26
-                        NR33
-                        NR35
-                        Primeiros socorros
-                        OIT
-                    </Text>
-                    {/* {<TouchableOpacity onPress={()=>{
-                        nr1? carregaFiltros[4] = [...carregaFiltros[4], 2015]:
-                        }}>
-                        <Text style={estilos.botoesPassadores}> {nr1? "  " : " X "} </Text>
-                    </TouchableOpacity>} */}
-            </BotaoMostraESome>
+            <Text style={{textAlign:'center'}}> Total de questões disponíveis: </Text>
+            <Text style={estilos.quadroVariavel}> {bancoDeQuestoes.length} </Text>
 
             <View style={estilosGerais.divisor}/>
-
+            
+            <FiltroAssunto/>
+            <FiltroBanca/>
+ 
             <View>
                 <TouchableOpacity onPress={()=>{navigation.navigate('Configuracoes',quantidadeDeQuestoesPorVez)}}>
                     <Text style={estilosGerais.botoesNavegacao}>Opções de Simulado</Text>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={()=> navigation.push('Simulado',transferir)}>
+                <TouchableOpacity onPress={()=> {
+                    setProvideBDFiltrado(questoesSimulado);
+                    navigation.push('Simulado')}}>
                     <Text style={estilosGerais.botoesNavegacao}>Iniciar Simulado</Text>
                 </TouchableOpacity>
             </View>

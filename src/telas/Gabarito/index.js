@@ -6,18 +6,17 @@ import BotoesPassadores from './Componentes/BotoesPassadores';
 import TelaPadrao from '../../componentes/TelaPadrao';
 import QuestaoResolvida from './Componentes/QuestaoResolvida';
 import estilosGerais from '../../estilosGerais';
-import FiltroQuestoes from '../../componentes/FiltroQuestoes';
+import { DataContext } from '../../provider';
 
 export default function Gabarito({route}){ 
     let indexExibidaNaTela=0;
     const [numeroQuestao,setnumeroQuestao] = useState(indexExibidaNaTela);
     const alternativaMarcada = route.params.questoesMarcadas;
     
-    const novaOrdemDasQuestoes = route.params.novaOrdemDasQuestoes;
-    let quantidadeDeQuestoesNoTeste = novaOrdemDasQuestoes.length;
     
-    // const bancoDeQuestoes = require('../../dados/questoes.json');
-    const bancoDeQuestoes = FiltroQuestoes();
+    const {provideBDFiltrado} = useContext(DataContext);
+    const bancoDeQuestoes = provideBDFiltrado;
+    let quantidadeDeQuestoesNoTeste = bancoDeQuestoes.length;
     if (quantidadeDeQuestoesNoTeste > bancoDeQuestoes.length) quantidadeDeQuestoesNoTeste = bancoDeQuestoes.length;
     
     const alteraQuestao = (valor,totalDeQuestoes) => {
@@ -25,7 +24,7 @@ export default function Gabarito({route}){
         if(proximaQuestao<0||proximaQuestao==totalDeQuestoes)return;
         setnumeroQuestao(proximaQuestao)};
     
-    let questaoExibidaNaTela = bancoDeQuestoes[novaOrdemDasQuestoes[numeroQuestao]];
+    let questaoExibidaNaTela = bancoDeQuestoes[numeroQuestao];
 
     return (
         <TelaPadrao>

@@ -3,7 +3,7 @@ import { cores } from "../../estilosGerais";
 
 export default StyleSheet.create({
     informacao: {
-        padding: 20
+        padding: 25
       },
     qualQuestao:{
         flexDirection: 'row',
@@ -19,5 +19,14 @@ export default StyleSheet.create({
         backgroundColor: cores.azul,
         justifyContent: 'space-between',
         borderRadius: 5,
+        width: 25,
+        height: 18,
+        textAlign: 'center',
+        fontSize:12
     },
+    textoPassadores:{
+        justifyContent:'center',
+        textAlign: 'center'
+        
+    }
 });
