@@ -1,6 +1,6 @@
 import React, {useState,useContext} from 'react';
 
-import { Text, View, TouchableOpacity } from 'react-native';
+import { Text, View, TouchableOpacity, Alert } from 'react-native';
 import estilos from './estilos';
 import TelaPadrao from '../../componentes/TelaPadrao';
 import estilosGerais from '../../estilosGerais';
@@ -17,7 +17,7 @@ export default function Home() {
     const [quantidadeDeQuestoesPorVez, setQuantidadeDeQuestoes] = useState(5);
     const navigation = useNavigation();
 
-    const bancoDeQuestoes = FiltroQuestoes();
+    let bancoDeQuestoes = require('../../dados/questoes.json');
     if (quantidadeDeQuestoesPorVez > bancoDeQuestoes.length) setQuantidadeDeQuestoes(bancoDeQuestoes.length);
 
     const criaNovaOrdenacao = (tamanhoArray,tamanhoBD)=> {
@@ -32,14 +32,12 @@ export default function Home() {
         }
         return ordemAleatoriaDosIndex;
     }
+
+    const alteraBQuestoes = (novoBd) => bancoDeQuestoes = novoBd;    
     
-    // cont geraQuestoes= () =>
-    const novaOrdemDasQuestoes = criaNovaOrdenacao(quantidadeDeQuestoesPorVez,bancoDeQuestoes.length);
-    const transferir = {
-            quantidadeDeQuestoesNoTeste: quantidadeDeQuestoesPorVez,
-    };
-    let questoesSimulado = [];
-    novaOrdemDasQuestoes.forEach((item)=>{questoesSimulado.push(bancoDeQuestoes[item])})
+    
+
+    
 
     return (
         <TelaPadrao>
@@ -62,15 +60,26 @@ export default function Home() {
             <View style={estilosGerais.divisor}/>
             
             <FiltroAssunto/>
-            <FiltroBanca/>
+            <FiltroBanca
+            bancoDeQuestoes={bancoDeQuestoes}
+            acao={alteraBQuestoes}/>
  
             <View>
                 <TouchableOpacity onPress={()=>{navigation.navigate('Configuracoes',quantidadeDeQuestoesPorVez)}}>
-                    <Text style={estilosGerais.botoesNavegacao}>Opções de Simulado</Text>
+                    <Text style={estilosGerais.botoesNavegacao}>Sobre o APP</Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=> {
-                    setProvideBDFiltrado(questoesSimulado);
-                    navigation.push('Simulado')}}>
+                        if(bancoDeQuestoes.length<quantidadeDeQuestoesPorVez) {
+                            {Alert.alert("Questões insuficientes","Reveja os filtros aplicados.")}
+                        }
+                        else{
+                            const novaOrdemDasQuestoes = criaNovaOrdenacao(quantidadeDeQuestoesPorVez,bancoDeQuestoes.length);
+                            let questoesSimulado = [];
+                            novaOrdemDasQuestoes.forEach((item)=>{questoesSimulado.push(bancoDeQuestoes[item])});
+                            setProvideBDFiltrado(questoesSimulado);
+                            navigation.push('Simulado');
+                        }
+                    }}>
                     <Text style={estilosGerais.botoesNavegacao}>Iniciar Simulado</Text>
                 </TouchableOpacity>
             </View>
