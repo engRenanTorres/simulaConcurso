@@ -6,45 +6,28 @@ import TelaPadrao from '../../componentes/TelaPadrao';
 import estilosGerais from '../../estilosGerais';
 import { useNavigation } from '@react-navigation/native';
 import BotaoPassadorSimples from '../../componentes/BotaoPassadorSimples';
-import FiltroQuestoes from '../../componentes/FiltroQuestoes';
 import { DataContext } from '../../provider';
-import FiltroBanca from './Componentes/FiltroBanca';
-import FiltroAssunto from './Componentes/FiltroAssunto';
+import CriaNovaOrdenacao from '../../funcoesGerais/CriaNovaOrdenacao';
 
 export default function Home() {
 
-    const {provideBDFiltrado,setProvideBDFiltrado} = useContext(DataContext);
+    const {setProvideBDFiltrado} = useContext(DataContext);
     const [quantidadeDeQuestoesPorVez, setQuantidadeDeQuestoes] = useState(5);
+    
     const navigation = useNavigation();
 
-    let bancoDeQuestoes = require('../../dados/questoes.json');
-    if (quantidadeDeQuestoesPorVez > bancoDeQuestoes.length) setQuantidadeDeQuestoes(bancoDeQuestoes.length);
-
-    const criaNovaOrdenacao = (tamanhoArray,tamanhoBD)=> {
-        let indexAleatorio;
-        let ordemAleatoriaDosIndex= [];
-        const ordemProvisoria = [];
-        for(let i=0;i<tamanhoArray;i++) ordemProvisoria [i] = i;
-        for(let i=0;i<tamanhoArray;i++) {
-            indexAleatorio = Math.floor(Math.random() * tamanhoBD);
-            ordemAleatoriaDosIndex[i] = indexAleatorio;
-            // ordemProvisoria.splice(indexAleatorio,1);
-        }
-        return ordemAleatoriaDosIndex;
-    }
-
-    const alteraBQuestoes = (novoBd) => bancoDeQuestoes = novoBd;    
-    
-    
-
-    
+    const questoesFgv = require('../../dados/questoes.json');
+    const questoesCespe = require('../../dados/questoesCespe.json');
+    const questoesCebraspe = require('../../dados/questoesCebraspe.json');
+    let bancoDeQuestoes = [...questoesFgv,...questoesCespe,...questoesCebraspe];
+    const [qtdQuestoesDisponiveis, setQtdQuestoesDisponiveis] = useState(bancoDeQuestoes.length);
 
     return (
         <TelaPadrao>
             <Text h1 style={estilosGerais.titulosTela}> Tela Inicial </Text>
             <View style={estilosGerais.divisor}/>
             <View style={estilos.preencher}>
-                <Text>Quantidade de questões do Simulado: </Text>
+                <Text> Quantidade de questões do Simulado: </Text>
             </View>
             <BotaoPassadorSimples 
                 minimo={5}
@@ -55,25 +38,25 @@ export default function Home() {
                 {quantidadeDeQuestoesPorVez}
             </BotaoPassadorSimples>
             <Text style={{textAlign:'center'}}> Total de questões disponíveis: </Text>
-            <Text style={estilos.quadroVariavel}> {bancoDeQuestoes.length} </Text>
+            <Text style={estilos.quadroVariavel}> {qtdQuestoesDisponiveis} </Text>
 
             <View style={estilosGerais.divisor}/>
             
-            <FiltroAssunto/>
-            <FiltroBanca
+            {/* <FiltroAssunto
             bancoDeQuestoes={bancoDeQuestoes}
-            acao={alteraBQuestoes}/>
- 
+            alteraBQuestoes={alteraBQuestoes}
+            atualizaQtd={setQtdQuestoesDisponiveis}/> */}
+           
             <View>
-                <TouchableOpacity onPress={()=>{navigation.navigate('Configuracoes',quantidadeDeQuestoesPorVez)}}>
-                    <Text style={estilosGerais.botoesNavegacao}>Sobre o APP</Text>
+                <TouchableOpacity onPress={()=>{navigation.push('Configuracoes1',{quantidadeDeQuestoesPorVez})}}>
+                    <Text style={estilosGerais.botoesNavegacao}>Filtrar Questões</Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=> {
                         if(bancoDeQuestoes.length<quantidadeDeQuestoesPorVez) {
                             {Alert.alert("Questões insuficientes","Reveja os filtros aplicados.")}
                         }
                         else{
-                            const novaOrdemDasQuestoes = criaNovaOrdenacao(quantidadeDeQuestoesPorVez,bancoDeQuestoes.length);
+                            const novaOrdemDasQuestoes = CriaNovaOrdenacao(quantidadeDeQuestoesPorVez,bancoDeQuestoes.length);
                             let questoesSimulado = [];
                             novaOrdemDasQuestoes.forEach((item)=>{questoesSimulado.push(bancoDeQuestoes[item])});
                             setProvideBDFiltrado(questoesSimulado);

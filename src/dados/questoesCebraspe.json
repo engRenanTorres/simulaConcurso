@@ -1,0 +1,292 @@
+[ {"id":298,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Geral",
+    "enunciado": "A respeito de saúde e segurança no trabalho, julgue os itens a seguir.\n  Entre outros aspectos, a saúde ocupacional visa prevenir doenças causadas pelas condições de trabalho e proteger de riscos resultantes de fatores adversos à saúde.",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":299,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR1",
+    "enunciado": "A respeito de saúde e segurança no trabalho, julgue os itens a seguir.\n Nas empresas, a política de segurança no trabalho é definida pela diretoria e, para evitar contaminações e banalizações em procedimentos, o seu conhecimento amplo fica restrito aos gerentes e supervisores. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":"NR1 item 1.4.1. Cabe ao empregador:\n b) informar aos trabalhadores:\n I. os riscos ocupacionais existentes nos locais de trabalho;\n II. as medidas de controle adotadas pela empresa para reduzir ou eliminar tais riscos;\n III. os resultados dos exames médicos e de exames complementares de diagnóstico aos quais os próprios trabalhadores forem submetidos;\n IV. os resultados das avaliações ambientais realizadas nos locais de trabalho"
+  },
+  {"id":300,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Previdência",
+    "enunciado": "Acerca dos planos de benefícios da Previdência Social, com fundamento na Lei n.º 8.213/1991 e em suas alterações, julgue os itens seguintes. \n Configura acidente de trabalho aquele sofrido pelo trabalhador doméstico a serviço de seu empregador e que tenha motivado afastamento em decorrência de lesão corporal causada por queimaduras com água fervente. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":301,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Previdência",
+    "enunciado": "Acerca dos planos de benefícios da Previdência Social, com fundamento na Lei n.º 8.213/1991 e em suas alterações, julgue os itens seguintes. \n O descumprimento, por certa empresa, de determinadas normas de segurança e higiene do trabalho constitui prática de contravenção penal. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":302,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Legislação",
+    "enunciado": "Tendo como referência as prescrições da Consolidação das Leis do Trabalho (CLT), julgue os itens subsequentes.\n A coordenação, a orientação, o controle e a supervisão da fiscalização e de demais atividades relativas à segurança e à medicina do trabalho, em todo o território nacional, inclusive a Campanha Nacional de Prevenção de Acidentes do Trabalho, são atribuições do órgão de âmbito nacional competente em matéria de segurança e medicina do trabalho. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":"ART155 da LEI Nº 6.514, DE 22 DE DEZEMBRO DE 1977. Incumbe ao órgão de âmbito nacional competente em matéria de segurança e medicina do trabalho:\n I - estabelecer, nos limites de sua competência, normas sobre a aplicação dos preceitos deste Capítulo, especialmente os referidos no art. 200; \n II - coordenar, orientar, controlar e supervisionar a fiscalização e as demais atividades relacionadas com a segurança e a medicina do trabalho em todo o território nacional, inclusive a Campanha Nacional de Prevenção de Acidentes do Trabalho; \n III - conhecer, em última instância, dos recursos, voluntários ou de ofício, das decisões proferidas pelos Delegados Regionais do Trabalho, em matéria de segurança e medicina do trabalho."
+  },
+  {"id":303,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR1",
+    "enunciado": "Tendo como referência as prescrições da Consolidação das Leis do Trabalho (CLT), julgue os itens subsequentes.\n A despeito da obrigação do empregador de orientar seus empregados acerca das normas e precauções para se evitar acidentes do trabalho, caberá ao empregado, ciente dessas orientações, a responsabilidade e o livre arbítrio para cumpri-las ou não. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":"NR1 item 1.4.2 Cabe ao trabalhador: \n a) cumprir as disposições legais e regulamentares sobre segurança e saúde no trabalho, inclusive as ordens de serviço expedidas pelo empregador; \n b) submeter-se aos exames médicos previstos nas NR; \n c) colaborar com a organização na aplicação das NR; \n d) usar o equipamento de proteção individual fornecido pelo empregador"
+  },
+  {"id":304,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Previdência",
+    "enunciado": "Uma empresa, com 140.000 horas-homem de exposição ao risco, registrou 21 acidentes no último mês de julho, assim discriminados:\n a) um acidente ocorreu no dia 8, às 10 horas, e motivou afastamento do empregado até o dia 15;\n b) seis  empregados  sofreram  ferimentos  quando  telhas despencaram do teto da oficina de manutenção, devido a forte vendaval, e cada um deles ficou afastado, em média, 3,5 dias;\n c) os  outros  acidentes  não  provocaram  afastamento  de empregados.\n A partir dessa situação hipotética e considerando aspectos legais a ela relacionados, julgue os itens subsecutivos.\n O  acidente  decorrente  de  queda  das  telhas  não  configura acidente de trabalho. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":305,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Análise de acidentes",
+    "enunciado": "Uma empresa, com 140.000 horas-homem de exposição ao risco, registrou 21 acidentes no último mês de julho, assim discriminados:\n a) um acidente ocorreu no dia 8, às 10 horas, e motivou afastamento do empregado até o dia 15;\n b) seis  empregados  sofreram  ferimentos  quando  telhas despencaram do teto da oficina de manutenção, devido a forte vendaval, e cada um deles ficou afastado, em média, 3,5 dias;\n c) os  outros  acidentes  não  provocaram  afastamento  de empregados.\n A partir dessa situação hipotética e considerando aspectos legais a ela relacionados, julgue os itens subsecutivos.\n A taxa de frequência de acidentados com lesão com perda de tempo é igual a 50. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":306,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Análise de acidentes",
+    "enunciado": "Uma empresa, com 140.000 horas-homem de exposição ao risco, registrou 21 acidentes no último mês de julho, assim discriminados:\n a) um acidente ocorreu no dia 8, às 10 horas, e motivou afastamento do empregado até o dia 15;\n b) seis  empregados  sofreram  ferimentos  quando  telhas despencaram do teto da oficina de manutenção, devido a forte vendaval, e cada um deles ficou afastado, em média, 3,5 dias;\n c) os  outros  acidentes  não  provocaram  afastamento  de empregados.\n A partir dessa situação hipotética e considerando aspectos legais a ela relacionados, julgue os itens subsecutivos.\n A taxa de gravidade é inferior a 300. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":307,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Análise de acidentes",
+    "enunciado": "Uma empresa, com 140.000 horas-homem de exposição ao risco, registrou 21 acidentes no último mês de julho, assim discriminados:\n a) um acidente ocorreu no dia 8, às 10 horas, e motivou afastamento do empregado até o dia 15;\n b) seis  empregados  sofreram  ferimentos  quando  telhas despencaram do teto da oficina de manutenção, devido a forte vendaval, e cada um deles ficou afastado, em média, 3,5 dias;\n c) os  outros  acidentes  não  provocaram  afastamento  de empregados.\n A partir dessa situação hipotética e considerando aspectos legais a ela relacionados, julgue os itens subsecutivos.\n A taxa de acidentados sem afastamento é superior a 200. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":308,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Análise de acidentes",
+    "enunciado": "Uma empresa, com 140.000 horas-homem de exposição ao risco, registrou 21 acidentes no último mês de julho, assim discriminados:\n a) um acidente ocorreu no dia 8, às 10 horas, e motivou afastamento do empregado até o dia 15;\n b) seis  empregados  sofreram  ferimentos  quando  telhas despencaram do teto da oficina de manutenção, devido a forte vendaval, e cada um deles ficou afastado, em média, 3,5 dias;\n c) os  outros  acidentes  não  provocaram  afastamento  de empregados.\n A partir dessa situação hipotética e considerando aspectos legais a ela relacionados, julgue os itens subsecutivos.\n A taxa de gravidade é proporcional ao número de acidentes com lesão com perda de tempo. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":309,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Previdência",
+    "enunciado": " Em uma empresa de mineração e beneficiamento de amianto, dois empregados, um eletricista e um minerador, queixam-se de desconfortos em relação à saúde. Submetidos a exames ambulatoriais detalhados, ambos foram diagnosticados pelo serviço médico com doenças ocupacionais: surdez para o eletricista e asbestose para o minerador.\n Com referência a essa situação hipotética e à legislação vigente aplicável ao caso, julgue os próximos itens.\n As  doenças  ocupacionais  descritas  na  situação  não  são classificadas como acidente do trabalho. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":310,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Previdência",
+    "enunciado": "Em uma empresa de mineração e beneficiamento de amianto, dois empregados, um eletricista e um minerador, queixam-se de desconfortos em relação à saúde. Submetidos a exames ambulatoriais detalhados, ambos foram diagnosticados pelo serviço médico com doenças ocupacionais: surdez para o eletricista e asbestose para o minerador.\n Com referência a essa situação hipotética e à legislação vigente aplicável ao caso, julgue os próximos itens.\n A surdez, doença adquirida pelo eletricista, é considerada, nesse caso específico, doença profissional. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":311,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Previdência",
+    "enunciado": "Em uma empresa de mineração e beneficiamento de amianto, dois empregados, um eletricista e um minerador, queixam-se de desconfortos em relação à saúde. Submetidos a exames ambulatoriais detalhados, ambos foram diagnosticados pelo serviço médico com doenças ocupacionais: surdez para o eletricista e asbestose para o minerador.\n Com referência a essa situação hipotética e à legislação vigente aplicável ao caso, julgue os próximos itens.\n A asbestose, doença adquirida pelo minerador, é considerada uma doença do trabalho. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":312,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR9",
+    "enunciado": "Acerca do Programa de Prevenção de Riscos Ambientais (PPRA), estabelecido pela NR n.º 9 e aprovado pela Portaria MTB n.º 3.214/1978, julgue os seguintes itens.\n Nas estações de tempo seco e com baixa umidade relativa do ar, predomina a absorção de micropartículas presentes nas poeiras das estradas, que são consideradas agentes químicos de contaminação. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":313,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR9",
+    "enunciado": "Acerca do Programa de Prevenção de Riscos Ambientais (PPRA), estabelecido pela NR n.º 9 e aprovado pela Portaria MTB n.º 3.214/1978, julgue os seguintes itens.\n Os agentes ambientais capazes de tornar insalubre o ambiente de trabalho, caracterizados por sua energia, são classificados como agentes físicos. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":314,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR9",
+    "enunciado": "Acerca do Programa de Prevenção de Riscos Ambientais (PPRA), estabelecido pela NR n.º 9 e aprovado pela Portaria MTB n.º 3.214/1978, julgue os seguintes itens.\n O estabelecimento de metas mensais com as prioridades e cronograma detalhados integram a estrutura mínima do PPRA. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":315,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR15",
+    "enunciado": "Julgue os itens a seguir, que tratam de equipamentos de medição no contexto de higiene e medicina do trabalho.\n O psicrômetro é o instrumento indicado para se determinar a quantidade de vapor na atmosfera. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":316,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR5",
+    "enunciado": "Uma empresa de logística, no processo eleitoral de renovação de sua Comissão Interna de Prevenção de Acidentes (CIPA), publicou o edital de convocação, informou ao sindicato da categoria profissional e realizou as inscrições dos participantes com os respectivos comprovantes de inscrição. Na contagem do total de votos, dois candidatos tiveram o mesmo número de votos.\n Tendo como referência essa situação hipotética, julgue os itens a seguir.\n Trabalhador em período de experiência está impedido de se inscrever para participar do processo eleitoral. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":317,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR5",
+    "enunciado": "Uma empresa de logística, no processo eleitoral de renovação de sua Comissão Interna de Prevenção de Acidentes (CIPA), publicou o edital de convocação, informou ao sindicato da categoria profissional e realizou as inscrições dos participantes com os respectivos comprovantes de inscrição. Na contagem do total de votos, dois candidatos tiveram o mesmo número de votos.\n Tendo como referência essa situação hipotética, julgue os itens a seguir.\n O maior tempo de serviço no estabelecimento determinará a ordem de colocação entre os candidatos que tiveram a mesma quantidade de votos. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":318,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR5",
+    "enunciado": "Uma empresa de logística, no processo eleitoral de renovação de sua Comissão Interna de Prevenção de Acidentes (CIPA), publicou o edital de convocação, informou ao sindicato da categoria profissional e realizou as inscrições dos participantes com os respectivos comprovantes de inscrição. Na contagem do total de votos, dois candidatos tiveram o mesmo número de votos.\n Tendo como referência essa situação hipotética, julgue os itens a seguir.\n Em caso de irregularidades comprovadas no processo eleitoral, cabe ao atual presidente da CIPA determinar a sua anulação. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":319,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR5",
+    "enunciado": "Uma empresa de logística, no processo eleitoral de renovação de sua Comissão Interna de Prevenção de Acidentes (CIPA), publicou o edital de convocação, informou ao sindicato da categoria profissional e realizou as inscrições dos participantes com os respectivos comprovantes de inscrição. Na contagem do total de votos, dois candidatos tiveram o mesmo número de votos.\n Tendo como referência essa situação hipotética, julgue os itens a seguir.\n O representante dos trabalhadores que obtiver a maior quantidade de votos no processo eleitoral será o vice-presidente da CIPA. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":320,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR5",
+    "enunciado": "A respeito das atribuições da CIPA, julgue os itens seguintes.\n As atribuições da CIPA incluem identificar os riscos do processo de trabalho e elaborar o mapa de riscos, com a participação do maior número de trabalhadores e com assessoria do SESMT, se houver. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":321,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR5",
+    "enunciado": "A respeito das atribuições da CIPA, julgue os itens seguintes.\n Divulgar aos trabalhadores informações relativas à segurança e à saúde no trabalho é uma das atribuições da CIPA. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":322,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR23",
+    "enunciado": "Considere que tenha ocorrido um incêndio em um depósito de madeiras de certa fábrica de móveis, o qual contém duas saídas de emergência, e que o corpo de bombeiros local tenha sido acionado para combater o incêndio.\n Nessa situação hipotética, julgue os itens subsecutivos.\n O incêndio que envolve madeira está classificado como incêndio de classe B. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":323,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR23",
+    "enunciado": "Considere que tenha ocorrido um incêndio em um depósito de madeiras de certa fábrica de móveis, o qual contém duas saídas de emergência, e que o corpo de bombeiros local tenha sido acionado para combater o incêndio.\n Nessa situação hipotética, julgue os itens subsecutivos.\n O corpo de bombeiros, ao usar a água no combate ao incêndio, está empregando o método de resfriamento. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":324,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR23",
+    "enunciado": "Considere que tenha ocorrido um incêndio em um depósito de madeiras de certa fábrica de móveis, o qual contém duas saídas de emergência, e que o corpo de bombeiros local tenha sido acionado para combater o incêndio.\n Nessa situação hipotética, julgue os itens subsecutivos.\n O comburente, nesse incêndio, foi a madeira. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":325,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR23",
+    "enunciado": "Considere que tenha ocorrido um incêndio em um depósito de madeiras de certa fábrica de móveis, o qual contém duas saídas de emergência, e que o corpo de bombeiros local tenha sido acionado para combater o incêndio.\n Nessa situação hipotética, julgue os itens subsecutivos.\n No caso, os proprietários da fábrica de móveis, que são os empregadores, devem providenciar e divulgar aos seus empregados as informações acerca dos dispositivos de alarme existentes. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":326,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR23",
+    "enunciado": "Considere que tenha ocorrido um incêndio em um depósito de madeiras de certa fábrica de móveis, o qual contém duas saídas de emergência, e que o corpo de bombeiros local tenha sido acionado para combater o incêndio.\n Nessa situação hipotética, julgue os itens subsecutivos.\n evitar furtos e roubos, a fábrica de móveis pode manter fechada à chave as saídas de emergência durante a jornada de trabalho. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"",
+    "observacao":""
+  },
+  {"id":327,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR9",
+    "enunciado": "Considere que, à altura de mais de 12 metros, esteja um soldador industrial trabalhando na montagem de uma torre metálica. Além dos instrumentos para a solda, ele utiliza uma lixadeira para dar acabamento e preparar a peça para a pintura. A empresa responsável realizou todos os treinamentos necessários e forneceu os equipamentos de proteção individual (EPI) adequados e em quantidade suficiente.\n A partir dessa situação hipotética, julgue os itens subsequentes.\n No caso, os resíduos gerados pelo lixamento são considerados agentes físicos. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":328,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR6",
+    "enunciado": "Considere que, à altura de mais de 12 metros, esteja um soldador industrial trabalhando na montagem de uma torre metálica. Além dos instrumentos para a solda, ele utiliza uma lixadeira para dar acabamento e preparar a peça para a pintura. A empresa responsável realizou todos os treinamentos necessários e forneceu os equipamentos de proteção individual (EPI) adequados e em quantidade suficiente.\n A partir dessa situação hipotética, julgue os itens subsequentes.\n Nessa atividade, o cinto de segurança do tipo paraquedista é de uso obrigatório e deve ser fornecido pela empresa. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":329,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR6",
+    "enunciado": "Considere que, à altura de mais de 12 metros, esteja um soldador industrial trabalhando na montagem de uma torre metálica. Além dos instrumentos para a solda, ele utiliza uma lixadeira para dar acabamento e preparar a peça para a pintura. A empresa responsável realizou todos os treinamentos necessários e forneceu os equipamentos de proteção individual (EPI) adequados e em quantidade suficiente.\n A partir dessa situação hipotética, julgue os itens subsequentes.\n Para ser utilizado nesse trabalho, indica-se o capacete de segurança com jugular acoplada a protetor auricular e protetor facial, considerado equipamento conjugado de proteção individual. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":330,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR10",
+    "enunciado": "Considere que, à altura de mais de 12 metros, esteja um soldador industrial trabalhando na montagem de uma torre metálica. Além dos instrumentos para a solda, ele utiliza uma lixadeira para dar acabamento e preparar a peça para a pintura. A empresa responsável realizou todos os treinamentos necessários e forneceu os equipamentos de proteção individual (EPI) adequados e em quantidade suficiente.\n A partir dessa situação hipotética, julgue os itens subsequentes.\n No caso, a instalação elétrica que alimenta a lixadeira deverá possuir sistema de aterramento elétrico de proteção. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":331,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR17",
+    "enunciado": "Considere que, à altura de mais de 12 metros, esteja um soldador industrial trabalhando na montagem de uma torre metálica. Além dos instrumentos para a solda, ele utiliza uma lixadeira para dar acabamento e preparar a peça para a pintura. A empresa responsável realizou todos os treinamentos necessários e forneceu os equipamentos de proteção individual (EPI) adequados e em quantidade suficiente.\n A partir dessa situação hipotética, julgue os itens subsequentes.\n No caso, o transporte individual dos materiais, instrumentos e equipamentos utilizados pelo soldador, considerado carga, é executado de forma livre, ou seja, o quanto a capacidade de força do trabalhador suportar. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":332,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR6",
+    "enunciado": "Considere que, à altura de mais de 12 metros, esteja um soldador industrial trabalhando na montagem de uma torre metálica. Além dos instrumentos para a solda, ele utiliza uma lixadeira para dar acabamento e preparar a peça para a pintura. A empresa responsável realizou todos os treinamentos necessários e forneceu os equipamentos de proteção individual (EPI) adequados e em quantidade suficiente.\n A partir dessa situação hipotética, julgue os itens subsequentes.\n No caso, os diversos EPI entregues, de forma gratuita, ao soldador pela empresa foram devidamente registrados e os comprovantes de entrega foram por ele assinados, de modo que, caso ele perca algum dos EPI recebidos, será responsabilizado, e a empresa poderá descontar o prejuízo de seus honorários. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":333,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Ambiental",
+    "enunciado": "Considere que, à altura de mais de 12 metros, esteja um soldador industrial trabalhando na montagem de uma torre metálica. Além dos instrumentos para a solda, ele utiliza uma lixadeira para dar acabamento e preparar a peça para a pintura. A empresa responsável realizou todos os treinamentos necessários e forneceu os equipamentos de proteção individual (EPI) adequados e em quantidade suficiente.\n A partir dessa situação hipotética, julgue os itens subsequentes.\n Os resíduos sólidos e líquidos da pintura da torre metálica poderão ser incinerados na própria obra, para facilitar a destinação. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":334,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR6",
+    "enunciado": "Considere que, à altura de mais de 12 metros, esteja um soldador industrial trabalhando na montagem de uma torre metálica. Além dos instrumentos para a solda, ele utiliza uma lixadeira para dar acabamento e preparar a peça para a pintura. A empresa responsável realizou todos os treinamentos necessários e forneceu os equipamentos de proteção individual (EPI) adequados e em quantidade suficiente.\n A partir dessa situação hipotética, julgue os itens subsequentes.\n O sistema de linha de vida com dispositivo trava-queda deve ser usado como EPI nesse trabalho, para proteger o trabalhador de quedas quando em operações com movimentação vertical ou horizontal. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":335,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR35",
+    "enunciado": "Considere que, à altura de mais de 12 metros, esteja um soldador industrial trabalhando na montagem de uma torre metálica. Além dos instrumentos para a solda, ele utiliza uma lixadeira para dar acabamento e preparar a peça para a pintura. A empresa responsável realizou todos os treinamentos necessários e forneceu os equipamentos de proteção individual (EPI) adequados e em quantidade suficiente.\n A partir dessa situação hipotética, julgue os itens subsequentes.\n Caso outros trabalhadores, realizando tarefas diversas, tenham integrado a equipe, para construção, montagem e instalação da torre metálica, seria necessário projeto de proteção coletiva, que pode ser elaborado por qualquer profissional da área de segurança do trabalho. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":336,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR4",
+    "enunciado": "Julgue os itens seguintes, no tocante ao SESMT e a seu funcionamento nas empresas, considerando, no que couber, o quadro anterior e a legislação pertinente em vigor.\n \n*Esta prova forneceu o quadro II de dimensionamento de SESMT da NR4. No entanto, para fins de estudos, o ideal é tentar fazer essas questões sem o quadro. Pois, muitas provas não o disponibilizam.\n \n No caso de obra de construção de um prédio de 10 pavimentos, o dimensionamento da quantidade de técnicos de segurança do trabalho depende do nível de poeira, de ruído e de trabalho em altura. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":337,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR4",
+    "enunciado": "Julgue os itens seguintes, no tocante ao SESMT e a seu funcionamento nas empresas, considerando, no que couber, o quadro anterior e a legislação pertinente em vigor.\n \n*Esta prova forneceu o quadro II de dimensionamento de SESMT da NR4. No entanto, para fins de estudos, o ideal é tentar fazer essas questões sem o quadro. Pois, muitas provas não o disponibilizam.\n \n O ônus decorrente da instalação e da manutenção do SESMT é de responsabilidade exclusiva do empregador. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":338,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR4",
+    "enunciado": "Julgue os itens seguintes, no tocante ao SESMT e a seu funcionamento nas empresas, considerando, no que couber, o quadro anterior e a legislação pertinente em vigor.\n \n*Esta prova forneceu o quadro II de dimensionamento de SESMT da NR4. No entanto, para fins de estudos, o ideal é tentar fazer essas questões sem o quadro. Pois, muitas provas não o disponibilizam.\n \n No caso de estabelecimento com 510 empregados e com grau de risco 3, um engenheiro de segurança do trabalho deverá ser contratado para se dedicar três horas semanais, no mínimo, ao estabelecimento. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":339,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR4",
+    "enunciado": "Julgue os itens seguintes, no tocante ao SESMT e a seu funcionamento nas empresas, considerando, no que couber, o quadro anterior e a legislação pertinente em vigor.\n \n*Esta prova forneceu o quadro II de dimensionamento de SESMT da NR4. No entanto, para fins de estudos, o ideal é tentar fazer essas questões sem o quadro. Pois, muitas provas não o disponibilizam.\n \n É necessária a contratação de um fisioterapeuta ocupacional para trabalhar por, pelo menos, 3 horas diariamente, quando o estabelecimento operar em grau de risco 4 e com mais de 1.000 empregados. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":340,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR4",
+    "enunciado": "Julgue os itens seguintes, no tocante ao SESMT e a seu funcionamento nas empresas, considerando, no que couber, o quadro anterior e a legislação pertinente em vigor.\n \n*Esta prova forneceu o quadro II de dimensionamento de SESMT da NR4. No entanto, para fins de estudos, o ideal é tentar fazer essas questões sem o quadro. Pois, muitas provas não o disponibilizam.\n \n Caso o estabelecimento tenha 9.388 empregados e opere em grau de risco 1, o SESMT deverá ser dimensionado com um médico do trabalho com jornada integral e outro com jornada parcial de, no mínimo, 3 horas. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":341,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR4",
+    "enunciado": "Julgue os itens seguintes, no tocante ao SESMT e a seu funcionamento nas empresas, considerando, no que couber, o quadro anterior e a legislação pertinente em vigor.\n \n*Esta prova forneceu o quadro II de dimensionamento de SESMT da NR4. No entanto, para fins de estudos, o ideal é tentar fazer essas questões sem o quadro. Pois, muitas provas não o disponibilizam.\n \n O técnico de segurança do trabalho deverá dedicar 8 horas diárias para as atividades do SESMT, ao passo que o engenheiro de segurança do trabalho deverá dedicar, no mínimo, 3 horas diárias, em tempo parcial, ou 6 horas diárias, em tempo integral. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":342,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR4",
+    "enunciado": "Julgue os itens seguintes, no tocante ao SESMT e a seu funcionamento nas empresas, considerando, no que couber, o quadro anterior e a legislação pertinente em vigor.\n \n*Esta prova forneceu o quadro II de dimensionamento de SESMT da NR4. No entanto, para fins de estudos, o ideal é tentar fazer essas questões sem o quadro. Pois, muitas provas não o disponibilizam.\n \n A atividade econômica está associada a um grau de risco correspondente a um valor numérico de 1 a 4, definido a partir da associação aos perigos a que se submetem os empregados que trabalham no estabelecimento. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":343,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR4",
+    "enunciado": "Julgue os itens seguintes, no tocante ao SESMT e a seu funcionamento nas empresas, considerando, no que couber, o quadro anterior e a legislação pertinente em vigor.\n \n*Esta prova forneceu o quadro II de dimensionamento de SESMT da NR4. No entanto, para fins de estudos, o ideal é tentar fazer essas questões sem o quadro. Pois, muitas provas não o disponibilizam.\n \n Apenas médico do trabalho, engenheiro de segurança do trabalho, técnico de segurança do trabalho, enfermeiro do trabalho e auxiliar ou técnico em enfermagem do trabalho comporão o SESMT, conforme o grau de risco e a quantidade de empregados do estabelecimento. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":344,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR4",
+    "enunciado": "A respeito das competências e atribuições dos profissionais do SESMT, julgue os itens que se seguem.\n Nos estabelecimentos sujeitos a riscos, a primeira determinação dos profissionais do SESMT aos trabalhadores é a utilização de equipamentos de proteção individual; em seguida, os trabalhadores devem buscar todos os meios conhecidos para a eliminação do risco, de modo que a intensidade do fator de risco fique controlada. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":345,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR4",
+    "enunciado": "A respeito das competências e atribuições dos profissionais do SESMT, julgue os itens que se seguem.\n Cabe aos profissionais do SESMT elaborar projetos e supervisionar a implantação de novas instalações físicas e tecnológicas que visem eliminar riscos à saúde do trabalhador. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":346,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR4",
+    "enunciado": "A respeito das competências e atribuições dos profissionais do SESMT, julgue os itens que se seguem.\n Em essência, as atividades dos profissionais do SESMT têm natureza prevencionista. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":347,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR4",
+    "enunciado": "A respeito das competências e atribuições dos profissionais do SESMT, julgue os itens que se seguem.\n Os profissionais do SESMT são tecnicamente responsáveis em caso de descumprimento de disposição contida nas normas regulamentadoras aplicáveis às atividades executadas pela empresa e por seus estabelecimentos. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  },
+  {"id":348,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Primeiros Socorros",
+    "enunciado": "Julgue os próximos itens, acerca de primeiros socorros no caso da ocorrência de choque elétrico.\n O óbito da vítima de choque elétrico pode ser evitado caso o socorrista inicie a respiração artificial tão logo se interrompa o contato elétrico, até a chegada de socorro profissional especializado. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":"A questão havia sido dada como correta no gabarito preliminar, mas foi alterada para errada no gabarito final. O argumento para a correção foi que \"A chegada de socorro especializado não é condição para que se finalize a respiração artificial \". "
+  },
+  {"id":349,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Primeiros Socorros",
+    "enunciado": "Julgue os próximos itens, acerca de primeiros socorros no caso da ocorrência de choque elétrico.\n Ausência de pulso e dilatação das pupilas são indícios de parada cardíaca, devendo-se proceder à massagem cardíaca externa e, ao mesmo tempo, solicitar socorro especializado, de preferência de socorristas em ambulância equipada com desfibrilador. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":350,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Primeiros Socorros",
+    "enunciado": "Julgue os próximos itens, acerca de primeiros socorros no caso da ocorrência de choque elétrico.\n Respiração artificial de Holger Nielsen é o método mais difundido e eficaz para reanimar vítimas de choque elétrico, aplicável a qualquer caso de colapso respiratório e com exigência de pouco esforço do socorrista para injetar grande quantidade de ar nos pulmões. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":351,"banca": "CEBRASPE", "nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR17",
+    "enunciado": "Com relação ao comportamento humano e às necessidades básicas no campo da psicologia do trabalho, julgue os itens subsequentes.\n Alto percentual de turnover — rotatividade de pessoal —, quando não involuntário, é indício de descontentamento dos empregados, o que pode estar relacionado com trabalho monótono e que exige alta especialização. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":352,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR17",
+    "enunciado": "Com relação ao comportamento humano e às necessidades básicas no campo da psicologia do trabalho, julgue os itens subsequentes.\n Em geral, os absenteístas contumazes são mais independentes, seguros, despreocupados e, também, mais tímidos que os assíduos. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":353,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR17",
+    "enunciado": "Com relação ao comportamento humano e às necessidades básicas no campo da psicologia do trabalho, julgue os itens subsequentes.\n Fatores humanos e sociais relacionados aos empregados e à administração levam à realização profissional representada por um estado de espírito, denominado moral, que conecta objetivos individuais e empresariais em prol da produtividade. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
+    "observacao":""
+  },
+  {"id":354,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR17",
+    "enunciado": "Com relação ao comportamento humano e às necessidades básicas no campo da psicologia do trabalho, julgue os itens subsequentes.\n O estado psicológico dos trabalhadores, individual ou coletivo, é desvinculado das variações de produção, não se relacionando com fatores que determinam satisfação ou patologias. ",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
+    "observacao":""
+  }
+  
+
+
+
+
+
+]

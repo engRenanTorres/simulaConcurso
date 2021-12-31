@@ -25,6 +25,7 @@ export default StyleSheet.create({
         fontSize:12
     },
     textoPassadores:{
+        width: 30,
         justifyContent:'center',
         textAlign: 'center'
         

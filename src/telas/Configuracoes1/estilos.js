@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { cores } from "../../../../estilosGerais";
+import { cores } from "../../estilosGerais";
 
 export default (marcado) => StyleSheet.create({
     informacao: {
@@ -44,7 +44,7 @@ export default (marcado) => StyleSheet.create({
       textAlign: 'center',
       color: '#fff' ,
       shadowColor: '#000',
-      backgroundColor: cores.azul,
+      backgroundColor: cores.roxo,
       justifyContent: 'center',
       marginTop: 10,
       marginHorizontal: 84,
