@@ -27,13 +27,13 @@ export default (marcado) => StyleSheet.create({
       fontWeight: marcado? 'normal':'bold',
       borderColor: marcado? '#000' : cores.quaseBranco,
       borderWidth: 2,
-      borderRadius: 24,
+      borderRadius: 10,
       textAlign: 'center',
       color: marcado? '#000' : '#fff',
       backgroundColor: marcado? cores.quaseBranco : cores.azul,
       justifyContent: 'center',
       marginTop: 10,
-      marginHorizontal: 84,
+      marginHorizontal: '30%',
       paddingVertical: 8,
     },
     botoesAplicar:{
@@ -49,5 +49,10 @@ export default (marcado) => StyleSheet.create({
       marginTop: 10,
       marginHorizontal: 84,
       paddingVertical: 8,
-    }
+    },
+    quadroVariavel:{
+      textAlign:'center',
+      borderColor: '#000',
+      justifyContent: 'center',
+  }
 });

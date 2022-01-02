@@ -512,4 +512,761 @@
   ],
 "resposta": "B",
 "observacao": ""
-}]
+},
+{
+  "id":355,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Previdência",
+  "enunciado":"Julgue os itens a seguir, relativos a definições, causas e consequências do acidente de trabalho, conforme a Lei n.º 8.213/1991 e suas alterações.\n A incapacidade acidentária de em pregado é caracterizada com a e missão de atestado pelo médico do trabalho da empresa empregadora, com indicação da entidade mórbida incapacitante segundo a Classificação Internacional de Doenças (CID).",
+  "alternativas":[
+"(A) Certa",
+"(B) Errada"
+  ],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - ERRADO. Lei n.º 8.213/1991\n “Art. 21-A. A perícia médica do Instituto Nacional do Seguro Social (INSS) considerará caracterizada a natureza acidentária da incapacidade quando constatar ocorrência de nexo técnico epidemiológico entre o trabalho e o agravo, decorrente da relação entre a atividade da empresa ou do empregado doméstico e a entidade mórbida motivadora da incapacidade elencada na Classificação Internacional de Doenças”."
+},
+{
+  "id":356,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Legislação",
+  "enunciado":"Julgue os itens a seguir, relativos a definições, causas e consequências do acidente de trabalho, conforme a Lei n.º 8.213/1991 e suas alterações.\n O descumprimento de normas de segurança e higiene do trabalho pelo preposto de uma empresa constitui crime punível com pena de detenção. ",
+  "alternativas":[
+"(A) Certa",
+"(B) Errada"
+  ],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - ERRADO. Lei n.º 8.213/1991\n“Art. 19 (...)\n § 2. º Constitui contravenção penal, punível com multa, deixar a empresa de cumprir as normas de segurança e higiene do trabalho.”"
+},
+{
+  "id":357,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Previdência",
+  "enunciado":" Julgue os itens a seguir, relativos a definições, causas e consequências do acidente de trabalho, conforme a Lei n.º 8.213/1991 e suas alterações.\n Considera-se acidente do trabalho todo acidente que decorra do exercício do trabalho a serviço de empresa ou de empregador doméstico e que cause no empregado lesão corporal ou perturbação funcional que resulte em morte ou na perda ou redução, permanente ou temporária, da capacidade para o trabalho.",
+  "alternativas":[
+"(A) Certa",
+"(B) Errada"
+  ],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - CERTO. Lei n.º 8.213/1991\n“Art. 19. Acidente do trabalho é o que ocorre pelo exercício do trabalho a serviço de empresa ou de empregador doméstico (...), provocando lesão corporal ou perturbação funcional que cause a morte ou a perda ou redução, permanente ou temporária, da capacidade para o trabalho.”"
+},
+{
+  "id":358,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Previdência",
+  "enunciado":"Julgue os itens a seguir, relativos a definições, causas e consequências do acidente de trabalho, conforme a Lei n.º 8.213/1991 e suas alterações.\n Acidente sofrido por empregado segurado da previdência social quando da prestação espontânea de serviço ao seu empregador, para lhe evitar prejuízo, será equiparado a acidente de trabalho para todos os e feitos legais, mesmo que tenha ocorrido fora do local e horário de trabalho do empregado.",
+  "alternativas":[
+"(A) Certa",
+"(B) Errada"
+  ],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - CERTO. Lei n.º 8.213/1991\n“Art. 21. Equiparam-se também ao acidente do trabalho, para efeitos desta Lei:\n (...)\n IV o acidente sofrido pelo segurado, ainda que fora do local e horário de trabalho:\n (...)\n b) na prestação espontânea de qualquer serviço à empresa para lhe evitar prejuízo ou proporcionar proveito;”."
+},
+{
+  "id":359,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR33",
+  "enunciado":" Julgue os itens a seguir, a respeito de disposições legais e normativas acerca de segurança e saúde do trabalhador.\n Qualquer ambiente projetado para ocupação humana, ainda que temporária, será classificado como espaço confinado se possuir meios limitados de entrada e saída e sua ventilação for insuficiente para remover contaminantes. ",
+  "alternativas":[
+"(A) Certa",
+"(B) Errada"
+  ],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - ERRADO. De acordo como a Norma Regulamentadora n.º 33 do Ministério do Trabalho, espaço confinado é qualquer área ou ambiente não projetado para ocupação humana contínua, que possua meios limitados de entrada e saída, cuja ventilação existente seja insuficiente para remover contaminantes ou onde possa existir deficiência ou enriquecimento de oxigênio."
+},
+{
+  "id":360,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR33",
+  "enunciado":"Julgue os itens a seguir, a respeito de disposições legais e normativas acerca de segurança e saúde do trabalhador.\n Conforme norma regulamentadora do Ministério do Trabalho, a presença, na atmosfera, de volume de oxigênio abaixo de 20,9%, em condições normais de pressão atmosférica, caracteriza deficiência de oxigênio, enquanto a presença de volume de oxigênio acima de 23%, nessas mesmas condições, caracteriza enriquecimento de oxigênio. ",
+  "alternativas":[
+"(A) Certa",
+"(B) Errada"
+  ],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibiliza pela própria CESPE:\n JUSTIFICATIVA - CERTO. Segundo glossário da Norma Regulamentadora n. º 33 do Ministério do Trabalho, ocorre deficiência de oxigênio quando a atmosfera contém menos de 20,9% de oxigênio em volume na pressão atmosférica normal, ao passo que o enriquecimento de oxigênio ocorre quando a atmosfera contém mais de 23% de oxigênio em volume."
+},
+{
+  "id":361,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR1",
+  "enunciado":"Julgue os itens a seguir, a respeito de disposições legais e normativas acerca de segurança e saúde do trabalhador.\n Compete a auditor fiscal do trabalho, desde que nos limites de sua circunscrição e em pleno exercício de suas prerrogativas, impor penalidades por descumprimento de preceitos legais e regulamentares sobre segurança e medicina do trabalho.",
+"alternativas":["(A) Certa","(B) Errada" ],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibiliza pela própria CESPE:\n JUSTIFICATIVA - ERRADO. De acordo com o a rt. 156 da Consolidação das Leis do Trabalho (C LT) e a Norma Regulamentadora n. º 1 do Ministério do Trabalho, compete às delegacias regionais do trabalho, nos limites de sua jurisdição, impor as penalidades cabíveis por descumprimento das normas que regem a segurança e a medicina do trabalho."
+},
+{
+  "id":362,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR15",
+  "enunciado":"Julgue os itens a seguir, a respeito de disposições legais e normativas acerca de segurança e saúde do trabalhador.\n As atividades de limpeza urbana executadas em locais alagados ou encharcados são consideradas insalubres, independentemente de laudo técnico, dada a sua associação com condições altamente nocivas à saúde humana. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - ERRADO. Conforme a Norma Regulamentadora n.º 15 do Ministério do Trabalho, as atividades ou operações executadas em locais alagados ou encharcados, com umidade excessiva, capazes de produzir danos à saúde dos trabalhadores, serão consideradas insalubres em decorrência de laudo de inspeção realizada no local de trabalho."
+},
+{
+  "id":363,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR9",
+  "enunciado":"Julgue os itens a seguir, a respeito de disposições legais e normativas acerca de segurança e saúde do trabalhador.\n Fica a critério do empregador a escolha do funcionário ou da equipe de funcionários que seja capaz de elaborar, implantar, acompanhar e avaliar o programa de prevenção de riscos ambientais da empresa. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "C",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - CERTO. Conforme Norma Regulamentadora n.º 9 do Ministério do Trabalho, a elaboração, a implementação, o acompanhamento e a avaliação do programa de prevenção de riscos ambientais (PPRA) poderão ser feitos pelo serviço especializado em engenharia de segurança e em medicina do trabalho (SESMT) ou por pessoa ou equipe de pessoas que, a critério do empregador, sejam capazes de desenvolver o disposto na norma."
+},
+{
+  "id":364,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR16",
+  "enunciado":"Julgue os itens a seguir, a respeito de disposições legais e normativas acerca de segurança e saúde do trabalhador.\n A periculosidade no trabalho será eliminada se o trabalhador utilizar equipamentos de proteção individual que diminuam a intensidade do agente agressivo a limites de tolerância. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - ERRADO. Conforme o art. 191 da Consolidação das Leis do Trabalho, a eliminação ou a neutralização da insalubridade, e não da periculosidade, ocorrerá com a adoção de medidas que conservem o ambiente de trabalho dentro dos limites de tolerância e com a utilização de equipamentos de proteção individual pelo trabalhador, que diminuam a intensidade do agente agressivo a limites de tolerância."
+},
+{
+  "id":365,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR9",
+  "enunciado":"Julgue os itens a seguir, a respeito de disposições legais e normativas acerca de segurança e saúde do trabalhador.\n Limite de tolerância corresponde ao valor acima do qual devem ser iniciadas ações preventivas para minimizar a probabilidade de que sejam ultrapassados os limites de exposição ocupacional a agentes ambientais. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - ERRADO. Conforme a Norma Regulamentadora n.º 9 do Ministério do Trabalho, considera-se nível de ação, e não limite de tolerância, o valor acima do qual devem ser iniciadas ações preventivas de forma a minimizar a probabilidade de que as exposições a agentes ambientais ultrapassem os limites de exposição."
+},
+{
+  "id":366,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Legislação",
+  "enunciado":" Paulo, de 32 anos de idade, lixeiro vinculado a empresa de coleta de lixo urbano de determinado município, trabalha em jornada de 44 horas semanais, coletando resíduos não perigosos em vias públicas. É pertencente à subclasse preponderante na Classificação Nacional de Atividades Econômicas (CNAE-Preponderante), cuja alíquota do seguro de acidente do trabalho (SAT) é de 3%, ajustada pelo fator acidentário de prevenção (FAP) de 1,75, vigente para 2019. As avaliações ambientais indicam para Paulo índice de bulbo úmido termômetro de globo (IBUTG) de 31,5 °C, exposto concomitantemente a ruído intermitente, com dose acumulada na jornada de 75,76%, segundo a norma trabalhista, e nível de exposição normalizado (NEN) de 87,07 dB(A), pela norma previdenciária. Ademais, Paulo fica exposto a fatores de risco ergonômicos e biológicos durante a execução de seu trabalho.\n Tendo como referência a situação hipotética precedente, julgue os itens seguintes.\n CNAE-Preponderante é aquele que a empresa necessariamente define como principal no cartão CNPJ quando da sua inscrição na Receita Federal. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - ERRADO. CNAE-Preponderante é a quele calculado a partir da quantidade de empregados por estabelecimento, podendo ser distinto daquele descrito como principal pela empresa no cartão CNPJ."
+},
+{
+  "id":367,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR15",
+  "enunciado":"Paulo, de 32 anos de idade, lixeiro vinculado a empresa de coleta de lixo urbano de determinado município, trabalha em jornada de 44 horas semanais, coletando resíduos não perigosos em vias públicas. É pertencente à subclasse preponderante na Classificação Nacional de Atividades Econômicas (CNAE-Preponderante), cuja alíquota do seguro de acidente do trabalho (SAT) é de 3%, ajustada pelo fator acidentário de prevenção (FAP) de 1,75, vigente para 2019. As avaliações ambientais indicam para Paulo índice de bulbo úmido termômetro de globo (IBUTG) de 31,5 °C, exposto concomitantemente a ruído intermitente, com dose acumulada na jornada de 75,76%, segundo a norma trabalhista, e nível de exposição normalizado (NEN) de 87,07 dB(A), pela norma previdenciária. Ademais, Paulo fica exposto a fatores de risco ergonômicos e biológicos durante a execução de seu trabalho.\n Tendo como referência a situação hipotética precedente, julgue os itens seguintes.\n No caso em apreço, o IBUTG terá sido calculado corretamente se considerada a presença de carga solar, ponderando-se o termômetro de bulbo seco em 10%, o de bulbo úmido natural em 70% e o de globo em 20%.",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - CERTO. Conforme a Norma Regulamentadora n.º 15 do Ministério do Trabalho, a exposição ao calor deve ser avaliada por meio do índice de bulbo úmido termômetro de globo (IBUTG), definido pelas seguintes equações, nas quais tbn é a temperatura de bulbo úmido natural, tg é a temperatura de globo, e tbs, a temperatura de bulbo seco:\n ambientes internos ou externos sem carga solar: IBUTG = 0,7 tbn + 0,3 tg;\n ambientes externos com carga solar: IBUTG = 0,7 tbn + 0,1 tbs + 0,2 tg."
+},
+{
+  "id":368,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Previdência",
+  "enunciado":"Paulo, de 32 anos de idade, lixeiro vinculado a empresa de coleta de lixo urbano de determinado município, trabalha em jornada de 44 horas semanais, coletando resíduos não perigosos em vias públicas. É pertencente à subclasse preponderante na Classificação Nacional de Atividades Econômicas (CNAE-Preponderante), cuja alíquota do seguro de acidente do trabalho (SAT) é de 3%, ajustada pelo fator acidentário de prevenção (FAP) de 1,75, vigente para 2019. As avaliações ambientais indicam para Paulo índice de bulbo úmido termômetro de globo (IBUTG) de 31,5 °C, exposto concomitantemente a ruído intermitente, com dose acumulada na jornada de 75,76%, segundo a norma trabalhista, e nível de exposição normalizado (NEN) de 87,07 dB(A), pela norma previdenciária. Ademais, Paulo fica exposto a fatores de risco ergonômicos e biológicos durante a execução de seu trabalho.\n Tendo como referência a situação hipotética precedente, julgue os itens seguintes.\n Na situação em tela, a alíquota SAT efetiva é de 4,75%, devido à majoração que obriga a soma de 1,75 do FAP com a nominal de 3%.",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - ERRADO. A alíquota SAT efetiva é de 5,25%, devido à majoração que obriga multiplicar o FAP de 1,75 à nominal de 3%."
+},
+{
+  "id":369,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Previdência",
+  "enunciado":"Paulo, de 32 anos de idade, lixeiro vinculado a empresa de coleta de lixo urbano de determinado município, trabalha em jornada de 44 horas semanais, coletando resíduos não perigosos em vias públicas. É pertencente à subclasse preponderante na Classificação Nacional de Atividades Econômicas (CNAE-Preponderante), cuja alíquota do seguro de acidente do trabalho (SAT) é de 3%, ajustada pelo fator acidentário de prevenção (FAP) de 1,75, vigente para 2019. As avaliações ambientais indicam para Paulo índice de bulbo úmido termômetro de globo (IBUTG) de 31,5 °C, exposto concomitantemente a ruído intermitente, com dose acumulada na jornada de 75,76%, segundo a norma trabalhista, e nível de exposição normalizado (NEN) de 87,07 dB(A), pela norma previdenciária. Ademais, Paulo fica exposto a fatores de risco ergonômicos e biológicos durante a execução de seu trabalho.\n Tendo como referência a situação hipotética precedente, julgue os itens seguintes.\n Dada a exposição a ruído intermitente, a atividade desenvolvida por Paulo enseja aposentadoria especial após 25 anos de contribuição previdenciária, mas não pagamento de adicional de insalubridade. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - CERTO. Adicional de insalubridade tem por Limite de Tolerância -LT a dose de 100%, a qual no caso em apreço não foi alcançada, diferentemente da aposentadoria especial, cujo Limite de Tolerância -LT é de NEN 85 dBA. A avaliação apresentou dose a cumulada na jornada de 75 ,76% (menor que 100%, correto); NEN de 87, 07 dB(A) (maior que 85, 00 dB(A), correto)."
+},
+{
+  "id":370,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR15",
+  "enunciado":"Paulo, de 32 anos de idade, lixeiro vinculado a empresa de coleta de lixo urbano de determinado município, trabalha em jornada de 44 horas semanais, coletando resíduos não perigosos em vias públicas. É pertencente à subclasse preponderante na Classificação Nacional de Atividades Econômicas (CNAE-Preponderante), cuja alíquota do seguro de acidente do trabalho (SAT) é de 3%, ajustada pelo fator acidentário de prevenção (FAP) de 1,75, vigente para 2019. As avaliações ambientais indicam para Paulo índice de bulbo úmido termômetro de globo (IBUTG) de 31,5 °C, exposto concomitantemente a ruído intermitente, com dose acumulada na jornada de 75,76%, segundo a norma trabalhista, e nível de exposição normalizado (NEN) de 87,07 dB(A), pela norma previdenciária. Ademais, Paulo fica exposto a fatores de risco ergonômicos e biológicos durante a execução de seu trabalho.\n Tendo como referência a situação hipotética precedente, julgue os itens seguintes.\n No caso em apreço, o NEN foi obtido considerando-se o incremento de duplicação de dose igual a 3, o nível limiar de integração igual a 80 dB(A) e o critério de referência de 85 dB(A) para 8 horas.",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - CERTO. Conforme especifica norma NHO 01 da Fundacentro, o critério de referência que embasa os limites de exposição diária a dotados para ruído contínuo ou intermitente corresponde a uma dose de 100% para exposição de 8 hora s a o nível de 85 dB (A). O critério de avaliação considera, além do critério de referência, o incremento de duplicação de dose (q) igual a 3 e o nível limiar de integração igual a 80 dB(A)."
+},
+{
+  "id":371,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR15",
+  "enunciado":"Paulo, de 32 anos de idade, lixeiro vinculado a empresa de coleta de lixo urbano de determinado município, trabalha em jornada de 44 horas semanais, coletando resíduos não perigosos em vias públicas. É pertencente à subclasse preponderante na Classificação Nacional de Atividades Econômicas (CNAE-Preponderante), cuja alíquota do seguro de acidente do trabalho (SAT) é de 3%, ajustada pelo fator acidentário de prevenção (FAP) de 1,75, vigente para 2019. As avaliações ambientais indicam para Paulo índice de bulbo úmido termômetro de globo (IBUTG) de 31,5 °C, exposto concomitantemente a ruído intermitente, com dose acumulada na jornada de 75,76%, segundo a norma trabalhista, e nível de exposição normalizado (NEN) de 87,07 dB(A), pela norma previdenciária. Ademais, Paulo fica exposto a fatores de risco ergonômicos e biológicos durante a execução de seu trabalho.\n Tendo como referência a situação hipotética precedente, julgue os itens seguintes.\n A combinação de fatores de risco ergonômicos e biológicos da atividade de lixeiro determina, por associação de agentes, pagamento de adicional de insalubridade em grau máximo a Paulo. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - ERRADO. Fatores ergonômicos não constituem critérios ensejadores de adicional de insalubridade"
+},
+{
+  "id":372,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR15",
+  "enunciado":" Paulo, de 32 anos de idade, lixeiro vinculado a empresa de coleta de lixo urbano de determinado município, trabalha em jornada de 44 horas semanais, coletando resíduos não perigosos em vias públicas. É pertencente à subclasse preponderante na Classificação Nacional de Atividades Econômicas (CNAE-Preponderante), cuja alíquota do seguro de acidente do trabalho (SAT) é de 3%, ajustada pelo fator acidentário de prevenção (FAP) de 1,75, vigente para 2019. As avaliações ambientais indicam para Paulo índice de bulbo úmido termômetro de globo (IBUTG) de 31,5 °C, exposto concomitantemente a ruído intermitente, com dose acumulada na jornada de 75,76%, segundo a norma trabalhista, e nível de exposição normalizado (NEN) de 87,07 dB(A), pela norma previdenciária. Ademais, Paulo fica exposto a fatores de risco ergonômicos e biológicos durante a execução de seu trabalho.\n Tendo como referência a situação hipotética precedente, julgue os itens seguintes.\n Devido ao ostensivo sofrimento e o baixo prestígio social da profissão de lixeiro, combinados a fatores biológicos, ergonômicos e ambientais desfavoráveis, Paulo tem direito a adicional de penosidade. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - ERRADO. Há previsão constitucional (A rt.7, XXIII, da CRF B-88), todavia, carece de definição legal para pagamento adicional de penosidade."
+},
+{
+  "id":373,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Legislação",
+  "enunciado":" A respeito da ética profissional e das atribuições do engenheiro de segurança do trabalho, julgue os próximos itens, com base na legislação pertinente a esse assunto.\n Profissionais de engenharia de segurança do trabalho que descumprirem disposições do respectivo Código de Ética Profissional estarão sujeitos às penalidades de advertência e censura pública. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - CERTO. Nos termos da Resolução CONFEA n.º 1. 004/2013, advertência e censura pública são as penalidades cominadas em caso de descumprimento do Código de Ética Profissional. Aos profissionais que deixarem de cumprir disposições do código de ética profissional serão aplicadas as penalidades previstas em lei. A advertência reservada será anotada nos assentamentos do profissional e terá caráter confidencial, e a censura pública, anotada nos assentamentos do profissional."
+},
+{
+  "id":374,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Legislação",
+  "enunciado":"A respeito da ética profissional e das atribuições do engenheiro de segurança do trabalho, julgue os próximos itens, com base na legislação pertinente a esse assunto.\n Profissional de engenharia de segurança do trabalho que cometer má conduta pública ou crimes infamantes estará sujeito a procedimentos administrativos disciplinares que podem resultar no cancelamento do seu registro profissional. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA - CERTO. A Resolução CONFEA n.º 1.090/2017 dispõe as definições e os procedimentos necessários à condução do processo de cancelamento do registro profissional pela prática de má conduta pública, escândalos e crimes infamantes, bem como os procedimentos para requerimento de reabilitação do profissional."
+},
+{
+  "id":375,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR7",
+  "enunciado":"Julgue os itens a seguir, acerca de doenças transmissíveis e de biossegurança.\n A zooantroponose se refere a doenças contraídas pelo homem por meio do contato direto com animais doentes, sem a necessidade de vetores. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "*Esta questão foi dada como errada no gabarito preliminar. Porém foi revisada sobre o argumento de \"Considerando-se que há mais de uma maneira de contrair a doença, deixou-se de especificar, na redação do item, que a forma de contágio abordada era a via cutânea.\"\n\nEsta prova teve justificativas disponibilizas pela própria CESPE:\n JUSTIFICATIVA – ERRADO. O termo zooantroponose refere-se a doenças que são primárias nos homens e que podem ser transmitidas a os outros animais. Já a antropozoonozes é que se refere a doenças contraídas pelo contato direto com animais doentes, sem a necessidade de vetores."
+},
+{
+  "id":376,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR7",
+  "enunciado":"Julgue os itens a seguir, acerca de doenças transmissíveis e de biossegurança.\n A transmissão da leptospirose para o ser hum ano ocorre necessariamente por meio de uma lesão na pele ou mucosa da pessoa que tenha tido contato com a urina de animais infectados ou com água contaminada. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – ERRADO. A transmissão da leptospirose resulta da exposição direta ou indireta à urina de animais infectados, e pode ocorrer não apenas no caso de a pele ou a mucosa da vítima apresentar uma lesão, mas também no caso de a pele íntegra da pessoa estiver imersa, por longo período, em água contaminada ou através de mucosas.”"
+},
+{
+  "id":377,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR7",
+  "enunciado":"Julgue os itens a seguir, acerca de doenças transmissíveis e de biossegurança.\n Pessoas que exercem atividades em contato direto com animais doentes, com sua carcaça, com seu sangue e com seus dejetos, podem ser contaminadas com brucelose, desde que tenham lesões na pele. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – CERTO. A brucelose é um a zoonose transmitida por meio do contato direto com animais doentes e seus dejetos, que penetra no ser humano apenas por meio de lesões na pele, mesmo que pequenas.”"
+},
+{
+  "id":378,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR7",
+  "enunciado":"Julgue os itens a seguir, acerca de doenças transmissíveis e de biossegurança.\n Medida preventiva contra a transmissão do carbúnculo ao ser humano, a desinfecção de produtos animais com hipoclorito ou formaldeído deve ser adotada por trabalhadores que tenham contato direto com pelo de carneiro, lã, couro e ossos de animais, em especial, originados da África e da Ásia. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – CERTO. No desenvolvimento de atividades principalmente industriais e artesanais, a exposição humana ao contato direto com pelo de carneiro, lã, couro e ossos de animais, em especial, originados da África e Ásia pode causar o carbúnculo. Nesse sentido, deve ser feita a desinfecção desses produtos de origem animal com hipoclorito ou formaldeídos para que se possa evitar o seu contágio.”"
+},
+{
+  "id":379,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR7",
+  "enunciado":"No que se refere à biossegurança e ao Programa de Controle Médico de Saúde Ocupacional (PCMSO), julgue o item que se segue. \n Como forma de prevenção primária de doenças infecciosas a que estão suscetíveis vários grupos profissionais, a indicação de vacinas específicas para trabalhadores expostos a determinados riscos biológicos também deve integrar o conjunto de medidas profiláticas. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – CERTO. A indicação de vacinas também deve integrar o c onjunto de m edidas pre ventivas, como form a de diminuir o ri sco de s e c ontrair a s doe nças infecciosas a que estão expostos vários grupos profissionais.”"
+},
+{
+  "id":380,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR5",
+  "enunciado":" Considerando os aspectos legais e técnicos da Comissão Interna de Prevenção de Acidentes (CIPA), julgue o próximo item. \n A CIPA pode ser constituída por trabalhadores que não tenham qualificação na área de Segurança e Medicina do Trabalho, contanto que seus membros recebam treinamento com conteúdo programático específico. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – CERTO. A CIP A pode ser c onstituída por pessoas que n ão t enham qua lificação na área de S egurança e Medicina do Trabalho. Nesse sentido, a empresa deverá promover treinamento para s eus m embros, t itulares e s uplentes, an tes d a posse. O treinamento da CIPA em primeiro mandato será realizado no prazo máximo de trinta dias, contados a partir da data da posse.”"
+},
+{
+  "id":381,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR17",
+  "enunciado":" Com relação à ergonomia no trabalho, julgue os itens a seguir.\n A ergonomia tem como objetivo a compreensão da natureza do trabalho desenvolvido pelos funcionários e, a partir desse entendimento, a conciliação entre eficiência da produção e preservação da saúde do trabalhador, diferentemente da organização científica do trabalho, que busca apenas a eficiência da produção, sem preocupações com a saúde do trabalhador. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – ERRADO. Tanto a organização científica d o trabalho quanto a ergonomia buscavam conciliar a eficiência d a produção com a saúde do trabalhador, apesar de a primeira não ter sido bem-sucedida nos seus objetivos.”"
+},
+{
+  "id":382,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR17",
+  "enunciado":"Com relação à ergonomia no trabalho, julgue os itens a seguir.\n Todo trabalhador designado, ainda que eventualmente, para o transporte manual de c argas moderadas ou pesadas deve receber treinamento ou instruções satisfatórias quanto aos métodos de trabalho que deverá utilizar, com vistas a salvaguardar sua saúde e prevenir acidentes. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – CERTO. O transporte manual regular de cargas designa t oda atividade re alizada de m aneira ininterrupta ou q ue inclua, m esmo de form a de scontínua, o t ransporte m anual de cargas. Assim, todo trabalhador designado para o transporte manual regular de c argas, que nã o as l eves, d eve r eceber treinamento o u instruções satisfatórias quanto aos métodos de trabalho que deverá utilizar, com vistas a salvaguardar sua saúde e prevenir acidentes.”"
+},
+{
+  "id":383,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR17",
+  "enunciado":"Com relação à ergonomia no trabalho, julgue os itens a seguir.\n Cabe ao em pregador realizar a análise ergonômica do trabalho para avaliar a adaptação dos trabalhadores às características dos postos de trabalho. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – ERRADO. Ca be ao empregador r ealizar a análise er gonômica d o t rabalho p ara av aliar a ad aptação das condições de t rabalho, c onforme es tabelecido em n orma regulamentadora, à s c aracterísticas ps icofisiológicas do s trabalhadores, e não a adaptação dos trabalhadores às características dos postos de trabalho.”"
+},
+{
+  "id":384,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR17",
+  "enunciado":"Com relação à ergonomia no trabalho, julgue os itens a seguir.\n A avaliação da organização do trabalho deve ser realizada pela psicologia organizacional, por meio de laudo específico, ao passo que aspectos relacionados a levantamento, transporte e descarga de materiais e a mobiliário, equipamentos e condições ambientais do posto de trabalho devem ser abordados por meio de laudo ergonômico. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – ERRADO. As condições de trabalho incluem a própria organização do trabalho, e, portanto, essa última deve ser abordada também por meio de laudo ergonômico, e não de laudo específico produzido pela psicologia organizacional.”"
+},
+{
+  "id":385,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR17",
+  "enunciado":"Com relação à ergonomia no trabalho, julgue os itens a seguir.\n Situação hipotética: João, durante o exercício do seu trabalho como gari, fraturou um dos seus membros inferiores ao cair do caminhão coletor de lixo. Em razão das lesões sofridas pelo trabalhador por consequência do acidente, a junta médica concedeu-lhe 30 dias de afastamento do trabalho para tratamento. Assertiva: Nessa situação, decorrido o período de afastamento, o gestor imediato de João não poderá exigir que este exerça suas atividades de forma plena, mesmo que haja laudo médico que o ateste apto para o retorno às suas atividades profissionais. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – CERTO. Nas atividades que exijam sobrecarga muscular estática ou dinâmica do pescoço, ombros, dorso e membros superiores e inferiores, a partir da análise ergonômica, em situações nas quais envolvam o retorno ao trabalho após qualquer tipo de afastamento, seja igual ou superior a 15 (quinze) dias, o regresso às atividades deverá ser feito de forma gradativa, até que se atinja os níveis de produção vigentes na época anterior ao afastamento.”"
+},
+{
+  "id":386,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR6",
+  "enunciado":" Com relação aos equipamentos de proteção, à CIPA e ao SESMT, julgue os itens subsequentes.\n Comprovada a inviabilidade técnica de determinada empresa para a adoção de medidas de proteção coletiva, a primeira providência a ser adotada pela empresa deverá ser a indicação de EPI. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. Caso o empregador ou a instituição comprove que haja inviabilidade técnica para a adoção de medidas de prot eção c oletiva, ou qua ndo e ssas nã o fore m s uficientes, ou mesmo s e encontrarem e m fa se de e studo, pl anejamento ou implantação, o u ai nda em c aráter co mplementar o u em ergencial, deverão s er adotadas out ras m edidas, obe decendo-se à s eguinte hierarquia: (i) medidas de caráter administrativo ou de organização do t rabalho; e (i i) ut ilização de e quipamentos de prot eção individual (EPI).”"
+},
+{
+  "id":387,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR4",
+  "enunciado":"Com relação aos equipamentos de proteção, à CIPA e ao SESMT, julgue os itens subsequentes.\n Em empresas que tenham SESMT, é de competência exclusiva do engenheiro de segurança do trabalho (ou do técnico de segurança do trabalho) a indicação, ao empregador, de EPI adequado ao risco existente em determinada atividade, ouvidos os trabalhadores usuários e a CIPA. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. Compete a o Serviço E specializado em Engenharia de Segurança e em Medicina do Trabalho (SESMT), e nã o a o e ngenheiro de segurança do t rabalho ou t écnico d e segurança do trabalho, recomendar ao empregador o EPI adequado ao risco e xistente em de terminada a tividade, ouvi da, pa ra t anto, a Comissão I nterna de P revenção de A cidentes (C IPA) e os trabalhadores usuários.”"
+},
+{
+  "id":388,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR6",
+  "enunciado":" Com relação aos equipamentos de proteção, à CIPA e ao SESMT, julgue os itens subsequentes.\n Nas empresas cujo ambiente de trabalho apresente riscos químicos e físicos, poderá ser indicado um equipamento conjugado de proteção individual, que resguarda o trabalhador contra riscos que possam ocorrer simultaneamente. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – CERTO. N as em presas cujo am biente de trabalho a presente ri scos d iversos, pode rá ser i ndicado u m equipamento conjugado de proteção individual. Esse equipamento é composto por vários di spositivos os qua is o fa bricante t enha associado c ontra um ou mais ri scos que possam oc orrer, simultaneamente, e que sejam suscetíveis de ameaçar a segurança e a saúde no trabalho.”"
+},
+{
+  "id":389,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR4",
+  "enunciado":" Com relação aos equipamentos de proteção, à CIPA e ao SESMT, julgue os itens subsequentes.\n Nas empresas que tenham SESMT, deve-se realizar treinamento individual dos trabalhadores para o correto uso de EPIs, acerca dos procedimentos que assegurem a sua eficiência e a informação sobre as eventuais limitações de proteção que ofereçam. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – ERRADO. A implantação de medidas de caráter coletivo, e não individual, deverá ser acompanhada de treinamento dos trabalhadores quanto os procedimentos que assegurem a sua eficiência e a informação sobre as eventuais limitações de proteção que ofereçam.”"
+},
+{
+  "id":390,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR5",
+  "enunciado":" Tendo em vista que a prevenção é um dos alicerces na manutenção da saúde e segurança do trabalhador, julgue os itens que se seguem. \n A obrigatoriedade d e s e constituir o SESMT e a C IPA em uma empresa de pende do número de trabalhadores e d o dimensionamento do grau de risco dessa empresa. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – ERRADO. A constituição da CIPA é baseada em agrupamento de setores econômicos pela Classificação Nacional de A tividades E conômicas – CNAE. Nesse se ntido, a C IPA se rá composta por re presentantes do e mpregador e dos empregados, de acordo c om o di mensionamento pre visto no Q uadro I da N R 5, ressalvadas as alterações d isciplinadas em at os n ormativos p ara setores econômicos específicos.”"
+},
+{
+  "id":391,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR7",
+  "enunciado":" Tendo em vista que a prevenção é um dos alicerces na manutenção da saúde e segurança do trabalhador, julgue os itens que se seguem. \n Todas as  empresas são obrigadas a elaborar PCMSO, que deverá ter caráter de prevenção, rastreamento e diagnóstico precoce dos agravos à saúde relacionados ao trabalho, apesar de haver exceções para a obrigatoriedade de indicação de um coordenador para esse programa. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – CERTO. O PCMSO deverá ter caráter de prevenção, rastreamento e diagnóstico precoce dos agravos à saúde relacionados ao trabalho, inclusive de natureza subclínica, além da constatação da existência de casos de doenças profissionais ou danos irreversíveis à saúde dos trabalhadores. Nesse sentido, compete ao empregador garantir a elaboração e efetiva implementação do PCMSO, bem como zelar pela sua eficácia. Além disso, fica desobrigada de indicar um médico coordenador empresas de grau de risco 1 e 2, com até 25 (vinte e cinto) empregados, e aquelas de grau de risco 3 e 4, com até 10(dez) empregados, segundo a NR 4.”"
+},
+{
+  "id":392,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR7",
+  "enunciado":" Tendo em vista que a prevenção é um dos alicerces na manutenção da saúde e segurança do trabalhador, julgue os itens que se seguem. \n Trabalhadores que exercem atividades em manutenção de esgotos, segundo o PCMSO, de verão ser submetidos a dosagens periódicas de ácido 2 -Tio-Tiazolidina na urina, para avaliar a intoxicação pelo agente químico dissulfeto de carbono. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – ERRADO. É o gás sulfídrico, c om característico do odor de ovo podre (enxofre) pelo resultado da decomposição de matéria orgânica, o agente de intoxicação em trabalhadores que exercem atividades em manutenção de esgotos, e não o dissulfeto de carbono. O gás sulfídrico age direto sobre o centro respiratório e inibe o sistema citocromo oxidase diminuindo a utilização de O2 pelos tecidos e fazendo com que ocorra elevação da P O2 no sangue venoso. Já o dissulfeto de carbono, resultado da vulcanização da borracha, é um potente neurotóxico, podendo causar um quadro irreversível de parestesias, doença de Parkinson, quadros psicóticos e suicídios.”"
+},
+{
+  "id":393,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR7",
+  "enunciado":"Tendo em vista que a prevenção é um dos alicerces na manutenção da saúde e segurança do trabalhador, julgue os itens que se seguem. \n De acordo com as determinações do PCMSO, todo estabelecimento deverá estar equipado com material necessário à prestação dos primeiros socorros aos trabalhadores, considerando-se as características da atividade desenvolvida, devendo esse material permanecer aos cuidados de profissional formado em qualquer curso superior de saúde reconhecido pelo Ministério da Educação. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO – De acordo com as determinações do PCMSO, o material necessário à prestação dos primeiros socorros aos trabalhadores deverá estar aos cuidados de uma pessoa treinada para esse fim.”"
+},
+{
+  "id":394,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR7",
+  "enunciado":"Tendo em vista que a prevenção é um dos alicerces na manutenção da saúde e segurança do trabalhador, julgue os itens que se seguem. \n No PCMSO de uma empresa deverão constar propostas de ações de saúde também relacionadas ao alcoolismo, com vistas à relação entre a saúde dos seus empregados e o trabalho. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA – CERTO. O PCMSO deverá considerar as questões incidentes sobre o indivíduo e a coletividade de trabalhadores, privilegiando o instrumental clínico-epidemiológico na abordagem da relação entre sua saúde e o trabalho. Nesse sentido, existe uma dimensão histórica e cultural concernente ao uso maior de bebida alcoólica em determinadas ocupações; desde atividades socialmente desprestigiadas, como as que o trabalhador tenha contato com cadáveres, esgotos ou lixo, por exemplo; até atividades nas quais a tensão é constante e elevada, em trabalhos perigosos, com grande densidade de atividade mental associada, trabalho monótono ou entediante, isolamento ou afastamento prolongado do lar, por exemplo.”"
+},
+{
+  "id":395,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Ambiental",
+  "enunciado":"Acerca de processos industriais e produção de resíduos sólidos e líquidos, julgue os itens subsequentes. \n No caso de danos ambientais constatados por derramamento dos resíduos, apenas a empresa como pessoa jurídica poderá ser responsabilizada administrativa, civil e penalmente. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. Com base na Lei n.º 9.605/1998. Art. 2 º Quem, de qualquer forma, concorre para a prática dos crimes previstos nesta Lei, incide nas penas a estes cominadas, na medida da sua culpabilidade, bem como o diretor, o administrador, o membro de conselho e de órgão técnico, o auditor, o gerente, o preposto ou mandatário de pessoa jurídica, que, sabendo da conduta criminosa de outrem, deixar de impedir a sua prática, quando podia agir para evitá-la. Art. 3 º As pessoas jurídicas serão responsabilizadas administrativa, civil e penalmente conforme o disposto nesta Lei, nos casos em que a infração seja cometida por decisão de seu representante legal ou contratual, ou de seu órgão colegiado, no interesse ou benefício da sua entidade. Parágrafo único. A responsabilidade das pessoas jurídicas não exclui a das pessoas físicas, autoras, co-autoras ou partícipes do mesmo fato.”"
+},
+{
+  "id":396,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Ambiental",
+  "enunciado":"Acerca de processos industriais e produção de resíduos sólidos e líquidos, julgue os itens subsequentes. \n Situação hipotética: Uma empresa ampliou sua produção e, consequentemente, sobrecarregou o sistema de bombeamento de resíduos industriais até o rompimento de parte dos dutos. Assertiva: Nessa situação, o rompimento dos dutos pode ser classificado como uma fatalidade. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. Acidente: acontecimento indesejado, inesperado. Fatalidade: Acontecimento imprevisível, inevitável, como que marcado pelo destino ou fado; sina, ventura. O rompimento dos dutos, motivado por sobrecarga, poderia ser totalmente evitado. Algo previsível, nunca uma fatalidade.”"
+},
+{
+  "id":397,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Ambiental",
+  "enunciado":" Acerca de processos industriais e produção de resíduos sólidos e líquidos, julgue os itens subsequentes. \n Situação h ipotética: Os r esíduos i ndustriais g erados por uma e mpresa at ingiram a v egetação e o s có rregos d as proximidades, o que causou danos graves ao meio ambiente. Assertiva: Nessa situação, houve poluição ambiental. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. Lei n.º 6.938/1981. Art 3º - Para os fins previstos nesta Lei, entende-se por: I - meio ambiente, o conjunto de condições, leis, influências e interações de ordem física, química e biológica, que permite, abriga e rege a vida em todas as suas formas; II - degradação d a qualidade ambiental, a alteração ad versa d as características do meio ambiente; III - poluição, a de gradação da qualidade ambiental resultante de atividades que direta ou indiretamente: a) prejudiquem a saúde, a segurança e o bem-estar da população; b) criem condições adversas às atividades sociais e econômicas; c) afetem desfavoravelmente a biota; d) afetem as condições estéticas ou sanitárias do meio ambiente; e) lancem matérias ou energia e m desacordo c om os padrões ambientais estabelecidos;”"
+},
+{
+  "id":398,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Ambiental",
+  "enunciado":" Acerca de processos industriais e produção de resíduos sólidos e líquidos, julgue os itens subsequentes. \n Situação hipotética: Determinada empresa gerou resíduos industriais e, inadvertidamente, causou danos ao meio ambiente. Assertiva: Nessa situação, a empresa será obrigada a recuperar e(ou) indenizar os danos causados. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. Lei n.º 6.938/1981\n Art 4º - A Política Nacional do Meio Ambiente visará:\n VII - à imposição, ao poluidor e a o predador, da obrigação de recuperar e (ou) indenizar os danos causados e, ao usuário, da contribuição pela utilização de recursos ambientais com fins econômicos.”"
+},
+{
+  "id":399,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR23",
+  "enunciado":"Um incêndio em uma garagem atingiu nove veículos. De acordo com a perícia, o fogo iniciou-se na cabine de um caminhão, cujo tanque de combustível derreteu e fez que o óleo diesel vazasse, propagando o fogo. Várias explosões ocorreram devido ao fato de que alguns tanques dos veículos estavam cheios. O corpo de bombeiros mobilizou cinco viaturas com água pressurizada e vinte homens para apagar o fogo durante duas horas. Os três empregados da garagem, que observaram o fogo desde o seu início, escaparam ilesos, apesar de terem informado que nunca haviam sido treinados a utilizar os extintores de incêndio.\n Considerando o texto precedente e os vários aspectos a ele relacionados, julgue os itens que se seguem.\n O fogo propagado no óleo diesel é identificado como d e classe A. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. Incêndio classe A: fogos em sólidos de m aneira geral que deixam cinzas (madeiras, papel, tecidos). Combate-se por resfriamento (água).”"
+},
+{
+  "id":400,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR20",
+  "enunciado":"Um incêndio em uma garagem atingiu nove veículos. De acordo com a perícia, o fogo iniciou-se na cabine de um caminhão, cujo tanque de combustível derreteu e fez que o óleo diesel vazasse, propagando o fogo. Várias explosões ocorreram devido ao fato de que alguns tanques dos veículos estavam cheios. O corpo de bombeiros mobilizou cinco viaturas com água pressurizada e vinte homens para apagar o fogo durante duas horas. Os três empregados da garagem, que observaram o fogo desde o seu início, escaparam ilesos, apesar de terem informado que nunca haviam sido treinados a utilizar os extintores de incêndio.\n Considerando o texto precedente e os vários aspectos a ele relacionados, julgue os itens que se seguem.\n As explosões foram provocadas pela violenta dilatação dos gases confinados nos tanques. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “.”"
+},
+{
+  "id":40,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR23",
+  "enunciado":"Um incêndio em uma garagem atingiu nove veículos. De acordo com a perícia, o fogo iniciou-se na cabine de um caminhão, cujo tanque de combustível derreteu e fez que o óleo diesel vazasse, propagando o fogo. Várias explosões ocorreram devido ao fato de que alguns tanques dos veículos estavam cheios. O corpo de bombeiros mobilizou cinco viaturas com água pressurizada e vinte homens para apagar o fogo durante duas horas. Os três empregados da garagem, que observaram o fogo desde o seu início, escaparam ilesos, apesar de terem informado que nunca haviam sido treinados a utilizar os extintores de incêndio.\n Considerando o texto precedente e os vários aspectos a ele relacionados, julgue os itens que se seguem.\n A água utilizada pelos bombeiros impediu que os combustíveis gerassem gases ou vapores inflamáveis. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. Extinção por retirada do calor (resfriamento). Este método consiste na diminuição da temperatura e eliminação do calor, até que o combustível não gere mais gases ou vapores e se apague.”"
+},
+{
+  "id":402,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR23",
+  "enunciado":"Um incêndio em uma garagem atingiu nove veículos. De acordo com a perícia, o fogo iniciou-se na cabine de um caminhão, cujo tanque de combustível derreteu e fez que o óleo diesel vazasse, propagando o fogo. Várias explosões ocorreram devido ao fato de que alguns tanques dos veículos estavam cheios. O corpo de bombeiros mobilizou cinco viaturas com água pressurizada e vinte homens para apagar o fogo durante duas horas. Os três empregados da garagem, que observaram o fogo desde o seu início, escaparam ilesos, apesar de terem informado que nunca haviam sido treinados a utilizar os extintores de incêndio.\n Considerando o texto precedente e os vários aspectos a ele relacionados, julgue os itens que se seguem.\n Com base na declaração dos empregados, é co rreto afirmar que o empregador n ão atendeu às p rescrições d a N orma Regulamentadora 23 (NR 23). ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. NR 23. 1.1 O empregador deve providenciar para todos os trabalhadores informações sobre:\n a) utilização dos equipamentos de combate a o incêndio;\n b) procedimentos para evacuação dos locais de trabalho com segurança; \n c) dispositivos de alarme existentes.”"
+},
+{
+  "id":403,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR20",
+  "enunciado":"Um incêndio em uma garagem atingiu nove veículos. De acordo com a perícia, o fogo iniciou-se na cabine de um caminhão, cujo tanque de combustível derreteu e fez que o óleo diesel vazasse, propagando o fogo. Várias explosões ocorreram devido ao fato de que alguns tanques dos veículos estavam cheios. O corpo de bombeiros mobilizou cinco viaturas com água pressurizada e vinte homens para apagar o fogo durante duas horas. Os três empregados da garagem, que observaram o fogo desde o seu início, escaparam ilesos, apesar de terem informado que nunca haviam sido treinados a utilizar os extintores de incêndio.\n Considerando o texto precedente e os vários aspectos a ele relacionados, julgue os itens que se seguem.\n Os veículos foram incendiados por terem atingido ponto de fulgor. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. Se os nove veículos pegaram fogo e o fogo se manteve, então o combustível (9 veículos) atingiu o ponto de combustão. O ponto de fulgor não mantém o fogo (ao se retirar o calor fonte).”"
+},
+{
+  "id":404,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR12",
+  "enunciado":"A respeito de prevenção e controle de riscos em máquinas, equipamentos e instalações, julgue os itens subsecutivos.\n As medidas de proteção para garantir a saúde e a integridade física dos trabalhadores não se aplicam aos equipamentos classificados como eletrodomésticos. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. N R 12. 1 Esta Norma Regulamentadora e seus anexos definem referências técnicas, princípios fundamentais e medidas de proteção para garantir a saúde e a integridade física dos trabalhadores e estabelece requisitos mínimos para a prevenção de acidentes e doenças do trabalho nas fases de projeto e de utilização de máquinas e equipamentos de todos os tipos, e a inda à sua fabricação, importação, comercialização, exposição e cessão a qualquer título, em todas as atividades econômicas, sem prejuízo da observância do disposto nas demais Normas Regulamentadoras - NR a provadas pela Portaria n.º 3.214, de 8 de junho de 1978, nas normas técnicas oficiais e, na ausência ou omissão destas, nas normas internacionais aplicáveis.\n NR 12. 2 As disposições desta Norma referem-se a máquinas e equipamentos novos e usados, exceto nos itens em que houver menção específica quanto à sua aplicabilidade.\n NR 12.2B Esta norma não se aplica às máquinas e equipamentos: (Item e alíneas inseridos pela Portaria MTE n.º 857, de 25/06/2015) c) classificados como eletrodomésticos.”"
+},
+{
+  "id":405,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR12",
+  "enunciado":"A respeito de prevenção e controle de riscos em máquinas, equipamentos e instalações, julgue os itens subsecutivos.\n Situação hipotética. Uma indústria instalou uma motobomba elétrica submersa em um reservatório de água para abastecimento do processo industrial. Assertiva: Nessa situação, para cumprimento da legislação quanto à prevenção de acidentes, a motobomba deve ter estanqueidade e isolamento, sem a obrigatoriedade de possuir aterramento elétrico, uma vez que o equipamento opera em meio aquoso. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. NR 12.16 As instalações elétricas das máquinas e equipamentos que estejam ou possam estar em contato direto ou indireto com água ou agentes corrosivos devem ser projetadas com meios e dispositivos que garantam sua blindagem, estanqueidade, isolamento e aterramento, de modo a prevenir a ocorrência de acidentes.”"
+},
+{
+  "id":406,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR12",
+  "enunciado":"A respeito de prevenção e controle de riscos em máquinas, equipamentos e instalações, julgue os itens subsecutivos.\n As medidas de proteção para o trabalho em máquinas e equipamentos, cap azes de garantir a saúde e a integridade física dos trabalhadores, devem ser adotadas pelo empregador na seguinte ordem de prioridade: medidas de proteção individual, medidas de proteção coletiva e medidas administrativas relacionadas à organização do trabalho. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. NR 12.3 O empregador deve adotar medidas de proteção para o trabalho em máquinas e equipamentos, capazes de garantir a saúde e a integridade física dos trabalhadores, e medidas apropriadas sempre que houver pessoas com deficiência envolvidas direta ou indiretamente no trabalho.\n NR 12. 4 São consideradas medidas de proteção, a ser adotadas nessa ordem de prioridade: a) medidas de proteção coletiva; b) medidas administrativas ou de organização do trabalho; e c) medidas de proteção individual.”"
+},
+{
+  "id":407,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR12",
+  "enunciado":"A respeito de prevenção e controle de riscos em máquinas, equipamentos e instalações, julgue os itens subsecutivos.\n Visando à segurança das instalações elétricas, deve-se definir no projeto de configuração do esquema de aterramento, a obrigatoriedade, ou a não obrigatoriedade, da interligação entre o condutor neutro e o de proteção. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. N R 10. 3.4 O projeto deve definir a configuração do esquema de aterramento, a obrigatoriedade ou não da interligação entre o condutor neutro e o de proteção e a conexão à terra das partes condutoras não destinadas à condução da eletricidade.”"
+},
+{
+  "id":408,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR33",
+  "enunciado":"A respeito de prevenção e controle de riscos em máquinas, equipamentos e instalações, julgue os itens subsecutivos.\n Para a proteção dos empregados em serviços de instalações elétricas, as vestimentas de trabalho devem ser adequadas às atividades, contemplando-se os seguintes aspectos: condutibilidade, inflamabilidade e influências eletromagnéticas. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. NR 10. 2.9.2 As vestimentas de trabalho devem ser adequadas às atividades, devendo-se contemplar a condutibilidade, inflamabilidade e influências eletromagnéticas.”"
+},
+{
+  "id":409,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR33",
+  "enunciado":"A respeito de ventilação industrial, julgue os próximos itens.\n A ventilação é necessária para manter a percentagem mínima de elementos contaminantes, e também para evitar problemas de inflamabilidade e explosão bem como tensões nos empregados. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. A ventilação tem como finalidade manter a percentagem mínima de elementos contaminantes ( gases, vapores, odores) evitando-se, também, problemas de inflamabilidade e explosão e tensões nos empregados.”"
+},
+{
+  "id":410,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR33",
+  "enunciado":"A respeito de ventilação industrial, julgue os próximos itens.\n  Em um sistema de ventilação à exaustão, caso o volume de ar exaurido seja maior que o correspondente a o suprido, o ambiente revelará uma pressão positiva em relação a o ambiente externo. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. Em sistema de ventilação à exaustão, se o volume de ar exaurido for maior que o correspondente ao suprido, o ambiente revelará um a pressão negativa e inversa, resultando, conveniente no caso de utilização para manutenção dos níveis apropriados de limpeza do ar, conservar uma pressão negativa.”"
+},
+{
+  "id":411,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "NR33",
+  "enunciado":"A respeito de ventilação industrial, julgue os próximos itens.\n  A má distribuição de ar, que afeta a qualidade do ar interior, pode ser causada por curto-circuito entre insuflação e exaustão.",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. Fatores que afetam a qualidade do ar interior: Ventilação inadequada, contaminação interior/exterior/biológica, má distribuição do ar, projeto inadequado etc.\n A má distribuição de ar: ar não chega a todos os pontos do ambiente. Caso típico de curto circuito entre insuflação e exaustão.”"
+},
+{
+  "id":412,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Análise de riscos",
+  "enunciado":"A ampliação do tanque de resíduos de esgotos domésticos de determinada empresa de limpeza urbana foi realizada por meio da instalação de novo quadro de distribuição de energia elétrica. Para a interligação do sistema novo com o antigo, foram necessárias diversas técnicas de análise para garantir a segurança contra acidentes e confiabilidade do sistema como um todo. A ampliação envolveu instalações elétricas, tubulações hidráulicas e impermeabilização do tanque.\n Considerando a situação hipotética precedente, julgue o item a seguir, acerca de aspectos relacionados à prevenção e controle de perdas.\n Se, antes da energização do novo quadro elétrico, os empregados envolvidos tiverem realizado treinamento de técnica de análise com os seguintes tópicos: revisão da tarefa, identificação dos riscos principais e contribuintes, revisão dos meios de eliminação e controle dos riscos, então eles realizaram a técnica de análise denominada análise de modos de falha e efeitos. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. A técnica de análise que envolve revisão da tarefa, identificação dos riscos principais e contribuintes, revisão dos meios de eliminação e controle dos riscos, entre outros tópicos, é denominada análise preliminar de riscos (APR) e não análise de modos de falha e efeitos.”"
+},
+{
+  "id":413,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Análise de riscos",
+  "enunciado":"Ainda com relação a técnicas de análise relativas à prevenção e controle de perdas, julgue os itens a seguir.\n Situação hipotética: O serviço de segurança do trabalho de determinada empresa e laborou questionários para entrevista de trabalhadores selecionados por meio de amostras estratificadas dos principais setores de produção da empresa. Esses trabalhadores serão os observadores-participantes, que deverão relatar, além das condições de riscos dos ambientes a que os trabalhadores estarão expostos, as ações comportamentais dos empregados nas respectivas áreas. Os relatos deverão ser classificados com vistas à elaboração de programa de prevenção de acidentes. Assertiva: Nessa situação, deve-se aplicar a técnica de análise denominada técnica de incidentes críticos. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. A técnica de incidentes críticos (TIC) é um método de análise para identificar erros e condições inseguras que contribuem para acidentes com lesão, tanto reais como potenciais, por meio de uma amostra aleatória estratificada de observadores-participantes selecionados dentro de um a população (dos principais departamentos da empresa).”"
+},
+{
+  "id":414,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Análise de riscos",
+  "enunciado":"Ainda com relação a técnicas de análise relativas à prevenção e controle de perdas, julgue os itens a seguir.\n A técnica de análise denominada série de riscos seleciona um evento indesejável de ocorrência. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. A técnica de análise que seleciona um evento indesejável de ocorrência é chamada análise de árvores de falhas (A AF) e não série de riscos. A A AF é uma técnica dedutiva para de terminação tanto das causas potenciais de acidentes como de falhas de sistemas. A série de riscos relaciona os eventos contribuintes e principais que motivaram o acidente.”"
+},
+{
+  "id":415,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Geral",
+  "enunciado":"A respeito de relacionamento humano e de necessidades básicas no ambiente profissional, julgue os itens a seguir.\n Da situação em que um empregado se confronta com diferentes expectativas relativas ao seu desempenho e às suas responsabilidades pode resultar o denominado conflito de papéis. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. O item está certo, pois o conflito de papéis ocorre quando há divergências em relação ao que é esperado das pessoas no trabalho.”"
+},
+{
+  "id":416,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Geral",
+  "enunciado":"A respeito de relacionamento humano e de necessidades básicas no ambiente profissional, julgue os itens a seguir.\n A necessidade básica de poder é comumente identificada em pessoas que demonstram o desejo de relacionamentos interpessoais próximos e amigáveis no ambiente de trabalho. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. O item está errado, pois a necessidade básica descrita refere-se à associação. A necessidade de poder se caracteriza por desejo de controlar o comportamento do outro.”"
+},
+{
+  "id":417,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Geral",
+  "enunciado":"A respeito de relacionamento humano e de necessidades básicas no ambiente profissional, julgue os itens a seguir.\n De acordo com a teoria da hierarquia das necessidades, a busca do empregado em se tornar aquilo que é capaz de ser ou para alcançar seu próprio potencial demonstra uma necessidade básica de autoestima. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. O item está errado, pois a busca de realização do próprio potencial refere-se à necessidade de autorrealizacão.”"
+},
+{
+  "id":418,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Geral",
+  "enunciado":"A respeito de relacionamento humano e de necessidades básicas no ambiente profissional, julgue os itens a seguir.\n No ambiente de trabalho, havendo relações interpessoais em contexto de status desigual, recomenda-se que os empregados envolvidos ajam conforme as normas e regras da organização, a fim de se evitar conflitos. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. O item está errado, pois a existência de status desigual faz com que haja conflitos interpessoais e inconformidades de comportamento, além de emoções negativas e baixa da motivação.”"
+},
+{
+  "id":419,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Geral",
+  "enunciado":"Com relação a comportamento humano no âmbito profissional, julgue os itens seguintes.\n  Qualquer mudança permanente de comportamento no trabalho que possa resultar em experiência é considerada aprendizagem, elemento central nas organizações. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. O item está certo, pois a aprendizagem é um dos elementos centrais do comportamento humano no trabalho ao permitir que as pessoas se adaptem e que realizem suas atribuições de forma consistente.”"
+},
+{
+  "id":420,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Geral",
+  "enunciado":"Com relação a comportamento humano no âmbito profissional, julgue os itens seguintes.\n Integridade e lealdade são valores e convicções básicas do comportamento do indivíduo que confia em seus colegas de trabalho e compartilha experiências e informações. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "A",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. O item está certo, pois demonstra como os valores de integridade e lealdade regulam o comportamento do empregado no trabalho.”"
+},
+{
+  "id":421,
+  "banca": "CESPE",
+  "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
+  "ano": 2019,
+  "assunto": "Geral",
+  "enunciado":"Com relação a comportamento humano no âmbito profissional, julgue os itens seguintes.\n Nas organizações, para controlar o comportamento de gestores e empregados são utilizados os esquemas de reforço, que também contribuem para a melhoria de desempenho no trabalho. ",
+  "alternativas":["(A) Certa","(B) Errada"],
+"resposta": "B",
+"observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - ERRADO. Os esquemas de reforço são utilizados como forma de motivar o bom comportamento nas organizações e manter o esforço e a persistência em níveis adequados no trabalho.”"
+}
+
+]

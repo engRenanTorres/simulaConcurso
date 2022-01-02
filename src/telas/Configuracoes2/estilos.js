@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import { Dimensions } from "react-native";
 import { cores } from "../../estilosGerais";
 
 export default (marcado) => StyleSheet.create({
@@ -27,27 +28,24 @@ export default (marcado) => StyleSheet.create({
       fontWeight: marcado? 'normal':'bold',
       borderColor: marcado? '#000' : cores.quaseBranco,
       borderWidth: 2,
-      borderRadius: 24,
+      borderRadius: 10,
       textAlign: 'center',
       color: marcado? '#000' : '#fff',
       backgroundColor: marcado? cores.quaseBranco : cores.azul,
-      justifyContent: 'center',
       marginTop: 10,
-      marginHorizontal: 84,
+      width: 100,
+      height:55,
       paddingVertical: 8,
     },
-    botoesAplicar:{
-      fontWeight: 'bold',
+    linha:{
+      width: Dimensions.get('window').width,
+      flexDirection:'row',
+      justifyContent: 'space-evenly'
+    },
+    quadroVariavel:{
+      textAlign:'center',
       borderColor: '#000',
-      borderWidth: 2,
-      borderRadius: 10,
-      textAlign: 'center',
-      color: '#fff' ,
-      shadowColor: '#000',
-      backgroundColor: cores.roxo,
       justifyContent: 'center',
-      marginTop: 10,
-      marginHorizontal: 84,
-      paddingVertical: 8,
-    }
+  }
+
 });

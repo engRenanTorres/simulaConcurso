@@ -4,7 +4,7 @@ import { TouchableOpacity, Text, View } from 'react-native';
 import BotaoMostraESome from '../../../componentes/BotaoMostraESome';
 import estilos from './estilos';
 
-export default function CabecalhoDaQuestao({indiceQuestao,totalDeQuestoes,acao, ano,banca, concurso,nivel,cargo}) {
+export default function CabecalhoDaQuestao({indiceQuestao,totalDeQuestoes,acao,id, ano,banca, concurso,nivel,cargo}) {
     const [mostraInformacoes,setMostraInformacoes] = useState(false);
     return (
     <View style={estilos.informacao}>
@@ -22,6 +22,7 @@ export default function CabecalhoDaQuestao({indiceQuestao,totalDeQuestoes,acao, 
             txtAtivo={"Esconder Informações"}
             txtDesativo={"Informações sobre a questão"}>
             <View>
+                <Text>id: {id}</Text>
                 <Text>Concurso: {concurso}</Text>
                 <Text>Banca: {banca}</Text>
                 <Text>Ano: {ano}</Text>

@@ -20,34 +20,30 @@ export default function Home() {
     const questoesCespe = require('../../dados/questoesCespe.json');
     const questoesCebraspe = require('../../dados/questoesCebraspe.json');
     let bancoDeQuestoes = [...questoesFgv,...questoesCespe,...questoesCebraspe];
-    const [qtdQuestoesDisponiveis, setQtdQuestoesDisponiveis] = useState(bancoDeQuestoes.length);
 
     return (
-        <TelaPadrao>
-            <Text h1 style={estilosGerais.titulosTela}> Tela Inicial </Text>
-            <View style={estilosGerais.divisor}/>
-            <View style={estilos.preencher}>
-                <Text> Quantidade de questões do Simulado: </Text>
+        <TelaPadrao >
+            <View>
+                <Text h1 style={estilosGerais.titulosTela}> Tela Inicial </Text>
+                <View style={estilosGerais.divisor}/>
+                <View style={estilos.preencher}>
+                    <Text> Quantidade de questões do Simulado: </Text>
+                </View>
+                <BotaoPassadorSimples 
+                    minimo={5}
+                    maximo={20}
+                    valor={quantidadeDeQuestoesPorVez}
+                    acao={setQuantidadeDeQuestoes}
+                    variacao={5}>
+                    {quantidadeDeQuestoesPorVez}
+                </BotaoPassadorSimples>
+                <Text style={{textAlign:'center'}}> Total de questões disponíveis: </Text>
+                <Text style={estilos.quadroVariavel}> {bancoDeQuestoes.length} </Text>
             </View>
-            <BotaoPassadorSimples 
-                minimo={5}
-                maximo={20}
-                valor={quantidadeDeQuestoesPorVez}
-                acao={setQuantidadeDeQuestoes}
-                variacao={5}>
-                {quantidadeDeQuestoesPorVez}
-            </BotaoPassadorSimples>
-            <Text style={{textAlign:'center'}}> Total de questões disponíveis: </Text>
-            <Text style={estilos.quadroVariavel}> {qtdQuestoesDisponiveis} </Text>
 
             <View style={estilosGerais.divisor}/>
-            
-            {/* <FiltroAssunto
-            bancoDeQuestoes={bancoDeQuestoes}
-            alteraBQuestoes={alteraBQuestoes}
-            atualizaQtd={setQtdQuestoesDisponiveis}/> */}
            
-            <View>
+            <View style={{marginTop:'25%'}}>
                 <TouchableOpacity onPress={()=>{navigation.push('Configuracoes1',{quantidadeDeQuestoesPorVez})}}>
                     <Text style={estilosGerais.botoesNavegacao}>Filtrar Questões</Text>
                 </TouchableOpacity>
@@ -64,6 +60,9 @@ export default function Home() {
                         }
                     }}>
                     <Text style={estilosGerais.botoesNavegacao}>Iniciar Simulado</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={()=> navigation.navigate('SobreOApp')}>
+                    <Text style={estilosGerais.botoesNavegacao}>Sobre o App</Text>
                 </TouchableOpacity>
             </View>
         </TelaPadrao>

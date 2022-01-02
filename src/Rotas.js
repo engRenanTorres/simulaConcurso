@@ -11,6 +11,7 @@ import Pontuacao from "./telas/Pontuacao";
 import Provider from "./provider";
 import Configuracoes1 from "./telas/Configuracoes1";
 import Configuracoes2 from "./telas/Configuracoes2";
+import SobreOApp from "./telas/SobreOApp";
 
 // const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -41,6 +42,10 @@ export default function Rotas() {
                 />
                 <Stack.Screen name="Configuracoes2"
                     component={Configuracoes2}
+                    options={{headerShown:false}}
+                />
+                <Stack.Screen name="SobreOApp"
+                    component={SobreOApp}
                     options={{headerShown:false}}
                 />
             </Stack.Navigator>
