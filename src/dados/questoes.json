@@ -21,7 +21,7 @@
         "(E)Lesão que não se manifesta imediatamente após a circunstância acidental da qual resultou."
           ],
           "resposta":"B",
-          "observacao":"Texto da NBR"
+          "observacao":"Texto da própia NBR"
         },
     {"id": 2,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP","ano":  2010,"assunto": "NR23",
         "enunciado": "Associe o tipo de extintor de incêndio (numerados na coluna da direita) à classe de fogo (na coluna da esquerda) na qual ele deve ser utilizado, segundo determina a NR-23. \n        Classe de fogo tipo de extintor \n               A                                    I- Espuma \n               B                                    II-Dióxido de Carbono \n               C                                    III-Químico Seco \n               D                                   IV- Água pressurizada ou Água-Gás \n        Assinale a alternativa que apresente somente associações corretas.",
@@ -43,7 +43,7 @@
         "(D)Se apenas as afirmativas II e IV forem corretas.",
         "(E)Se apenas as afirmativas I e III forem corretas."
         ],"resposta":"B",
-        "observacao":" A APR é qualitativa e a HAZOP trás análises quantitativas."
+        "observacao":"A APR é qualitativa e a HAZOP trás análises quantitativas."
     },
     {"id":4,"banca": "FGV","nivel": "superior", "cargo": "Engenharia","concurso" : "CODESP","ano":  2010,"assunto": "NR23",
         "enunciado": "O fenômeno conhecido como Boilover pode ser mais bem definido quando",

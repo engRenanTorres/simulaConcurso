@@ -153,7 +153,7 @@
 "resposta": "B",
 "observacao": ""
 },
-{"id":235,"banca": "CESPE","nivel": "superior", "cargo": "Engenharia", "concurso": "FUB", "ano": 2018,  "assunto": "NR23",
+{"id":235,"banca": "CESPE","nivel": "superior", "cargo": "Engenharia", "concurso": "FUB", "ano": 2018,  "assunto": "NR20",
   "enunciado":"Julgue os itens que se seguem, a respeito de aspectos relacionados ao combate ao incêndio.\n A combustibilidade de um material é definida em função da sua facilidade de desprender gases inflamáveis, enquanto inflamabilidade diz respeito à suscetibilidade desse material para vir a entrar em combustão.",
   "alternativas":[
 "(A) Certa",
@@ -163,7 +163,16 @@
 "observacao": ""
 },
 {"id":236,"banca": "CESPE","nivel": "superior", "cargo": "Engenharia", "concurso": "FUB", "ano": 2018,  "assunto": "NR23",
-  "enunciado":"Julgue os itens que se seguem, a respeito de aspectos relacionados ao combate ao incêndio.\n Para se extinguir o fogo, basta remover um de seus elementos constituintes — o combustível, o comburente, a fonte de calor ou a reação em cadeia. 78 Agente extintor é a substância utilizada para a extinção de fogo, ao passo que carga de extintor é a quantidade de agente extintor, medida em litro ou quilograma, contida no extintor de incêndio.",
+  "enunciado":"Julgue os itens que se seguem, a respeito de aspectos relacionados ao combate ao incêndio.\n Para se extinguir o fogo, basta remover um de seus elementos constituintes — o combustível, o comburente, a fonte de calor ou a reação em cadeia.",
+  "alternativas":[
+"(A) Certa",
+"(B) Errada"
+  ],
+"resposta": "A",
+"observacao": "Pelo tetraedro do fogo, sabemos que temos 4 meios de extinguir um incêndio:\n Resfriamento (Tirando o elemento calor);\n Abafamento (Retirando o comburente/oxigênio);\n Isolamento (Retirando/reduzindo o combustível); e\n extinção química (Retirando a reação em cadeia)"
+},
+{"id":236,"banca": "CESPE","nivel": "superior", "cargo": "Engenharia", "concurso": "FUB", "ano": 2018,  "assunto": "NR23",
+  "enunciado":"Julgue os itens que se seguem, a respeito de aspectos relacionados ao combate ao incêndio.\n Agente extintor é a substância utilizada para a extinção de fogo, ao passo que carga de extintor é a quantidade de agente extintor, medida em litro ou quilograma, contida no extintor de incêndio.",
   "alternativas":[
 "(A) Certa",
 "(B) Errada"
@@ -177,8 +186,8 @@
 "(A) Certa",
 "(B) Errada"
   ],
-"resposta": "A",
-"observacao": ""
+"resposta": "B",
+"observacao": "Sempre desconfie de questões com termos muito limitantes como \"esclusiva\"."
 },
 {"id":238,"banca": "CESPE","nivel": "superior", "cargo": "Engenharia", "concurso": "FUB", "ano": 2018,  "assunto": "NR23",
   "enunciado":"Julgue os itens que se seguem, a respeito de aspectos relacionados ao combate ao incêndio.\n Classifica-se como incêndio do tipo B o fogo em combustíveis sólidos.",
@@ -187,7 +196,7 @@
 "(B) Errada"
   ],
 "resposta": "B",
-"observacao": ""
+"observacao": "Classe A = Materiais combustíveis sólidos (Extintor mais recomendado Água Pressurizada-AP pois resfria e abafa), \n Classe B = Materiais combustíveis líquidos (Extintor mais recomendado Espuma pois abafa o fogo fazendo uma camada entre o líquido e o ar), \n Classe C = Ignição elétrica (Extintor mais recomendado é o de CO2 pois retira o comburuente/oxigênio sem muitos danos aos equipamentos), \n Classe D = Metais Pirofóricos (Extintor mais recomendado é o de pó químico)."
 },
 {"id":239,"banca": "CESPE","nivel": "superior", "cargo": "Engenharia", "concurso": "FUB", "ano": 2018,  "assunto": "NR15",
   "enunciado":"A respeito de aspectos relacionados à segurança do trabalho, julgue os seguintes itens.\n Fará jus a adicional de insalubridade o trabalhador que, durante dois ou mais períodos de sua jornada de trabalho, ficar exposto a ruídos de diferentes níveis que excedam os padrões de tolerância estabelecidos.",
@@ -1054,7 +1063,7 @@
   "nivel": "superior", "cargo": "Engenharia", "concurso": "SLUDF",
   "ano": 2019,
   "assunto": "NR23",
-  "enunciado":"Um incêndio em uma garagem atingiu nove veículos. De acordo com a perícia, o fogo iniciou-se na cabine de um caminhão, cujo tanque de combustível derreteu e fez que o óleo diesel vazasse, propagando o fogo. Várias explosões ocorreram devido ao fato de que alguns tanques dos veículos estavam cheios. O corpo de bombeiros mobilizou cinco viaturas com água pressurizada e vinte homens para apagar o fogo durante duas horas. Os três empregados da garagem, que observaram o fogo desde o seu início, escaparam ilesos, apesar de terem informado que nunca haviam sido treinados a utilizar os extintores de incêndio.\n Considerando o texto precedente e os vários aspectos a ele relacionados, julgue os itens que se seguem.\n Com base na declaração dos empregados, é co rreto afirmar que o empregador n ão atendeu às p rescrições d a N orma Regulamentadora 23 (NR 23). ",
+  "enunciado":"Um incêndio em uma garagem atingiu nove veículos. De acordo com a perícia, o fogo iniciou-se na cabine de um caminhão, cujo tanque de combustível derreteu e fez que o óleo diesel vazasse, propagando o fogo. Várias explosões ocorreram devido ao fato de que alguns tanques dos veículos estavam cheios. O corpo de bombeiros mobilizou cinco viaturas com água pressurizada e vinte homens para apagar o fogo durante duas horas. Os três empregados da garagem, que observaram o fogo desde o seu início, escaparam ilesos, apesar de terem informado que nunca haviam sido treinados a utilizar os extintores de incêndio.\n Considerando o texto precedente e os vários aspectos a ele relacionados, julgue os itens que se seguem.\n Com base na declaração dos empregados, é correto afirmar que o empregador não atendeu às prescrições da Norma Regulamentadora 23 (NR 23). ",
   "alternativas":["(A) Certa","(B) Errada"],
 "resposta": "A",
 "observacao": "Esta prova teve justificativas disponibilizas pela própria CESPE:\n “JUSTIFICATIVA - CERTO. NR 23. 1.1 O empregador deve providenciar para todos os trabalhadores informações sobre:\n a) utilização dos equipamentos de combate a o incêndio;\n b) procedimentos para evacuação dos locais de trabalho com segurança; \n c) dispositivos de alarme existentes.”"

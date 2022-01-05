@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Simulaconc",
-    "slug": "simulaconc",
-    "version": "1.0.0",
+    "name": "sesmc",
+    "slug": "sesmc",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon2.png",
     "splash": {
       "image": "./assets/splash2.png",
       "resizeMode": "contain",
-      "backgroundColor": "#fff"
+      "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,10 +20,16 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode":2,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#efefef"
-      }
+        "foregroundImage": "./assets/icon2.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions":["INTERNET","SYSTEM_ALERT_WINDOW","WAKE_LOCK","MANAGE_DOCUMENTS","READ_INTERNAL_STORAGE","READ_PHONE_STATE","USE_FINGERPRINT","INSTALL_SHORTCUT","VIBRATE","READ_EXTERNAL_STORAGE","WRITE_EXTERNAL_STORAGE","WRITE_SETTINGS"],
+      "package": "com.engrenantorres.sesmc"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }

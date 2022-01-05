@@ -121,12 +121,12 @@
   {"id":322,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR23",
     "enunciado": "Considere que tenha ocorrido um incêndio em um depósito de madeiras de certa fábrica de móveis, o qual contém duas saídas de emergência, e que o corpo de bombeiros local tenha sido acionado para combater o incêndio.\n Nessa situação hipotética, julgue os itens subsecutivos.\n O incêndio que envolve madeira está classificado como incêndio de classe B. ",
     "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
-    "observacao":""
+    "observacao":"Classe A = Materiais combustíveis sólidos (Extintor mais recomendado Água Pressurizada-AP pois resfria e abafa), \n Classe B = Materiais combustíveis líquidos (Extintor mais recomendado Espuma pois abafa o fogo fazendo uma camada entre o líquido e o ar), \n Classe C = Ignição elétrica (Extintor mais recomendado é o de CO2 pois retira o comburuente/oxigênio sem muitos danos aos equipamentos), \n Classe D = Metais Pirofóricos (Extintor mais recomendado é o de pó químico)."
   },
   {"id":323,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR23",
     "enunciado": "Considere que tenha ocorrido um incêndio em um depósito de madeiras de certa fábrica de móveis, o qual contém duas saídas de emergência, e que o corpo de bombeiros local tenha sido acionado para combater o incêndio.\n Nessa situação hipotética, julgue os itens subsecutivos.\n O corpo de bombeiros, ao usar a água no combate ao incêndio, está empregando o método de resfriamento. ",
     "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
-    "observacao":""
+    "observacao":"Pelo tetraedro do fogo, sabemos que temos 4 meios de extinguir um incêndio:\n Resfriamento (Tirando o elemento calor);\n Abafamento (Retirando o comburente/oxigênio);\n Isolamento (Retirando/reduzindo o combustível); e\n extinção química (Retirando a reação em cadeia)"
   },
   {"id":324,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR23",
     "enunciado": "Considere que tenha ocorrido um incêndio em um depósito de madeiras de certa fábrica de móveis, o qual contém duas saídas de emergência, e que o corpo de bombeiros local tenha sido acionado para combater o incêndio.\n Nessa situação hipotética, julgue os itens subsecutivos.\n O comburente, nesse incêndio, foi a madeira. ",
@@ -140,7 +140,7 @@
   },
   {"id":326,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR23",
     "enunciado": "Considere que tenha ocorrido um incêndio em um depósito de madeiras de certa fábrica de móveis, o qual contém duas saídas de emergência, e que o corpo de bombeiros local tenha sido acionado para combater o incêndio.\n Nessa situação hipotética, julgue os itens subsecutivos.\n evitar furtos e roubos, a fábrica de móveis pode manter fechada à chave as saídas de emergência durante a jornada de trabalho. ",
-    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"",
+    "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
     "observacao":""
   },
   {"id":327,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "NR9",
