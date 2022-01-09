@@ -1,13 +1,11 @@
 import React,{useState, useContext} from 'react';
 
 import { Text, View, TouchableOpacity, Alert,SafeAreaView,StatusBar,FlatList } from 'react-native';
-import TelaPadrao from '../../componentes/TelaPadrao';
 import estilos from './estilos';
 import estilosGerais from '../../estilosGerais';
 import { useNavigation } from '@react-navigation/native';
 import {DataContext} from '../../provider'
 import CriaNovaOrdenacao from '../../funcoesGerais/CriaNovaOrdenacao';
-import { ScrollView } from 'react-native-gesture-handler';
 
 export default function Configuracoes2({route}) {
 
@@ -32,40 +30,6 @@ export default function Configuracoes2({route}) {
     let qtdQuestoesTemporaria = bancoDeQuestoes.length;
     const [qtdQuestoesDisponiveis, setQtdQuestoesDisponiveis] = useState(qtdQuestoesTemporaria);
     const quantidadeDeQuestoesPorVez = route.params.quantidadeDeQuestoesPorVez;
-
-    const [geral,setGeral] = useState(false);
-    const [ambiental,setAmbiental] = useState(false);
-    const [legislacao,setLegislacao] = useState(false);
-    const [previdencia,setPrevidencia] = useState(false);
-    const [analiseDeAcidentes,setAnaliseDeAcidentes] = useState(false);    
-    const [investigacaoDeAcidentes,setinvestigacaoDeAcidentes] = useState(false);
-    const [analiseDeRiscos,setanaliseDeRiscos] = useState(false);
-    const [nR1,setNR1] = useState(false);
-    const [nR3,setNR3] = useState(false);
-    const [nR4,setNR4] = useState(false);
-    const [nR5,setNR5] = useState(false);
-    const [nR6,setNR6] = useState(false);
-    const [nR7,setNR7] = useState(false);
-    const [nR9,setNR9] = useState(false);
-    const [nR10,setNR10] = useState(false);
-    const [nR11,setNR11] = useState(false);
-    const [nR12,setNR12] = useState(false);
-    const [nR13,setNR13] = useState(false);
-    const [nR15,setNR15] = useState(false);
-    const [nR16,setNR16] = useState(false);
-    const [nR17,setNR17] = useState(false);
-    const [nR18,setNR18] = useState(false);
-    const [nR20,setNR20] = useState(false);
-    const [nR23,setNR23] = useState(false);
-    const [nR26,setNR26] = useState(false);
-    const [nR33,setNR33] = useState(false);
-    const [nR35,setNR35] = useState(false);
-    const [primeirosSocorros,setPrimeirosSocorros] = useState(false);
-    const [oIT,setOIT] = useState(false);
-
-    const todasMarcadas = (geral&&ambiental&&legislacao&&previdencia&&analiseDeAcidentes&&investigacaoDeAcidentes&&analiseDeRiscos);
-    const todasMarcadas2 = (nR1&&nR3&&nR4&&nR5&&nR6&&nR7&&nR9&&nR10&&nR11&&nR12&nR13&&nR15&&nR16&&nR17&nR18);
-    const todasMarcadas3 = (nR20&&nR23 &&nR26 &&nR33 &&nR35 &&primeirosSocorros&&oIT);
 
     const {setProvideBDFiltrado} = useContext(DataContext);
 
@@ -125,6 +89,8 @@ export default function Configuracoes2({route}) {
 
 
     return (
+        <SafeAreaView>
+            <StatusBar/>
         <FlatList
             ListHeaderComponent={() => <View>
             <Text h1 style={estilosGerais.titulosTela}> Opções de Temas </Text>
@@ -192,6 +158,7 @@ export default function Configuracoes2({route}) {
                 </TouchableOpacity>}
                 keyExtractor={(item) => item.id}
             />
+            </SafeAreaView>
         
     )
 }
