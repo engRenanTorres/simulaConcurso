@@ -2498,7 +2498,7 @@
   ],"resposta":"C",
     "observacao":""
   },
-  {"id":289,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "Acidentes",
+  {"id":289,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "Previdência",
     "enunciado": "Um trabalhador sofreu um acidente dentro da empresa em seu horário de trabalho, mas o acidente não foi classificado como acidente de trabalho.\n Diante do exposto, pode-se concluir que o acidente foi decorrente de",
     "alternativas":[
   "(A) agressão de um companheiro de serviço.",
@@ -2509,7 +2509,7 @@
     ],"resposta":"B",
     "observacao":"lei 8213: Art. 21. Equiparam-se também ao acidente do trabalho, para efeitos desta Lei:\n  I - o acidente ligado ao trabalho que, embora não tenha sido a causa única, haja contribuído diretamente para a morte do segurado, para redução ou perda da sua capacidade para o trabalho, ou produzido lesão que exija atenção médica para a sua recuperação;\n  II - o acidente sofrido pelo segurado no local e no horário do trabalho, em conseqüência de:\n  a) ato de agressão, sabotagem ou terrorismo praticado por terceiro ou companheiro de trabalho;\n  b) ofensa física intencional, inclusive de terceiro, por motivo de disputa relacionada ao trabalho;\n  c) ato de imprudência, de negligência ou de imperícia de terceiro ou de companheiro de trabalho;\n  d) ato de pessoa privada do uso da razão;\n  e) desabamento, inundação, incêndio e outros casos fortuitos ou decorrentes de força maior;\n  III - a doença proveniente de contaminação acidental do empregado no exercício de sua atividade;\n  IV - o acidente sofrido pelo segurado ainda que fora do local e horário de trabalho:\n  a) na execução de ordem ou na realização de serviço sob a autoridade da empresa;\n  b) na prestação espontânea de qualquer serviço à empresa para lhe evitar prejuízo ou proporcionar proveito;\n  c) em viagem a serviço da empresa, inclusive para estudo quando financiada por esta dentro de seus planos para melhor capacitação da mão-de-obra, independentemente do meio de locomoção utilizado, inclusive veículo de propriedade do segurado;\n  "
   },
-  {"id":290,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "EPI",
+  {"id":290,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "NR6",
     "enunciado": "Dos equipamentos de proteção listados a seguir, assinale a opção que indica o equipamento de proteção coletiva.",
     "alternativas":[
   "(A) Protetor auricular.",
@@ -2520,7 +2520,7 @@
     ],"resposta":"E",
     "observacao":"Todas as outras alternativas são protetores individuais."
   },
-  {"id":292,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "EPI",
+  {"id":292,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "NR6",
     "enunciado": "Os Equipamentos de Proteção Individual - EPI - devem ser fornecidos aos empregados pelas empresas sempre que necessário.\n No que se refere aos EPI's, assinale a afirmativa correta.",
     "alternativas":[
   "(A) O fornecimento dos EPI's deve ocorrer na implantação das medidas de proteção coletiva.",
@@ -2531,7 +2531,7 @@
     ],"resposta":"A",
     "observacao":"Da NR6: item 6.3 A empresa é obrigada a fornecer aos empregados, gratuitamente, EPI adequado ao risco, em perfeito estado de conservação e funcionamento, nas seguintes circunstâncias:\n  a) sempre que as medidas de ordem geral não ofereçam completa proteção contra os riscos de acidentes do trabalho ou de doenças profissionais e do trabalho;\n   b) enquanto as medidas de proteção coletiva estiverem sendo implantadas; e,\n  c) para atender a situações de emergência."
   },
-  {"id":293,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "Acidentes",
+  {"id":293,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "Previdência",
     "enunciado": "Um funcionário de uma empresa contraiu dengue após ser transferido para uma nova filial, onde há uma endemia de dengue. Nessa localidade, sua função é realizar trabalhos de campo voltados ao levantamento das condições socioeconômicas da população.\n  Diante do exposto, analise as afirmativas a seguir.\n  I. A doença contraída pelo funcionário não pode ser caracterizada como doença do trabalho, porque é endêmica na localidade em que ele trabalha.\n  II. A doença contraída pelo funcionário é caracterizada como doença do trabalho.\n  III. A doença não pode ser caracterizada por doença do trabalho, uma vez que a dengue é uma doença característica da faixa etária do funcionário.\n  Está correto o que afirma em",
     "alternativas":[
   "(A) I, apenas.",
@@ -2542,7 +2542,7 @@
     ],"resposta":"B",
     "observacao":" Art.20 da lei 8213.:\n  § 1º Não são consideradas como doença do trabalho:\n  d) a doença endêmica adquirida por segurado habitante de região em que ela se desenvolva, salvo comprovação de que é resultante de exposição ou contato direto determinado pela natureza do trabalho."
   },
-  {"id":294,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "PPP",
+  {"id":294,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "Previdência",
     "enunciado": "O Perfil Profissiográfico Previdenciário – PPP - constitui-se em um documento histórico-laboral do trabalhador que reúne, entre outras informações, dados administrativos, registros ambientais e resultados de monitoração biológica, durante todo o período em que este exerceu suas atividades na respectiva empresa.\n O PPP tem por objetivo primordial",
     "alternativas":[
   "(A) fornecer informações para o empregador quanto às condições ambientais de trabalho.",

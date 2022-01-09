@@ -65,7 +65,8 @@ export default function Configuracoes1({route}) {
                 </View>
             </View>
             <View style={estilosGerais.divisor}/>
-            <View>
+            <View style={{marginTop:'25%'}}/>
+            <View style={estilosGerais.linhaMenu}>
                 <TouchableOpacity onPress={()=> {
                         navigation.push('Configuracoes2',{quantidadeDeQuestoesPorVez,cebraspe,cespe,fgv});
                     }}>
@@ -88,14 +89,16 @@ export default function Configuracoes1({route}) {
                             navigation.push('Simulado');
                         }
                     }}>
-                    <Text style={estilosGerais.botoesNavegacao}>Iniciar Simulado</Text>
+                    <Text style={estilosGerais.botoesPrincipais}>Iniciar Simulado</Text>
                 </TouchableOpacity>
-                <TouchableOpacity
-                    onPress={() => navigation.navigate('Home')}
-                    >
-                    <Text style={estilosGerais.botoesNavegacao}> Voltar à Tela Inicial </Text>
-                </TouchableOpacity>
-            </View>
+                </View>
+                <View style={{alignItems:'center'}}>
+                    <TouchableOpacity
+                        onPress={() => navigation.navigate('Home')}
+                        >
+                        <Text style={estilosGerais.botoesNavegacao}> Voltar à Tela Inicial </Text>
+                    </TouchableOpacity>
+                </View>
         </TelaPadrao>
     )
 }

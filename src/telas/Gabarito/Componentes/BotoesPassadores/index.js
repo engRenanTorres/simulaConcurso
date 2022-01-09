@@ -26,16 +26,18 @@ export default function BotoesPassadores ({numeroQuestao,alteraQuestao,quantidad
                 </TouchableOpacity>
             }
             </View> 
-            <TouchableOpacity 
-                onPress={()=>navigation.goBack()}
-                >
-                <Text style={estilosGerais.botoesNavegacao}> Voltar para Pontuação </Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-                onPress={() => navigation.navigate('Home')}
-                >
-                <Text style={estilosGerais.botoesNavegacao}> Voltar à Tela Inicial </Text>
-            </TouchableOpacity>
+            <View style={estilosGerais.linhaMenu}>
+                <TouchableOpacity 
+                    onPress={()=>navigation.goBack()}
+                    >
+                    <Text style={estilosGerais.botoesNavegacao}> Voltar para Pontuação </Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                    onPress={() => navigation.navigate('Home')}
+                    >
+                    <Text style={estilosGerais.botoesNavegacao}> Voltar à Tela Inicial </Text>
+                </TouchableOpacity>
+            </View>
         </View>
     )
 }

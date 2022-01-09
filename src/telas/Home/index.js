@@ -42,8 +42,8 @@ export default function Home() {
             </View>
 
             <View style={estilosGerais.divisor}/>
-           
-            <View style={{marginTop:'25%'}}>
+            <View style={{marginTop:'25%'}}/>
+            <View style={estilosGerais.linhaMenu}>
                 <TouchableOpacity onPress={()=>{navigation.push('Configuracoes1',{quantidadeDeQuestoesPorVez})}}>
                     <Text style={estilosGerais.botoesNavegacao}>Filtrar Questões</Text>
                 </TouchableOpacity>
@@ -59,8 +59,10 @@ export default function Home() {
                             navigation.push('Simulado');
                         }
                     }}>
-                    <Text style={estilosGerais.botoesNavegacao}>Iniciar Simulado</Text>
+                    <Text style={estilosGerais.botoesPrincipais}>Iniciar Simulado</Text>
                 </TouchableOpacity>
+            </View>
+            <View style={{alignItems:'center'}}>
                 <TouchableOpacity onPress={()=> navigation.navigate('SobreOApp')}>
                     <Text style={estilosGerais.botoesNavegacao}>Sobre o App</Text>
                 </TouchableOpacity>

@@ -248,17 +248,17 @@
     "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
     "observacao":""
   },
-  {"id":348,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Primeiros Socorros",
+  {"id":348,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Primeiros socorros",
     "enunciado": "Julgue os próximos itens, acerca de primeiros socorros no caso da ocorrência de choque elétrico.\n O óbito da vítima de choque elétrico pode ser evitado caso o socorrista inicie a respiração artificial tão logo se interrompa o contato elétrico, até a chegada de socorro profissional especializado. ",
     "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
     "observacao":"A questão havia sido dada como correta no gabarito preliminar, mas foi alterada para errada no gabarito final. O argumento para a correção foi que \"A chegada de socorro especializado não é condição para que se finalize a respiração artificial \". "
   },
-  {"id":349,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Primeiros Socorros",
+  {"id":349,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Primeiros socorros",
     "enunciado": "Julgue os próximos itens, acerca de primeiros socorros no caso da ocorrência de choque elétrico.\n Ausência de pulso e dilatação das pupilas são indícios de parada cardíaca, devendo-se proceder à massagem cardíaca externa e, ao mesmo tempo, solicitar socorro especializado, de preferência de socorristas em ambulância equipada com desfibrilador. ",
     "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
     "observacao":""
   },
-  {"id":350,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Primeiros Socorros",
+  {"id":350,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Primeiros socorros",
     "enunciado": "Julgue os próximos itens, acerca de primeiros socorros no caso da ocorrência de choque elétrico.\n Respiração artificial de Holger Nielsen é o método mais difundido e eficaz para reanimar vítimas de choque elétrico, aplicável a qualquer caso de colapso respiratório e com exigência de pouco esforço do socorrista para injetar grande quantidade de ar nos pulmões. ",
     "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
     "observacao":""
