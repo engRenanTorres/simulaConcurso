@@ -33,22 +33,22 @@
     "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
     "observacao":""
   },
-  {"id":305,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Análise de acidentes",
+  {"id":305,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Análise de riscos",
     "enunciado": "Uma empresa, com 140.000 horas-homem de exposição ao risco, registrou 21 acidentes no último mês de julho, assim discriminados:\n a) um acidente ocorreu no dia 8, às 10 horas, e motivou afastamento do empregado até o dia 15;\n b) seis  empregados  sofreram  ferimentos  quando  telhas despencaram do teto da oficina de manutenção, devido a forte vendaval, e cada um deles ficou afastado, em média, 3,5 dias;\n c) os  outros  acidentes  não  provocaram  afastamento  de empregados.\n A partir dessa situação hipotética e considerando aspectos legais a ela relacionados, julgue os itens subsecutivos.\n A taxa de frequência de acidentados com lesão com perda de tempo é igual a 50. ",
     "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
     "observacao":""
   },
-  {"id":306,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Análise de acidentes",
+  {"id":306,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Análise de riscos",
     "enunciado": "Uma empresa, com 140.000 horas-homem de exposição ao risco, registrou 21 acidentes no último mês de julho, assim discriminados:\n a) um acidente ocorreu no dia 8, às 10 horas, e motivou afastamento do empregado até o dia 15;\n b) seis  empregados  sofreram  ferimentos  quando  telhas despencaram do teto da oficina de manutenção, devido a forte vendaval, e cada um deles ficou afastado, em média, 3,5 dias;\n c) os  outros  acidentes  não  provocaram  afastamento  de empregados.\n A partir dessa situação hipotética e considerando aspectos legais a ela relacionados, julgue os itens subsecutivos.\n A taxa de gravidade é inferior a 300. ",
     "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"A",
     "observacao":""
   },
-  {"id":307,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Análise de acidentes",
+  {"id":307,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Análise de riscos",
     "enunciado": "Uma empresa, com 140.000 horas-homem de exposição ao risco, registrou 21 acidentes no último mês de julho, assim discriminados:\n a) um acidente ocorreu no dia 8, às 10 horas, e motivou afastamento do empregado até o dia 15;\n b) seis  empregados  sofreram  ferimentos  quando  telhas despencaram do teto da oficina de manutenção, devido a forte vendaval, e cada um deles ficou afastado, em média, 3,5 dias;\n c) os  outros  acidentes  não  provocaram  afastamento  de empregados.\n A partir dessa situação hipotética e considerando aspectos legais a ela relacionados, julgue os itens subsecutivos.\n A taxa de acidentados sem afastamento é superior a 200. ",
     "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
     "observacao":""
   },
-  {"id":308,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Análise de acidentes",
+  {"id":308,"banca": "CEBRASPE","nivel": "Médio", "cargo": "Técnico", "concurso" : "T.J. A.M.","ano": 2019,"assunto": "Análise de riscos",
     "enunciado": "Uma empresa, com 140.000 horas-homem de exposição ao risco, registrou 21 acidentes no último mês de julho, assim discriminados:\n a) um acidente ocorreu no dia 8, às 10 horas, e motivou afastamento do empregado até o dia 15;\n b) seis  empregados  sofreram  ferimentos  quando  telhas despencaram do teto da oficina de manutenção, devido a forte vendaval, e cada um deles ficou afastado, em média, 3,5 dias;\n c) os  outros  acidentes  não  provocaram  afastamento  de empregados.\n A partir dessa situação hipotética e considerando aspectos legais a ela relacionados, julgue os itens subsecutivos.\n A taxa de gravidade é proporcional ao número de acidentes com lesão com perda de tempo. ",
     "alternativas":["(A) Certa",  "(B) Errada"],"resposta":"B",
     "observacao":""

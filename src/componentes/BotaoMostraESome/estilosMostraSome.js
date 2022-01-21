@@ -22,6 +22,7 @@ export default StyleSheet.create({
   },
   textoInterno: {
     marginHorizontal: 24,
+    textAlign: 'justify'
   },
 
 });

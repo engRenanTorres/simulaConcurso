@@ -1,6 +1,6 @@
 import React, {useState,useContext} from 'react';
 
-import { Text, View, TouchableOpacity, Alert } from 'react-native';
+import { Text, View, TouchableOpacity, Alert, Linking } from 'react-native';
 import estilos from './estilos';
 import TelaPadrao from '../../componentes/TelaPadrao';
 import estilosGerais from '../../estilosGerais';
@@ -66,7 +66,12 @@ export default function Home() {
                 <TouchableOpacity onPress={()=> navigation.navigate('SobreOApp')}>
                     <Text style={estilosGerais.botoesNavegacao}>Sobre o App</Text>
                 </TouchableOpacity>
+                <Text style={estilosGerais.botoesNavegacao}
+                      onPress={() => Linking.openURL('https://play.google.com/store/apps/details?id=com.engrenantorres.sesmc')}>
+                      Avalie o App
+            </Text>
             </View>
+
         </TelaPadrao>
     )
 }
