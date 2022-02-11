@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#efefef"
-      }
+      },
+      "package": "com.engrenantorres.sesmc"
     }
   }
 }
