@@ -1,6 +1,6 @@
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity, Alert } from 'react-native';
 import { cores } from '../../../../estilosGerais';
 import estilos from './estilos';
 
@@ -32,10 +32,23 @@ export default function BotoesPassadores ({numeroQuestao,alteraQuestao,quantidad
                 }
             </View>
             {/* {ultimaQuestao &&  */}
+
             <TouchableOpacity 
-                onPress={()=>navigation.push('Pontuacao',transferir)}
+                onPress={()=>
+                    
+                    Alert.alert("Está certo disso?","Deseja finalizar o simulado?",
+                    [{
+                        text:"Sim",
+                        onPress: ()=> navigation.push('Pontuacao',transferir)
+                    },
+                    {
+                        text:"Não",
+                        onPress: ()=>{}
+                    }]
+                    )
+                   }
             >
-                <Text style={estilos(false).botaoCorrigir}> Corrigir Simulado </Text>
+                <Text style={estilos(false).botaoCorrigir}> Finalizar e Corrigir Simulado </Text>
             </TouchableOpacity>
             {/* } */}
         </View> 

@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet,Dimensions } from "react-native";
 
 export const cores = {
     roxo: '#A050BE',
@@ -14,7 +14,7 @@ export const cores = {
 export default StyleSheet.create({
 
     preencher: {
-        flex:1,
+        
     },
     titulosTela: {
         fontWeight: 'bold',
@@ -30,8 +30,19 @@ export default StyleSheet.create({
         fontWeight: 'bold',
         textAlign: 'center',
         color: '#fff',
+        width: 120,
         backgroundColor: cores.azul,
-        justifyContent: 'space-between',
+        borderRadius: 24,
+        marginTop: 10,
+        marginHorizontal: 84,
+        paddingVertical: 8,
+    },
+    botoesPrincipais: {
+        fontWeight: 'bold',
+        textAlign: 'center',
+        color: '#fff',
+        width: 120,
+        backgroundColor: cores.roxo,
         borderRadius: 24,
         marginTop: 10,
         marginHorizontal: 84,
@@ -43,4 +54,9 @@ export default StyleSheet.create({
         borderBottomColor: cores.cinza,
         padding: 10
     },
+    linhaMenu:{ 
+        width: Dimensions.get('window').width,
+        flexDirection:'row',
+        justifyContent: 'space-evenly',
+    }
 });

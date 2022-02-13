@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Simulaconc",
-    "slug": "simulaconc",
-    "version": "1.0.0",
+    "name": "sesmc",
+    "slug": "sesmc",
+    "version": "1.0.7",
     "orientation": "portrait",
     "icon": "./assets/icon2.png",
     "splash": {
       "image": "./assets/splash2.png",
       "resizeMode": "contain",
-      "backgroundColor": "#fff"
+      "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,6 +20,7 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode":6,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#efefef"

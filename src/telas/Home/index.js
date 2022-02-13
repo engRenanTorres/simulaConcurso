@@ -1,6 +1,6 @@
 import React, {useState,useContext} from 'react';
 
-import { Text, View, TouchableOpacity, Alert } from 'react-native';
+import { Text, View, TouchableOpacity, Alert, Linking } from 'react-native';
 import estilos from './estilos';
 import TelaPadrao from '../../componentes/TelaPadrao';
 import estilosGerais from '../../estilosGerais';
@@ -19,7 +19,8 @@ export default function Home() {
     const questoesFgv = require('../../dados/questoes.json');
     const questoesCespe = require('../../dados/questoesCespe.json');
     const questoesCebraspe = require('../../dados/questoesCebraspe.json');
-    let bancoDeQuestoes = [...questoesFgv,...questoesCespe,...questoesCebraspe];
+    const questoesRenan = require('../../dados/questoesRenan.json');
+    let bancoDeQuestoes = [...questoesFgv,...questoesCespe,...questoesCebraspe,...questoesRenan];
 
     return (
         <TelaPadrao >
@@ -42,8 +43,8 @@ export default function Home() {
             </View>
 
             <View style={estilosGerais.divisor}/>
-           
-            <View style={{marginTop:'25%'}}>
+            <View style={{marginTop:'25%'}}/>
+            <View style={estilosGerais.linhaMenu}>
                 <TouchableOpacity onPress={()=>{navigation.push('Configuracoes1',{quantidadeDeQuestoesPorVez})}}>
                     <Text style={estilosGerais.botoesNavegacao}>Filtrar Questões</Text>
                 </TouchableOpacity>
@@ -59,12 +60,19 @@ export default function Home() {
                             navigation.push('Simulado');
                         }
                     }}>
-                    <Text style={estilosGerais.botoesNavegacao}>Iniciar Simulado</Text>
+                    <Text style={estilosGerais.botoesPrincipais}>Iniciar Simulado</Text>
                 </TouchableOpacity>
+            </View>
+            <View style={{alignItems:'center'}}>
                 <TouchableOpacity onPress={()=> navigation.navigate('SobreOApp')}>
                     <Text style={estilosGerais.botoesNavegacao}>Sobre o App</Text>
                 </TouchableOpacity>
+                <Text style={estilosGerais.botoesNavegacao}
+                      onPress={() => Linking.openURL('https://play.google.com/store/apps/details?id=com.engrenantorres.sesmc')}>
+                      Avalie o App
+            </Text>
             </View>
+
         </TelaPadrao>
     )
 }

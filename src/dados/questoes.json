@@ -1,16 +1,4 @@
 [
-    {"id":0,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "A. Legislativa MT","ano": 2013,"assunto": "NR1",
-        "enunciado": "A respeito das obrigações relativas à Segurança do Trabalho que um estabelecimento empresarial deve adotar, analise as afirmativas a seguir.\n      I. Deverá solicitar ao órgão regional competente, antes de iniciar suas atividades, a aprovação de suas instalações.\n      II. Deverá comunicar e solicitar a aprovação, quando da ocorrência de modificações substanciais nas instalações, do órgão regional competente.\n      III. Deverá submeter seu projeto de construção e respectivas instalações ao órgão regional competente.\n      Assinale:",
-        "alternativas":[
-        "(A) se somente a afirmativa I estiver correta.",
-        "(B) se somente a afirmativa II estiver correta.",
-        "(C) se somente a afirmativa III estiver correta.",
-        "(D) se somente as afirmativas I e II estiverem corretas.",
-        "(E) se somente as afirmativas I e III estiverem corretas."
-        ],"resposta":"D",
-        "observacao":""
-    },
-      
     {"id": 1,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP","ano":  2010,"assunto": "Previdência",
         "enunciado": "A definição de natureza da lesão, segundo a NBR 14.280, é",
           "alternativas":[
@@ -21,10 +9,10 @@
         "(E)Lesão que não se manifesta imediatamente após a circunstância acidental da qual resultou."
           ],
           "resposta":"B",
-          "observacao":"Texto da NBR"
+          "observacao":"Texto da própia NBR"
         },
     {"id": 2,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP","ano":  2010,"assunto": "NR23",
-        "enunciado": "Associe o tipo de extintor de incêndio (numerados na coluna da direita) à classe de fogo (na coluna da esquerda) na qual ele deve ser utilizado, segundo determina a NR-23. \n        Classe de fogo tipo de extintor \n               A                                    I- Espuma \n               B                                    II-Dióxido de Carbono \n               C                                    III-Químico Seco \n               D                                   IV- Água pressurizada ou Água-Gás \n        Assinale a alternativa que apresente somente associações corretas.",
+        "enunciado": "Associe o tipo de extintor de incêndio (numerados na coluna da direita) à classe de fogo (na coluna da esquerda) na qual ele deve ser utilizado, segundo determina a NR-23. \nClasse de fogo   |   Tipo de extintor \n   A      |      I- Espuma \n   B      |      II-Dióxido de Carbono \n   C      |      III-Químico Seco \n   D      |      IV- Água pressurizada ou Água-Gás \n Assinale a alternativa que apresente somente associações corretas.",
         "alternativas":[
         "(A)A-I/B-II/C-IV",
         "(B)A-IV/B-III/C-II",
@@ -43,7 +31,7 @@
         "(D)Se apenas as afirmativas II e IV forem corretas.",
         "(E)Se apenas as afirmativas I e III forem corretas."
         ],"resposta":"B",
-        "observacao":" A APR é qualitativa e a HAZOP trás análises quantitativas."
+        "observacao":"A APR é qualitativa e a HAZOP trás análises quantitativas."
     },
     {"id":4,"banca": "FGV","nivel": "superior", "cargo": "Engenharia","concurso" : "CODESP","ano":  2010,"assunto": "NR23",
         "enunciado": "O fenômeno conhecido como Boilover pode ser mais bem definido quando",
@@ -78,7 +66,7 @@
         ],"resposta":"E",
         "observacao":" 200 dias = 50 % da vida \n400 dias = 50% de 50% da vida = 25% \n600 dias = 50% de 25% da vida = 15,5% "
       },
-      {"id":7,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP","ano":  2010,"assunto": "Investigação de acidentes",
+      {"id":7,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP","ano":  2010,"assunto": "Análise de riscos",
         "enunciado": "Após a ocorrência de um acidente, uma análise deve ser iniciada o mais rapidamente possível para determinar todas as causa e recomendar ações de melhoria, que, quando implementadas, poderão evitar reincidências e consequentemente mais perdas. A técnica de investigação de acidentes que consiste em determinar as causas mais distantes (básicas) pela pergunta \"o que levou a...?\" é denominada",
         "alternativas":[
             "(A) AMFE – Análise dos Modos de Falhas e Efeitos.",
@@ -87,7 +75,7 @@
             "(D) AAC – Análise por Árvore de Causas.",
             "(E) APP – Análise Preliminar de Perigos."
         ],"resposta":"D",
-        "observacao":"A árvore de causas é um método de análise baseado na teoria de sistemas utilizado para a análise de acidentes por se tratar de um evento que pode resultar de situações complexas e que, quase sempre, tem várias causas. Se for bem aplicada, deve apontar todas a falhas que antecederam ao evento final (lesão ou não). "
+        "observacao":""
       },
       {"id":8,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP", "ano":  2010,  "assunto": "NR33",
   "enunciado": "Os procedimentos de entrada em espaços confinados devem ser revistos quando da ocorrência de qualquer uma das circunstâncias abaixo: \n    I. entrada não autorizada num espaço confinado; \n    II. quando houver uma razão para acreditar que existam desvios na utilização ou nos procedimentos de entrada nos espaços confinados ou que os conhecimentos não sejam adequados; \n    III. identificação de riscos não descritos na Permissão de Entrada de Trabalho; \n    IV. mudança nos procedimentos, condições ou operações de trabalho; \n    V. acidente, incidente ou condição não prevista durante a entrada; \n    VI. qualquer mudança na atividade desenvolvida ou na configuração do espaço confinado. \n    Analise os itens acima e assinale",
@@ -98,7 +86,7 @@
     "(D) Se apenas as afirmativas II, III e IV forem corretas.",
     "(E) Se apenas as afirmativas I, IV e V forem corretas."
     ],"resposta":"E",
-    "observacao":""
+    "observacao":"NR33\n alínea 33.3.3.5 \"Os procedimentos de entrada em espaços confinados devem ser revistos quando da ocorrência de qualquer uma das circunstâncias abaixo:\n a) entrada não autorizada num espaço confinado;\n b) identificação de riscos não descritos na Permissão de Entrada e Trabalho;\n c) acidente, incidente ou condição não prevista durante a entrada;\n d) qualquer mudança na atividade desenvolvida ou na configuração do espaço confinado;\n e) solicitação do SESMT ou da CIPA;\n e f) identificação de condição de trabalho mais segura.\""
 },
 {"id":9,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP", "ano":  2010,  "assunto": "NR26",
   "enunciado": "Segundo a NR26 (Sinalização de Segurança), canalizações que contenham inflamáveis e combustíveis de baixa viscosidade e ácidos devem ser pintadas, respectivamente, nas cores",
@@ -109,7 +97,7 @@
     "(D) laranja e cinza-claro.",
     "(E) lilás e cinza-claro."
   ],"resposta":"B",
-  "observacao":" Para decoreba: \n Amarelo = Gases não liquefeitos, avisos de cuidado e corrimão; Alumínio = Inflamáveis de baixa viscosidade; Preto = Inflamáveis de alta viscosidade; Azul = Bandeiras e cuidados em máquinas; Branco = Corredor/Passagens; Cinza Claro = Vácuo; Cinza Escuro = eletrodutos; Púrpura = eletromagnetismo e radiações;  Laranja = ácidos, engrenagens perigosas e faces interiores de máquinas; Lilás = Alcális; Marrom = a critério da empresa; Verde = Segurança e kits de primeiros socorros"
+  "observacao":" Para decoreba: \n Amarelo = Gases não liquefeitos, avisos de cuidado e corrimão;\n Alumínio = Inflamáveis de baixa viscosidade;\n Preto = Inflamáveis de alta viscosidade;\n Azul = Bandeiras e cuidados em máquinas;\n Branco = Corredor/Passagens;\n Cinza Claro = Vácuo;\n Cinza Escuro = eletrodutos;\n Púrpura = eletromagnetismo e radiações;\n  Laranja = ácidos, engrenagens perigosas e faces interiores de máquinas;\n Lilás = Alcális;\n Marrom = a critério da empresa;\n Verde = Segurança e kits de primeiros socorros"
 },
 {"id": 10,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP", "ano":  2010,  "assunto": "NR33",
   "enunciado": "Uma perda de 1,2% do teor de oxigênio em um espeço confinado pode significar que houve uma entrada de outro gás contaminante nesse ambiente. A quantidade desse contaminante pode ser no mínimo, igual a",
@@ -131,7 +119,7 @@
     "(D) 3,6 metros.",
     "(E) 4,8 metros."
   ],"resposta":"E",
-  "observacao":""
+  "observacao":"Como o ponto de ancoragem está localizado no piso do trabalhador, o trabalhador está trabalhando com um fator de queda(FQ) igual a 2.\n Ou seja, o tabalabarte só irá reter a sua queda quando o trabalhador cair uma altura de duas vezes o tamanho do talabarte.\n Primeiro, ele caíra uma distância até o piso (dist. de um talabarte) sem que o talabarte o proteja. Depois, ele caíra a distância do próprio comprimento do talabarte até que ele segure a queda.\n Portando, a altura de queda livre será:\n 1,5 + 2x1,20(Comprimento talabarte vezes 2) + 0,3 + 0,6 = 4,8m"
 },
 {"id":12,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP", "ano":  2010,  "assunto": "NR18",
   "enunciado": "A proteção contra quedas, segundo a NR-18,quando constituída de anteparos rígidos, em sistema de guarda-corpo e rodapé, deve ser construída com altura de",
@@ -153,7 +141,7 @@
     "(D) apenas as afirmativas I,II e IV.",
     "(E) todas as afirmativas."
   ],"resposta":"B",
-  "observacao":""
+  "observacao":"Para verificar esta questão, basta verificar a densidade relativa de cada gás e vapor em suas respectivas FISPQ. A densidade relativa tem este nome pois ela é feita em comparação com ar natural, ou seja, ela é \"relativa\" ao ar natural. Neste contexto, o ar natural será sua densidade relativa sempre igual a 1. Logo, qualquer gás/vapor com densidade menor que 1, será mais leve que o ar e qualquer gás/vapor com densidade maior que 1, será mais pesado que o ar.\n Pelas FISPQ:\n I - Dr(acetileno)=0,91 - (< 1 - menos denso) CORRETA!\n Dr(CO)=0,97 (< 1 - menos denso) INCORRETA\n Dr(CO2)=1,53 (> 1 - mais denso) INCORRETA\n Dr(H2)= 0,067 (<< 1 - muito menos denso) INCORRETA \n fontes: https://cloud.cnpgc.embrapa.br/wp-content/igu/fispq/laboratorios/acetileno-produquimica.pdf\n https://licenciamento.cetesb.sp.gov.br/produtos/ficha_completa1.asp?consulta=MON%D3XIDO%20DE%20CARBONO,%20COMPRIMIDO\n https://sites.ffclrp.usp.br/cipa/fispq/Hidrogenio.pdf"
 },
 {"id":14,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODESP", "ano":  2010,  "assunto": "NR23",
   "enunciado": "A Norma Brasileira adota, para designar o grau de risco de áreas classificadas, o termo zona. \nA esse respeito assinale a alternativa correta.",
@@ -276,7 +264,7 @@
   ],"resposta":"B",
   "observacao":"NR 4- item - 4.5.3.3 O SESMT organizado conforme o subitem 4.5.3 deve ter seu funcionamento avaliado semestralmente, por Comissão composta de representantes da empresa contratante, do sindicato de trabalhadores e da Delegacia Regional do Trabalho, ou na forma e periodicidade previstas na Convenção ou Acordo Coletivo de Trabalho. (Subitem 4.5.3 aprovado pela Portaria SST 17/2007)."
 },
-{"id":25,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "IMBEL", "ano":  2021,  "assunto": "Investigação de acidentes",
+{"id":25,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "IMBEL", "ano":  2021,  "assunto": "Análise de riscos",
   "enunciado": "Após a ocorrência de um evento potencialmente capaz de provocar um acidente, mas que não se configurou, deve-se ter como ação",
   "alternativas":[
 "(A) registrar o evento.",
@@ -287,7 +275,7 @@
   ],"resposta":"E",
   "observacao":""
 },
-{"id": 26,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "IMBEL", "ano":  2021,  "assunto": "Investigação de acidentes",
+{"id": 26,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "IMBEL", "ano":  2021,  "assunto": "Análise de riscos",
   "enunciado": "O acidente do trabalho pode ter várias causas que devem ser investigadas. Assinale a opção que apresenta uma condição insegura.",
   "alternativas":[
 "(A) Falta de EPI.",
@@ -309,7 +297,7 @@
   ],"resposta":"B",
   "observacao":""
 },
-{"id":28,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "IMBEL", "ano":  2021,  "assunto": "Investigação de acidentes",
+{"id":28,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "IMBEL", "ano":  2021,  "assunto": "Análise de riscos",
   "enunciado": "Um acidente de trabalho pode ocorrer em decorrência de falhas humanas ou de um meio inadequado de trabalho.\n A esse respeito, considere as afirmativas a seguir.\n I. O equipamento de proteção coletiva é um fator que contribui para a diminuição de atos inseguros.\n II. A política salarial de uma empresa pode motivar um ato inseguro.\n III. O ato inseguro é definido como sendo a execução de tarefas de forma contrária às normas de segurança.\n Está correto o que se afirma em",
   "alternativas":[
 "(A) I, somente.",
@@ -340,7 +328,7 @@
 "(D) Organizacional do trabalho, proteção individual e proteção coletiva.",
 "(E) Proteção coletiva, proteção individual e organizacional do trabalho."
   ],"resposta":"C",
-  "observacao":""
+  "observacao":"A questão continua atualizada mesmo com a atualização da NR12 em 2019."
 },
 {"id":31,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "IMBEL", "ano":  2021,  "assunto": "Previdência",
   "enunciado": "A respeito do Perfil Profissiográfico Previdenciário – PPP, analise as afirmativas a seguir.\n I. É um documento da vida pregressa do trabalhador.\n II. É uma declaração personalizada para cada segurado.\n III. Pode ser utilizado para a obtenção de aposentadoria especial.\n Está correto o que se afirma em",
@@ -560,7 +548,7 @@
          "(D) a um risco biológico leve.",
          "(E) a um risco ergonômico leve."
      ],"resposta":"A",
-     "observacao":"A portaria 25 de 29 de dezembro de 1994 define que as cores de identificação dos grupos de riscos nos mapas de Riscos são: Vermelho = Risco Químico; Amarelho = Ergonômico; Azul = Acidentes; Verde = Físico ; e Marrom = Biológico"
+     "observacao":"A portaria 25 de 29 de dezembro de 1994 define que as cores de identificação dos grupos de riscos nos mapas de Riscos são:\n Vermelho = Risco Químico;\n Amarelho = Ergonômico;\n Azul = Acidentes;\n Verde = Físico; e\n Marrom = Biológico."
    },
    {"id": 51,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "INEA-RJ","ano":  2013,"assunto": "NR9",
      "enunciado": "Em um determinado ambiente de trabalho de uma fábrica, existe um equipamento essencial na produção fabril que pode causar dano ao trabalhador. A respeito dessa situação, assinale a afirmativa correta.",
@@ -793,7 +781,7 @@
      ],"resposta":"A",
      "observacao":""
      },
-   {"id":72,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "IMBEL","ano": 2021,"assunto": "Investigação de acidentes",
+   {"id":72,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "IMBEL","ano": 2021,"assunto": "Análise de riscos",
      "enunciado": "Eventos que geram lesão corporal, comprometimento funcional ou a morte são denominados de acidente ou doença de trabalho.\n Assinale a opção que caracteriza uma doença de trabalho.",
      "alternativas":[
    "(A) Endêmica.",
@@ -914,7 +902,7 @@
      ],"resposta":"C",
      "observacao":"Correções: I- inferior a 15 dias; II-exame médico-pericial do INSS. "
      },
-   {"id":86,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "Pref. Salvador","ano": 2019,"assunto": "Investigação de acidentes",
+   {"id":86,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "Pref. Salvador","ano": 2019,"assunto": "Análise de riscos",
      "enunciado": " Um acidente de trabalho pode ser motivado por atos inseguros, condições inseguras ou pelo fato do ambiente de trabalho não ser organizado ou limpo. Caracteriza um exemplo de condições inseguras o trabalhador que:",
      "alternativas":[
    "(A) Negligencia o uso de um EPI.",
@@ -925,7 +913,7 @@
      ],"resposta":"C",
      "observacao":"As demais opções são ações inseguras"
      },
-   {"id":87,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "Pref. Salvador","ano": 2019,"assunto": "Investigação de acidentes",
+   {"id":87,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "Pref. Salvador","ano": 2019,"assunto": "Análise de riscos",
      "enunciado": " Uma empresa possui 500 empregados e, cada um deles, cumpre uma jornada de trabalho de 8 horas diárias em 20 dias mensais. Em um determinado mês, a empresa registrou 6 acidentes que resultaram em 14 dias perdidos.\n   As taxas de frequência de acidentes e de gravidade dessa empresa são, respectivamente,",
      "alternativas":[
    "(A) 75 e 175.",
@@ -1275,7 +1263,7 @@
    "(D) 3, 2 e 1.",
    "(E) 1, 4 e 3."
      ],"resposta":"A",
-     "observacao":"A portaria 25 de 29 de dezembro de 1994 define que as cores de identificação dos grupos de riscos nos mapas de Riscos são: Vermelho = Risco Químico; Amarelho = Ergonômico; Azul = Acidentes; Verde = Físico ; e Marrom = Biológico"
+     "observacao":"A portaria 25 de 29 de dezembro de 1994 define que as cores de identificação dos grupos de riscos nos mapas de Riscos são:\n Vermelho = Risco Químico;\n Amarelho = Ergonômico;\n Azul = Acidentes;\n Verde = Físico ; e\n Marrom = Biológico"
      },
    {"id":121,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "Fundacao Pro-Saude SP","ano": 2013,"assunto": "Previdência",
      "enunciado": "A exposição aos agentes etiológicos ou fatores de risco de natureza profissional presentes nas atividades econômicas dos empregadores é considerada doença profissional ou do trabalho.\n Também será caracterizado tecnicamente como acidente do trabalho, o reconhecimento do nexo entre o trabalho e o agravo.\n O nexo técnico previdenciário aplicável, quando há significância estatística da associação entre o código da Classificação Internacional de Doenças – CID e o da Classificação Nacional de Atividade Econômica – CNAE, é o",
@@ -1583,7 +1571,7 @@
    "(D) F, F e V.",
    "(E) F, V e F."
      ],"resposta":"A",
-     "observacao":"A portaria 25 de 29 de dezembro de 1994 define que as cores de identificação dos grupos de riscos nos mapas de Riscos são: Vermelho = Risco Químico; Amarelho = Ergonômico; Azul = Acidentes/Mecânicos; Verde = Físico ; e Marrom = Biológico"
+     "observacao":"A portaria 25 de 29 de dezembro de 1994 define que as cores de identificação dos grupos de riscos nos mapas de Riscos são:\n Vermelho = Risco Químico;\n Amarelho = Ergonômico;\n Azul = Acidentes/Mecânicos;\n Verde = Físico ; e\n Marrom = Biológico"
      },
    {"id":149,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "Compesa","ano": 2014,"assunto": "Análise de riscos",
      "enunciado": "Segundo o Guia de Análise Acidentes de Trabalho, quando um local de trabalho possui medidas de controle de risco inadequadas ou insuficientes, normalmente, há a ocorrência de um evento adverso.\n A investigação efetiva desse evento requer uma metodologia estruturada, que envolve as seguintes etapas:",
@@ -1748,7 +1736,7 @@
    "(D) Trabalho noturno.",
    "(E) Iluminação deficiente."
      ],"resposta":"C",
-     "observacao":"A portaria 25 de 29 de dezembro de 1994 define que as cores de identificação dos grupos de riscos nos mapas de Riscos são: Vermelho = Risco Químico; Amarelho = Ergonômico; Azul = Acidentes; Verde = Físico ; e Marrom = Biológico\n O único risco biológico presente entre as alternativas é o Vírus. Letra C)."
+     "observacao":"A portaria 25 de 29 de dezembro de 1994 define que as cores de identificação dos grupos de riscos nos mapas de Riscos são:\n Vermelho = Risco Químico;\n Amarelho = Ergonômico;\n Azul = Acidentes;\n Verde = Físico ; e\n Marrom = Biológico\n O único risco biológico presente entre as alternativas é o Vírus. Letra C)."
      },
    {"id":163,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "Compesa","ano": 2014,"assunto": "NR4",
      "enunciado": "Você trabalha na implantação do SESMT em sua empresa. A empresa é uma firma de engenharia que atua em Pernambuco realizando serviços de execução e fiscalização de obras, contando para isso com 500 funcionários distribuídos em vários canteiros de obra no estado.\n Diante do exposto, analise as afirmativas a seguir.\n   I. Cada um dos canteiros de obra deverá possuir pelo menos 1 (um) enfermeiro do trabalho.\n   II. Os engenheiros de segurança do trabalho poderão ficar centralizados.\n   III. O dimensionamento do número de auxiliares de enfermagem é feito por canteiro de obra.\n   Assinale:",
@@ -1902,7 +1890,7 @@
    "(D) ao risco biológico de grande intensidade, ao risco físico de média intensidade e ao risco ergonômico de pequena intensidade.",
    "(E) ao risco ergonômico, ao risco químico e ao risco biológico, sem menção à intensidade."
      ],"resposta":"B",
-     "observacao":"A portaria 25 de 29 de dezembro de 1994 define que as cores de identificação dos grupos de riscos nos mapas de Riscos são: Vermelho = Risco Químico; Amarelho = Ergonômico; Azul = Acidentes; Verde = Físico ; e Marrom = Biológico "
+     "observacao":"A portaria 25 de 29 de dezembro de 1994 define que as cores de identificação dos grupos de riscos nos mapas de Riscos são:\n Vermelho = Risco Químico;\n Amarelho = Ergonômico;\n Azul = Acidentes;\n Verde = Físico ; e\n Marrom = Biológico "
      },
    {"id":175,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODEBA","ano": 2016,"assunto": "NR15",
      "enunciado": "O manuseio e a armazenagem de alguns produtos químicos devem guardar uma área separada de outros produtos incompatíveis, devido à possibilidade de uma reação que pode criar uma condição de perigo no local.\n Relacione a substância química ao respectivo produto que pode criar uma condição de perigo devido à sua incompatibilidade.\n   ( ) Ácido Acético\n   ( ) Acetileno\n   ( ) Amônia Anidra\n   1. Ácido Nítrico.\n   2. Bromo.\n   3. Mercúrio.\n   Assinale a opção que apresenta a relação correta, de cima para baixo.",
@@ -2146,7 +2134,7 @@
      ],"resposta":"C",
      "observacao":""
      },
-   {"id":197,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "A. Legislativa MT","ano": 2013,"assunto": "Análise de acidentes",
+   {"id":197,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "A. Legislativa MT","ano": 2013,"assunto": "Análise de riscos",
      "enunciado": "O Ato Inseguro é aquele que decorre da execução de tarefas de forma contrária às normas de segurança, podendo o ato ser motivado por",
      "alternativas":[
    "(A) ausência de equipamentos de proteção individual – EPI.",
@@ -2210,7 +2198,7 @@
    "(D) Medidas de proteção individual, medidas de proteção coletiva e organização do trabalho.",
    "(E) Medidas de proteção coletiva, medidas de proteção individual e organização do trabalho."
      ],"resposta":"A",
-     "observacao":""
+     "observacao":"A questão continua atualizada mesmo com a atualização da NR12 em 2019.\n"
      },
    {"id":203,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "A. Legislativa MT","ano": 2013,"assunto": "NR23",
      "enunciado": "Em ambientes de trabalho devem ser adotados procedimentos que visem à proteção das pessoas e atribuir, a todos os integrantes, obrigações definidas.\n A respeito da proteção contra incêndios, assinale V para a afirmativa verdadeira e F para a falsa.\n   (  ) O empregado é responsável por se informar a respeito da utilização dos equipamentos de combate ao incêndio.\n   (  ) O empregador deve providenciar as informações sobre procedimentos para evacuação dos locais de trabalho com segurança.\n   ( ) As vias de passagem devem ser balizadas por sinalização ou indicadas por meio de croquis.\n   As afirmativas são respectivamente:",
@@ -2323,7 +2311,7 @@
      "observacao":""
      },
    {"id":213,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "A. Legislativa MT","ano": 2013,"assunto": "NR18",
-     "enunciado": "O tempo médio de execução de uma atividade de uma obra diz respeito à melhor relação do custo para a sua execução. Esse tempo pode ser acelerado na medida em que se coloque à disposição mais recursos humanos, bem como materiais e equipamentos. A respeito desse tema, assinale V para a afirmativa verdadeira e F para a falsa:\n   ( ) A aceleração do tempo médio ocorre quando todas as ações durante a realização da atividade se dão de maneira favorável.\n   ( ) A probabilidade de se executar uma obra acelerada, em um tempo no mínimo igual ao tempo acelerado, é de 50%.\n   ( ) Ao acelerar uma atividade de uma obra, o risco em relação ao tempo estipulado para a execução da projeto fica menor.\n   As afirmativas são, respectivamente,",
+     "enunciado": "O tempo médio de execução de uma atividade de uma obra diz respeito à melhor relação do custo para a sua execução. Esse tempo pode ser acelerado na medida em que se coloque à disposição mais recursos humanos, bem como materiais e equipamentos. A respeito desse tema, assinale V para a afirmativa verdadeira e F para a falsa:\n   ( ) A aceleração do tempo médio ocorre quando todas as ações durante a realização da atividade se dão de maneira favorável.\n   ( ) A probabilidade de se executar uma obra acelerada, em um tempo no mínimo igual ao tempo acelerado, é de 50%.\n   ( ) Ao acelerar uma atividade de uma obra, o risco em relação ao tempo estipulado para a execução do projeto fica menor.\n   As afirmativas são, respectivamente,",
      "alternativas":[
    "(A) V, F e V.",
    "(B) V, V e F.",
@@ -2388,7 +2376,7 @@
     ],"resposta":"B",
     "observacao":"O gabarito foi letra B, mas a questão é facilmente passível de anulação pois o tempo máximo para direção contínua é de 6 horas. Ou seja, o fator psicológico também causou o acidente."
   },
-  {"id":279,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "Análise de acidentes",
+  {"id":279,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "Análise de riscos",
     "enunciado": "Em uma indústria hipotética, aconteceram 7 acidentes no mês de abril. Sabendo-se que, nesse mês, os trabalhadores foram expostos ao risco durante 20.000 horas, a taxa de frequência dos acidentes foi de",
     "alternativas":[
   "(A) 250.",
@@ -2498,7 +2486,7 @@
   ],"resposta":"C",
     "observacao":""
   },
-  {"id":289,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "Acidentes",
+  {"id":289,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "Análise de riscos",
     "enunciado": "Um trabalhador sofreu um acidente dentro da empresa em seu horário de trabalho, mas o acidente não foi classificado como acidente de trabalho.\n Diante do exposto, pode-se concluir que o acidente foi decorrente de",
     "alternativas":[
   "(A) agressão de um companheiro de serviço.",
@@ -2509,7 +2497,7 @@
     ],"resposta":"B",
     "observacao":"lei 8213: Art. 21. Equiparam-se também ao acidente do trabalho, para efeitos desta Lei:\n  I - o acidente ligado ao trabalho que, embora não tenha sido a causa única, haja contribuído diretamente para a morte do segurado, para redução ou perda da sua capacidade para o trabalho, ou produzido lesão que exija atenção médica para a sua recuperação;\n  II - o acidente sofrido pelo segurado no local e no horário do trabalho, em conseqüência de:\n  a) ato de agressão, sabotagem ou terrorismo praticado por terceiro ou companheiro de trabalho;\n  b) ofensa física intencional, inclusive de terceiro, por motivo de disputa relacionada ao trabalho;\n  c) ato de imprudência, de negligência ou de imperícia de terceiro ou de companheiro de trabalho;\n  d) ato de pessoa privada do uso da razão;\n  e) desabamento, inundação, incêndio e outros casos fortuitos ou decorrentes de força maior;\n  III - a doença proveniente de contaminação acidental do empregado no exercício de sua atividade;\n  IV - o acidente sofrido pelo segurado ainda que fora do local e horário de trabalho:\n  a) na execução de ordem ou na realização de serviço sob a autoridade da empresa;\n  b) na prestação espontânea de qualquer serviço à empresa para lhe evitar prejuízo ou proporcionar proveito;\n  c) em viagem a serviço da empresa, inclusive para estudo quando financiada por esta dentro de seus planos para melhor capacitação da mão-de-obra, independentemente do meio de locomoção utilizado, inclusive veículo de propriedade do segurado;\n  "
   },
-  {"id":290,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "EPI",
+  {"id":290,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "NR6",
     "enunciado": "Dos equipamentos de proteção listados a seguir, assinale a opção que indica o equipamento de proteção coletiva.",
     "alternativas":[
   "(A) Protetor auricular.",
@@ -2520,7 +2508,7 @@
     ],"resposta":"E",
     "observacao":"Todas as outras alternativas são protetores individuais."
   },
-  {"id":292,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "EPI",
+  {"id":292,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "NR6",
     "enunciado": "Os Equipamentos de Proteção Individual - EPI - devem ser fornecidos aos empregados pelas empresas sempre que necessário.\n No que se refere aos EPI's, assinale a afirmativa correta.",
     "alternativas":[
   "(A) O fornecimento dos EPI's deve ocorrer na implantação das medidas de proteção coletiva.",
@@ -2531,7 +2519,7 @@
     ],"resposta":"A",
     "observacao":"Da NR6: item 6.3 A empresa é obrigada a fornecer aos empregados, gratuitamente, EPI adequado ao risco, em perfeito estado de conservação e funcionamento, nas seguintes circunstâncias:\n  a) sempre que as medidas de ordem geral não ofereçam completa proteção contra os riscos de acidentes do trabalho ou de doenças profissionais e do trabalho;\n   b) enquanto as medidas de proteção coletiva estiverem sendo implantadas; e,\n  c) para atender a situações de emergência."
   },
-  {"id":293,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "Acidentes",
+  {"id":293,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "Análise de riscos",
     "enunciado": "Um funcionário de uma empresa contraiu dengue após ser transferido para uma nova filial, onde há uma endemia de dengue. Nessa localidade, sua função é realizar trabalhos de campo voltados ao levantamento das condições socioeconômicas da população.\n  Diante do exposto, analise as afirmativas a seguir.\n  I. A doença contraída pelo funcionário não pode ser caracterizada como doença do trabalho, porque é endêmica na localidade em que ele trabalha.\n  II. A doença contraída pelo funcionário é caracterizada como doença do trabalho.\n  III. A doença não pode ser caracterizada por doença do trabalho, uma vez que a dengue é uma doença característica da faixa etária do funcionário.\n  Está correto o que afirma em",
     "alternativas":[
   "(A) I, apenas.",
@@ -2542,7 +2530,7 @@
     ],"resposta":"B",
     "observacao":" Art.20 da lei 8213.:\n  § 1º Não são consideradas como doença do trabalho:\n  d) a doença endêmica adquirida por segurado habitante de região em que ela se desenvolva, salvo comprovação de que é resultante de exposição ou contato direto determinado pela natureza do trabalho."
   },
-  {"id":294,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "PPP",
+  {"id":294,"banca": "FGV","nivel": "Médio", "cargo": "Técnico", "concurso" : "Pref. Salvador","ano": 2019,"assunto": "Previdência",
     "enunciado": "O Perfil Profissiográfico Previdenciário – PPP - constitui-se em um documento histórico-laboral do trabalhador que reúne, entre outras informações, dados administrativos, registros ambientais e resultados de monitoração biológica, durante todo o período em que este exerceu suas atividades na respectiva empresa.\n O PPP tem por objetivo primordial",
     "alternativas":[
   "(A) fornecer informações para o empregador quanto às condições ambientais de trabalho.",

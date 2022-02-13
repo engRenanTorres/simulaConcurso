@@ -39,12 +39,17 @@ export default function SobreOApp() {
             </View>
 
             <View style={estilosGerais.divisor}/>
-
+            <View style={estilosGerais.linhaMenu}>
             <TouchableOpacity
                     onPress={() => navigation.navigate('Home')}
                     >
                     <Text style={estilosGerais.botoesNavegacao}> Voltar à Tela Inicial </Text>
             </TouchableOpacity>
+            <Text style={estilosGerais.botoesNavegacao}
+                      onPress={() => Linking.openURL('https://play.google.com/store/apps/details?id=com.engrenantorres.sesmc')}>
+                      Avalie o App
+            </Text>
+            </View>
 
         </TelaPadrao>
     )
