@@ -429,7 +429,7 @@
   ],"resposta":"B",
   "observacao":""
 },
-{"id":40,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "IMBEL", "ano": 2021,"assunto": "NR9",
+{"id":9005,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "IMBEL", "ano": 2021,"assunto": "NR9",
   "enunciado": "Os empregadores têm obrigatoriedade de elaborar e implantar o Programa de Prevenção de Riscos Ambientais – PPRA, que deverá conter como elemento estruturante",
   "alternativas":[
 "(A) a exposição dos riscos aos trabalhadores.",
@@ -1595,7 +1595,7 @@
      ],"resposta":"E",
      "observacao":"Classe A = Materiais combustíveis sólidos (Extintor mais recomendado Água Pressurizada-AP pois resfria e abafa), \n Classe B = Materiais combustíveis líquidos (Extintor mais recomendado Espuma pois abafa o fogo fazendo uma camada entre o líquido e o ar), \n Classe C = Ignição elétrica (Extintor mais recomendado é o de CO2 pois retira o comburuente/oxigênio sem muitos danos aos equipamentos), \n Classe D = Metais Pirofóricos (Extintor mais recomendado é o de pó químico)."
      },
-   {"id":152,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "Compesa","ano": 2014,"assunto": "Análise de riscos",
+   {"id":90000,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "Compesa","ano": 2014,"assunto": "Análise de riscos",
      "enunciado": "Segundo o Guia de Análise de Acidentes de Trabalho do Ministério do Trabalho e Emprego, um evento adverso é qualquer ocorrência de natureza indesejável relacionada, direta ou indiretamente ao trabalho.\n Nesse contexto, sobre eventos adversos, assinale a afirmativa correta.",
      "alternativas":[
    "(A) Um incidente é a condição com potencial para gerar uma ocorrência de natureza indesejável.",
@@ -1606,7 +1606,7 @@
      ],"resposta":"B",
      "observacao":""
      },
-   {"id":153,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "Compesa","ano": 2014,"assunto": "NR23",
+   {"id":90001,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "Compesa","ano": 2014,"assunto": "NR23",
      "enunciado": "Relacione os combustíveis listados a seguir, com a respectiva classe.   1. Sólidos comuns. Exemplo: madeira, papel.\n   2. Líquidos inflamáveis, graxas e gases combustíveis. Exemplo: gasolina, álcool, gás de cozinha.\n   3. Combustíveis energizados. Exemplo: equipamentos eletrônicos ligados à rede elétrica.\n   4. Metais combustíveis e pirofóricos. Exemplo: sódio, zinco e alumínio.\n   ( ) Classe A\n   ( ) Classe B\n   ( ) Classe C\n   ( ) Classe D\n   Assinale a opção que indica a sequência correta, de cima para baixo.",
      "alternativas":[
    "(A) 1 – 2 – 3 – 4",
@@ -1804,7 +1804,7 @@
      ],"resposta":"E",
      "observacao":"Embora seja do COSCIPE de Pernambuco, a questão é aplicável à grande parte dos COSCIPE."
      },
-   {"id":167,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODEBA","ano": 2016,"assunto": "NR5",
+   {"id":9002,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODEBA","ano": 2016,"assunto": "NR5",
      "enunciado": "A Comissão Interna de Prevenção de Acidentes – CIPA tem como objetivo a prevenção de acidentes e doenças decorrentes do trabalho.\n A respeito da composição da CIPA, assinale a afirmativa correta.",
      "alternativas":[
    "(A) A CIPA é uma comissão representativa dos empregados.",
@@ -1815,7 +1815,7 @@
      ],"resposta":"D",
      "observacao":"Correções:\n A) 5.1 A Comissão Interna de Prevenção de Acidentes - CIPA - tem como objetivo a prevenção de acidentes e doenças decorrentes do trabalho, de modo a tornar compatível permanentemente o trabalho com a preservação da vida e a promoção da saúde do trabalhador.\n B) 5.7 O mandato dos membros eleitos da CIPA terá a duração de um ano, permitida uma reeleição.\n   C) 5.9 Serão garantidas aos membros da CIPA condições que não descaracterizem suas atividades normais na empresa, sendo vedada a transferência para outro estabelecimento sem a sua anuência, ressalvado o disposto nos parágrafos primeiro e segundo do artigo 469, da CLT.\n E) 5.15 A CIPA não poderá ter seu número de representantes reduzido, bem como não poderá ser desativada pelo empregador, antes do término do mandato de seus membros, ainda que haja redução do número de empregados da empresa, exceto no caso de encerramento das atividades do estabelecimento. (Alterado pela Portaria SIT n.º 247, de 12 de julho de 2011) "
      },
-   {"id":168,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODEBA","ano": 2016,"assunto": "NR4",
+   {"id":9003,"banca": "FGV","nivel": "superior", "cargo": "Engenharia", "concurso": "CODEBA","ano": 2016,"assunto": "NR4",
      "enunciado": "A respeito dos Serviços Especializados em Engenharia de Segurança e Medicina do Trabalho – SESMT, assinale a afirmativa correta.",
    "alternativas":[
    "(A) O empregador que contratar outras empresas para prestar serviços em seu estabelecimento, pode constituir o SESMT comum para assistência aos empregados das contratadas.",

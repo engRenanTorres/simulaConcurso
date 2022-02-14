@@ -2,7 +2,7 @@
   "expo": {
     "name": "sesmc",
     "slug": "sesmc",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "orientation": "portrait",
     "icon": "./assets/icon2.png",
     "splash": {
@@ -20,7 +20,8 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode":6,
+      "versionCode":8,
+      "permissions":["INTERNET","SYSTEM_ALERT_WINDOW","WAKE_LOCK","MANAGE_DOCUMENTS","READ_INTERNAL_STORAGE","READ_PHONE_STATE","USE_FINGERPRINT","INSTALL_SHORTCUT","VIBRATE","READ_EXTERNAL_STORAGE","WRITE_EXTERNAL_STORAGE","WRITE_SETTINGS"],
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#efefef"

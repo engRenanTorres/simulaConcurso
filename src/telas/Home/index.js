@@ -22,6 +22,14 @@ export default function Home() {
     const questoesRenan = require('../../dados/questoesRenan.json');
     let bancoDeQuestoes = [...questoesFgv,...questoesCespe,...questoesCebraspe,...questoesRenan];
 
+/* teste de ids repetidos  
+   let arrayIds = [];
+    bancoDeQuestoes.forEach((questao,index)=>arrayIds[index]=questao.id);
+    const verificaIdRepetido = arrayIds.filter(function(ele , pos){
+        return arrayIds.indexOf(ele) != pos;
+    })
+    console.log(`aqui ${verificaIdRepetido}`);
+ */
     return (
         <TelaPadrao >
             <View>
