@@ -7,6 +7,7 @@ import estilosGerais from '../../estilosGerais';
 import { useNavigation } from '@react-navigation/native';
 import {DataContext} from '../../provider'
 import CriaNovaOrdenacao from '../../funcoesGerais/CriaNovaOrdenacao';
+import { Ionicons,AntDesign } from '@expo/vector-icons';
 
 export default function Configuracoes1({route}) {
 
@@ -81,7 +82,7 @@ export default function Configuracoes1({route}) {
                 <TouchableOpacity onPress={()=> {
                         navigation.push('Configuracoes2',{quantidadeDeQuestoesPorVez,cebraspe,cespe,fgv,renan});
                     }}>
-                    <Text style={estilosGerais.botoesNavegacao}>Filtrar Temas</Text>
+                    <Text style={estilosGerais.botoesNavegacao}><AntDesign name="filter" size={14} color="white" /> Filtrar Temas</Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=> {
                         let bdFilttrado = [];
@@ -101,14 +102,14 @@ export default function Configuracoes1({route}) {
                             navigation.push('Simulado');
                         }
                     }}>
-                    <Text style={estilosGerais.botoesPrincipais}>Iniciar Simulado</Text>
+                    <Text style={estilosGerais.botoesPrincipais}><AntDesign name="play" size={14} color="white" /> Iniciar Simulado</Text>
                 </TouchableOpacity>
                 </View>
                 <View style={{alignItems:'center'}}>
                     <TouchableOpacity
                         onPress={() => navigation.navigate('Home')}
                         >
-                        <Text style={estilosGerais.botoesNavegacao}> Voltar à Tela Inicial </Text>
+                        <Text style={estilosGerais.botoesNavegacao}><AntDesign name="home" size={14} color="white" /> Tela Inicial </Text>
                     </TouchableOpacity>
                 </View>
         </TelaPadrao>

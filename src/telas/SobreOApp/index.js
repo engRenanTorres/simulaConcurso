@@ -1,4 +1,5 @@
 import React from 'react';
+import { AntDesign } from '@expo/vector-icons';
 
 import { Text, View, Image,Linking,TouchableOpacity } from 'react-native';
 import estilos from './estilos';
@@ -23,7 +24,7 @@ export default function SobreOApp() {
 
                     <Text style={estilos.links}
                       onPress={() => Linking.openURL('https://br.linkedin.com/in/renan-torres-3ba43560')}>
-                      Linkedin do autor
+                      <AntDesign name="link" size={14} color="white" /> Linkedin do autor
                     </Text>
                 </View>
                 <Text style={estilos.texto}> Contato: engrtorres@outlook.com </Text>
@@ -34,7 +35,7 @@ export default function SobreOApp() {
                 <Text h2 style={estilos.texto}> O APP ainda se encontra em desenvolivmento. Para colaborar, ou saber mais, você pode acessar o código fonte no link baixo: </Text>
                 <Text style={estilos.links}
                       onPress={() => Linking.openURL('https://github.com/engRenanTorres/simulaConcurso')}>
-                      Ir ao GitHub do App
+                      <AntDesign name="link" size={14} color="white" /> Código do App
                 </Text>
             </View>
 
@@ -43,11 +44,11 @@ export default function SobreOApp() {
             <TouchableOpacity
                     onPress={() => navigation.navigate('Home')}
                     >
-                    <Text style={estilosGerais.botoesNavegacao}> Voltar à Tela Inicial </Text>
+                    <Text style={estilosGerais.botoesNavegacao}><AntDesign name="home" size={14} color="white" /> Tela Inicial </Text>
             </TouchableOpacity>
             <Text style={estilosGerais.botoesNavegacao}
                       onPress={() => Linking.openURL('https://play.google.com/store/apps/details?id=com.engrenantorres.sesmc')}>
-                      Avalie o App
+                      <AntDesign name="star" size={14} color="white" /> Avalie o App
             </Text>
             </View>
 

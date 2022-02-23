@@ -8,6 +8,7 @@ import { useNavigation } from '@react-navigation/native';
 import BotaoPassadorSimples from '../../componentes/BotaoPassadorSimples';
 import { DataContext } from '../../provider';
 import CriaNovaOrdenacao from '../../funcoesGerais/CriaNovaOrdenacao';
+import { Ionicons,AntDesign } from '@expo/vector-icons';
 
 export default function Home() {
 
@@ -54,7 +55,7 @@ export default function Home() {
             <View style={{marginTop:'25%'}}/>
             <View style={estilosGerais.linhaMenu}>
                 <TouchableOpacity onPress={()=>{navigation.push('Configuracoes1',{quantidadeDeQuestoesPorVez})}}>
-                    <Text style={estilosGerais.botoesNavegacao}>Filtrar Questões</Text>
+                    <Text style={estilosGerais.botoesNavegacao}><AntDesign name="filter" size={14} color="white" /> Filtrar Questões</Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=> {
                         if(bancoDeQuestoes.length<quantidadeDeQuestoesPorVez) {
@@ -68,16 +69,16 @@ export default function Home() {
                             navigation.push('Simulado');
                         }
                     }}>
-                    <Text style={estilosGerais.botoesPrincipais}>Iniciar Simulado</Text>
+                    <Text style={estilosGerais.botoesPrincipais}><AntDesign name="play" size={14} color="white" /> Iniciar Simulado</Text>
                 </TouchableOpacity>
             </View>
             <View style={{alignItems:'center'}}>
                 <TouchableOpacity onPress={()=> navigation.navigate('SobreOApp')}>
-                    <Text style={estilosGerais.botoesNavegacao}>Sobre o App</Text>
+                    <Text style={estilosGerais.botoesNavegacao}><AntDesign name="eye" size={14} color="white" /> Sobre o App</Text>
                 </TouchableOpacity>
                 <Text style={estilosGerais.botoesNavegacao}
                       onPress={() => Linking.openURL('https://play.google.com/store/apps/details?id=com.engrenantorres.sesmc')}>
-                      Avalie o App
+                      <AntDesign name="star" size={14} color="white" /> Avalie o App
             </Text>
             </View>
 

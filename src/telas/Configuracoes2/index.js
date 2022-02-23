@@ -6,6 +6,7 @@ import estilosGerais from '../../estilosGerais';
 import { useNavigation } from '@react-navigation/native';
 import {DataContext} from '../../provider'
 import CriaNovaOrdenacao from '../../funcoesGerais/CriaNovaOrdenacao';
+import { AntDesign } from '@expo/vector-icons';
 
 export default function Configuracoes2({route}) {
     
@@ -146,7 +147,7 @@ export default function Configuracoes2({route}) {
                         <View style={estilosGerais.divisor}/>
                         <View style={estilosGerais.linhaMenu}>
                     <TouchableOpacity onPress={() => navigation.navigate('Home')}>
-                        <Text style={estilosGerais.botoesNavegacao}> Voltar à Tela Inicial </Text>
+                        <Text style={estilosGerais.botoesNavegacao}><AntDesign name="home" size={14} color="white" /> Tela Inicial </Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={()=> {
                             const bancoDeQuestoesOriginal = bancoDeQuestoes;
@@ -173,7 +174,7 @@ export default function Configuracoes2({route}) {
                                 navigation.push('Simulado');
                             }
                         }}>
-                        <Text style={estilosGerais.botoesPrincipais}>Iniciar Simulado</Text>
+                        <Text style={estilosGerais.botoesPrincipais}><AntDesign name="play" size={14} color="white" /> Iniciar Simulado</Text>
                     </TouchableOpacity>
                     </View>
                     </View>}
