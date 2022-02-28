@@ -81,18 +81,19 @@ export default function Pontuacao({route}){
                 <Text> Percentual :</Text> 
                 <Text style={estilosPont.resultados} > {percentualTexto} </Text>
             </View>
-
-            <View style={estilosGerais.linhaMenu}>
-                <TouchableOpacity
-                    onPress={() => navigation.navigate('Home')}
-                    >
-                    <Text style={estilosGerais.botoesNavegacao}><AntDesign name="back" size={14} color="white" /> Tela Inicial </Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                    onPress={()=>navigation.push('Corrigir',transferir)}
-                    >
-                    <Text style={estilosGerais.botoesPrincipais}><AntDesign name="bars" size={14} color="white" /> Ver Questões</Text>
-                </TouchableOpacity>
+            <View style={estilosGerais.painelNavegacao}>
+                <View style={estilosGerais.linhaMenu}>
+                    <TouchableOpacity
+                        onPress={() => navigation.navigate('Home')}
+                        >
+                        <Text style={estilosGerais.botoesNavegacao}><AntDesign name="back" size={14} color="white" /> Tela Inicial </Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        onPress={()=>navigation.push('Corrigir',transferir)}
+                        >
+                        <Text style={estilosGerais.botoesPrincipais}><AntDesign name="bars" size={14} color="white" /> Ver Questões</Text>
+                    </TouchableOpacity>
+            </View>
             </View>
 
 

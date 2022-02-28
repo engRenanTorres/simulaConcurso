@@ -9,8 +9,7 @@ export default StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         flexWrap: 'wrap',
-        justifyContent: 'center',
-        backgroundColor: cores.quaseBranco,       
+        justifyContent: 'center',     
     },
     botoesPassadores: {
         fontWeight: 'bold',

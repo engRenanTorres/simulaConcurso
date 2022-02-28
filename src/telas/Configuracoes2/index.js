@@ -33,7 +33,6 @@ export default function Configuracoes2({route}) {
     let cespe = route.params.cespe;
     let cebraspe = route.params.cebraspe;
     let fgv = route.params.fgv;
-    let renan = route.params.renan;
 
     if(!cebraspe) {
         const questoesCebraspe = require('../../dados/questoesCebraspe.json');
@@ -46,10 +45,6 @@ export default function Configuracoes2({route}) {
     if(!fgv) {
         const questoesFgv = require('../../dados/questoes.json');
         bdFilttrado=[...bdFilttrado,...questoesFgv];
-    }
-    if(!renan) {
-        const questoesRenan = require('../../dados/questoesRenan.json');
-        bdFilttrado=[...bdFilttrado,...questoesRenan];
     }
     let bancoDeQuestoes = bdFilttrado;
     let qtdQuestoesTemporaria = bancoDeQuestoes.length;

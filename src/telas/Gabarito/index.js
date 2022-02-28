@@ -7,6 +7,7 @@ import TelaPadrao from '../../componentes/TelaPadrao';
 import QuestaoResolvida from './Componentes/QuestaoResolvida';
 import estilosGerais from '../../estilosGerais';
 import { DataContext } from '../../provider';
+import { ScrollView } from 'react-native-gesture-handler';
 
 export default function Gabarito({route}){ 
     let indexExibidaNaTela=0;
@@ -28,18 +29,21 @@ export default function Gabarito({route}){
 
     return (
         <TelaPadrao>
+            
             <Text h1 style={estilosGerais.titulosTela}>Correção das Questões</Text>
-            <CabecalhoDaQuestao 
-                indiceQuestao={numeroQuestao} 
-                acao={alteraQuestao}
-                totalDeQuestoes={quantidadeDeQuestoesNoTeste}
-                {...questaoExibidaNaTela}   
-            />
-            <QuestaoResolvida
-                {...questaoExibidaNaTela}
-                numeroQuestao = {numeroQuestao}
-                alternativasMarcadas = {alternativaMarcada}
-            />
+            <ScrollView>
+                <CabecalhoDaQuestao 
+                    indiceQuestao={numeroQuestao} 
+                    acao={alteraQuestao}
+                    totalDeQuestoes={quantidadeDeQuestoesNoTeste}
+                    {...questaoExibidaNaTela}   
+                />
+                <QuestaoResolvida
+                    {...questaoExibidaNaTela}
+                    numeroQuestao = {numeroQuestao}
+                    alternativasMarcadas = {alternativaMarcada}
+                />
+            </ScrollView>
             <BotoesPassadores
                 numeroQuestao= {numeroQuestao}
                 alteraQuestao= {alteraQuestao}

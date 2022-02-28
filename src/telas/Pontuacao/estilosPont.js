@@ -6,9 +6,11 @@ export default StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'center',
         marginVertical: 10,
+       
     },
         saudacao: {
-        flex:1,
+       
+
         marginHorizontal: 24,
         marginTop: 20,
         fontSize: 20,

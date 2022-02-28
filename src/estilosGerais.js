@@ -14,7 +14,8 @@ export const cores = {
 export default StyleSheet.create({
 
     preencher: {
-        
+        flex:1,
+        height:'100%'
     },
     titulosTela: {
         fontWeight: 'bold',
@@ -25,6 +26,11 @@ export default StyleSheet.create({
     corpoTextoGeral: {
         fontSize: 16,
         textAlign: 'center',
+    },
+    painelNavegacao:{
+        position:'absolute',
+        bottom:0,
+        marginBottom:16,
     },
     botoesNavegacao: {
         fontWeight: 'bold',
@@ -58,5 +64,12 @@ export default StyleSheet.create({
         width: Dimensions.get('window').width,
         flexDirection:'row',
         justifyContent: 'space-evenly',
+        paddingHorizontal: 24,
+    },
+    image: {
+        flex: 1,
+        justifyContent: 'center',
+        width:'100%',
+        height: '100%'
     }
 });

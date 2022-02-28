@@ -11,7 +11,6 @@ export default StyleSheet.create({
         flexWrap: 'wrap',
     },
     enunciado: {
-        backgroundColor: cores.quaseBranco,
         color: '#000',
         fontSize: 16,
         textAlignVertical: 'top',

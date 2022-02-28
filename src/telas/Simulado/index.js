@@ -7,6 +7,7 @@ import BotoesPassadores from './Componentes/BotoesPassadores';
 import TelaPadrao from '../../componentes/TelaPadrao';
 import estilosGerais from '../../estilosGerais';
 import { DataContext } from '../../provider';
+import { ScrollView } from 'react-native-gesture-handler';
 
 export default function Simulado(){ 
     let indexExibidaNaTela=0;
@@ -31,18 +32,20 @@ export default function Simulado(){
     return (
         <TelaPadrao>
             <Text h1 style={estilosGerais.titulosTela}>Lista de Questões</Text>
-            <CabecalhoDaQuestao 
-                indiceQuestao={numeroQuestao} 
-                acao={alteraQuestao}
-                totalDeQuestoes={provideBDFiltrado.length} 
-                {...questaoExibidaNaTela}   
-            />
-            <Questao 
-                {...questaoExibidaNaTela}
-                numeroQuestao = {numeroQuestao}
-                alternativasMarcadas = {alternativasMarcadas}
-                acaoDeMarcar = {setAlternativaMarcada}
-            />
+            <ScrollView>
+                <CabecalhoDaQuestao 
+                    indiceQuestao={numeroQuestao} 
+                    acao={alteraQuestao}
+                    totalDeQuestoes={provideBDFiltrado.length} 
+                    {...questaoExibidaNaTela}   
+                />
+                <Questao 
+                    {...questaoExibidaNaTela}
+                    numeroQuestao = {numeroQuestao}
+                    alternativasMarcadas = {alternativasMarcadas}
+                    acaoDeMarcar = {setAlternativaMarcada}
+                />
+            </ScrollView>
             <BotoesPassadores
                 numeroQuestao= {numeroQuestao}
                 alteraQuestao= {alteraQuestao}
