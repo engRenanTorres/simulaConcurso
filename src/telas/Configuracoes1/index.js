@@ -7,7 +7,7 @@ import estilosGerais from '../../estilosGerais';
 import { useNavigation } from '@react-navigation/native';
 import {DataContext} from '../../provider'
 import CriaNovaOrdenacao from '../../funcoesGerais/CriaNovaOrdenacao';
-import { Ionicons,AntDesign } from '@expo/vector-icons';
+import { AntDesign } from '@expo/vector-icons';
 
 export default function Configuracoes1({route}) {
 
@@ -25,8 +25,8 @@ export default function Configuracoes1({route}) {
     const [qtdQuestoesDisponiveis, setQtdQuestoesDisponiveis] = useState(qtdQuestoesTemporaria);
 
     const navigation = useNavigation();
-    const testaTodasDesmarcadas = (cebraspe,cespe,fgv,renan)=>{
-        return !(cebraspe&&cespe&&fgv&&renan);
+    const testaTodasDesmarcadas = (cebraspe,cespe,fgv)=>{
+        return !(cebraspe&&cespe&&fgv);
     }
 
     return (
