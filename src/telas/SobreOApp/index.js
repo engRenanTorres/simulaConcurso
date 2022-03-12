@@ -6,6 +6,7 @@ import estilos from './estilos';
 import TelaPadrao from '../../componentes/TelaPadrao';
 import estilosGerais from '../../estilosGerais';
 import { useNavigation } from '@react-navigation/native';
+import BotoesNavegadores from '../../componentes/BotoesNavegadores';
 
 export default function SobreOApp() {
 
@@ -42,9 +43,12 @@ export default function SobreOApp() {
             <View style={estilosGerais.divisor}/>
             <View style={estilosGerais.painelNavegacao}>
                 <View style={estilosGerais.linhaMenu}>
-                <TouchableOpacity  onPress={() => navigation.navigate('Home')}>
-                        <Text style={estilosGerais.botoesNavegacao}><AntDesign name="home" size={14} color="white" /> Tela Inicial </Text>
-                </TouchableOpacity>
+
+                <BotoesNavegadores 
+                    navigateDirection={'Home'}
+                    art={'home'}>
+                    Tela inicial
+                </BotoesNavegadores>
                 <Text style={estilosGerais.botoesNavegacao}
                         onPress={() => Linking.openURL('https://play.google.com/store/apps/details?id=com.engrenantorres.sesmc')}>
                         <AntDesign name="star" size={14} color="white" /> Avalie o App

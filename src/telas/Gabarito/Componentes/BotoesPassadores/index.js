@@ -4,6 +4,7 @@ import estilos from './estilos';
 import { useNavigation } from '@react-navigation/native';
 import estilosGerais from '../../../../estilosGerais';
 import { AntDesign } from '@expo/vector-icons';
+import BotoesNavegadores from '../../../../componentes/BotoesNavegadores';
 
 export default function BotoesPassadores ({numeroQuestao,alteraQuestao,quantidadeDeQuestoesNoTeste}) {
     const primeiraQuestao = numeroQuestao == 0? true:false;
@@ -28,16 +29,16 @@ export default function BotoesPassadores ({numeroQuestao,alteraQuestao,quantidad
             }
             </View> 
             <View style={estilosGerais.linhaMenu}>
-                <TouchableOpacity 
-                    onPress={()=>navigation.goBack()}
-                    >
-                    <Text style={estilosGerais.botoesNavegacao}><AntDesign name="bars" size={14} color="white" /> Pontuação </Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                    onPress={() => navigation.navigate('Home')}
-                    >
-                    <Text style={estilosGerais.botoesNavegacao}><AntDesign name="home" size={14} color="white" /> Tela Inicial </Text>
-                </TouchableOpacity>
+                <BotoesNavegadores
+                    functionType={navigation.goBack}
+                    art={"bars"}>
+                        Pontuação
+                </BotoesNavegadores>
+                <BotoesNavegadores 
+                    navigateDirection={'Home'}
+                    art={"home"}> 
+                        Tela inicial 
+                </BotoesNavegadores>
             </View>
         </View>
     )

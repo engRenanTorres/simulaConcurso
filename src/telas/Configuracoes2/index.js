@@ -7,6 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 import {DataContext} from '../../provider'
 import CriaNovaOrdenacao from '../../funcoesGerais/CriaNovaOrdenacao';
 import { AntDesign } from '@expo/vector-icons';
+import BotoesNavegadores from '../../componentes/BotoesNavegadores';
 
 export default function Configuracoes2({route}) {
     
@@ -17,16 +18,6 @@ export default function Configuracoes2({route}) {
             return str;
         else
             return String(str).substring(0,n);
-    }
-    function Right(str, n){
-        if (n <= 0)
-        return "";
-        else if (n > String(str).length)
-        return str;
-        else {
-        var iLen = String(str).length;
-        return String(str).substring(iLen, iLen - n);
-        }
     }
 
     let bdFilttrado = [];
@@ -65,9 +56,10 @@ export default function Configuracoes2({route}) {
     });
     const temasGerais= temas.filter((assunto)=>Left(assunto,2)!='NR');
     const temasNR= temas.filter((assunto)=>Left(assunto,2)=='NR'&&assunto.length==3);
+    const temasNR1= temas.filter((assunto)=>Left(assunto,3)=='NR1'&&assunto.length==4);
     const temasNR2= temas.filter((assunto)=>Left(assunto,3)=='NR2'&&assunto.length==4);
     const temasNR3= temas.filter((assunto)=>Left(assunto,3)=='NR3'&&assunto.length==4);
-    const temasNaOrdem =[...temasNR.sort(),...temasNR2.sort(),...temasNR3.sort(),...temasGerais.sort()];
+    const temasNaOrdem =[...temasNR.sort(),...temasNR1.sort(),...temasNR2.sort(),...temasNR3.sort(),...temasGerais.sort()];
   
 
     let AssuntosProntos = [];
@@ -141,9 +133,13 @@ export default function Configuracoes2({route}) {
                     ListFooterComponent={() => <View>
                         <View style={estilosGerais.divisor}/>
                         <View style={estilosGerais.linhaMenu}>
-                    <TouchableOpacity onPress={() => navigation.navigate('Home')}>
-                        <Text style={estilosGerais.botoesNavegacao}><AntDesign name="home" size={14} color="white" /> Tela Inicial </Text>
-                    </TouchableOpacity>
+
+                    <BotoesNavegadores 
+                        navigateDirection={'Home'}
+                        art={"home"}> 
+                        Tela inicial 
+                    </BotoesNavegadores>
+
                     <TouchableOpacity onPress={()=> {
                             const bancoDeQuestoesOriginal = bancoDeQuestoes;
                             let bdFilttrado = [];

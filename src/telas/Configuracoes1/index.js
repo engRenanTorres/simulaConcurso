@@ -8,6 +8,7 @@ import { useNavigation } from '@react-navigation/native';
 import {DataContext} from '../../provider'
 import CriaNovaOrdenacao from '../../funcoesGerais/CriaNovaOrdenacao';
 import { AntDesign } from '@expo/vector-icons';
+import BotoesNavegadores from '../../componentes/BotoesNavegadores';
 
 export default function Configuracoes1({route}) {
 
@@ -69,11 +70,15 @@ export default function Configuracoes1({route}) {
             <View style={{marginTop:'25%'}}/>
             <View style= {estilosGerais.painelNavegacao}>
                 <View style={estilosGerais.linhaMenu}>
-                    <TouchableOpacity onPress={()=> {
-                            navigation.push('Configuracoes2',{quantidadeDeQuestoesPorVez,cebraspe,cespe,fgv});
-                        }}>
-                        <Text style={estilosGerais.botoesNavegacao}><AntDesign name="filter" size={14} color="white" /> Filtrar Temas</Text>
-                    </TouchableOpacity>
+
+                    <BotoesNavegadores 
+                        navigateDirection={'Configuracoes2'}
+                        art={"filter"}
+                        functionType={navigation.push}
+                        variablesTransfer={{quantidadeDeQuestoesPorVez,cebraspe,cespe,fgv}}> 
+                            Filtrar Temas 
+                    </BotoesNavegadores>
+
                     <TouchableOpacity onPress={()=> {
                             let bdFilttrado = [];
                             if(!cebraspe) bdFilttrado=[...bdFilttrado,...questoesCebraspe];    
@@ -82,24 +87,24 @@ export default function Configuracoes1({route}) {
                             bancoDeQuestoes= bdFilttrado;
                             if(bancoDeQuestoes.length<quantidadeDeQuestoesPorVez) {
                                 {Alert.alert("Questões insuficientes","Reveja os filtros aplicados.")}
+                                return;
                             }
-                            else{
-                                const novaOrdemDasQuestoes = CriaNovaOrdenacao(quantidadeDeQuestoesPorVez,bancoDeQuestoes.length);
-                                let questoesSimulado = [];
-                                novaOrdemDasQuestoes.forEach((item)=>{questoesSimulado.push(bancoDeQuestoes[item])});
-                                setProvideBDFiltrado(questoesSimulado);
-                                navigation.push('Simulado');
-                            }
+                            const novaOrdemDasQuestoes = CriaNovaOrdenacao(quantidadeDeQuestoesPorVez,bancoDeQuestoes.length);
+                            let questoesSimulado = [];
+                            novaOrdemDasQuestoes.forEach((item)=>{questoesSimulado.push(bancoDeQuestoes[item])});
+                            setProvideBDFiltrado(questoesSimulado);
+                            navigation.push('Simulado');
                         }}>
                         <Text style={estilosGerais.botoesPrincipais}><AntDesign name="play" size={14} color="white" /> Iniciar Simulado</Text>
                     </TouchableOpacity>
                 </View>
                 <View style={{alignItems:'center'}}>
-                    <TouchableOpacity
-                            onPress={() => navigation.navigate('Home')}
-                            >
-                        <Text style={estilosGerais.botoesNavegacao}><AntDesign name="home" size={14} color="white" /> Tela Inicial </Text>
-                    </TouchableOpacity>
+
+                    <BotoesNavegadores 
+                        navigateDirection={'Home'}
+                        art={"home"}> 
+                        Tela inicial 
+                    </BotoesNavegadores>
                 </View>
             </View>
         </TelaPadrao>

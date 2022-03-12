@@ -7,6 +7,7 @@ import estilosPont from './estilosPont';
 import { useNavigation } from '@react-navigation/native';
 import estilosGerais from '../../estilosGerais';
 import { DataContext } from '../../provider';
+import BotoesNavegadores from '../../componentes/BotoesNavegadores';
 import { AntDesign } from '@expo/vector-icons';
 
 
@@ -83,17 +84,21 @@ export default function Pontuacao({route}){
             </View>
             <View style={estilosGerais.painelNavegacao}>
                 <View style={estilosGerais.linhaMenu}>
-                    <TouchableOpacity
-                        onPress={() => navigation.navigate('Home')}
-                        >
-                        <Text style={estilosGerais.botoesNavegacao}><AntDesign name="back" size={14} color="white" /> Tela Inicial </Text>
-                    </TouchableOpacity>
-                    <TouchableOpacity
-                        onPress={()=>navigation.push('Corrigir',transferir)}
-                        >
-                        <Text style={estilosGerais.botoesPrincipais}><AntDesign name="bars" size={14} color="white" /> Ver Questões</Text>
-                    </TouchableOpacity>
-            </View>
+                    
+                    <BotoesNavegadores 
+                        navigateDirection={'Home'}
+                        art={"home"}> 
+                        Tela inicial 
+                    </BotoesNavegadores>
+
+                    <BotoesNavegadores 
+                        navigateDirection={'Corrigir'}
+                        functionType={navigation.push}
+                        variablesTransfer={transferir}
+                        art={"bars"}> 
+                        Rever questões
+                    </BotoesNavegadores>
+                </View>
             </View>
 
 

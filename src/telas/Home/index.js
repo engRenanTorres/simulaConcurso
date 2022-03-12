@@ -9,6 +9,7 @@ import BotaoPassadorSimples from '../../componentes/BotaoPassadorSimples';
 import { DataContext } from '../../provider';
 import CriaNovaOrdenacao from '../../funcoesGerais/CriaNovaOrdenacao';
 import { AntDesign } from '@expo/vector-icons';
+import BotoesNavegadores from '../../componentes/BotoesNavegadores';
 
 export default function Home() {
 
@@ -52,9 +53,14 @@ export default function Home() {
             <View style={estilosGerais.divisor}/>
             <View style={estilosGerais.painelNavegacao}>
                 <View style={estilosGerais.linhaMenu}>
-                    <TouchableOpacity onPress={()=>{navigation.push('Configuracoes1',{quantidadeDeQuestoesPorVez})}}>
-                        <Text style={estilosGerais.botoesNavegacao}><AntDesign name="filter" size={14} color="white" /> Filtrar Questões</Text>
-                    </TouchableOpacity>
+
+                    <BotoesNavegadores 
+                        navigateDirection={'Configuracoes1'}
+                        art={"filter"}
+                        functionType = {navigation.push}
+                        variablesTransfer={{quantidadeDeQuestoesPorVez}}> 
+                            Filtrar Questões
+                    </BotoesNavegadores>
                     <TouchableOpacity onPress={()=> {
                             if(bancoDeQuestoes.length<quantidadeDeQuestoesPorVez) {
                                 {Alert.alert("Questões insuficientes","Reveja os filtros aplicados.")}
@@ -71,13 +77,17 @@ export default function Home() {
                     </TouchableOpacity>
                 </View>
                 <View style={{alignItems:'center'}}>
-                    <TouchableOpacity onPress={()=> navigation.navigate('SobreOApp')}>
-                        <Text style={estilosGerais.botoesNavegacao}><AntDesign name="eye" size={14} color="white" /> Sobre o App</Text>
-                    </TouchableOpacity>
+
+                    <BotoesNavegadores
+                        navigateDirection={'SobreOApp'}
+                        art={"eye"}>
+                        Sobre o App 
+                    </BotoesNavegadores>
+
                     <Text style={estilosGerais.botoesNavegacao}
                         onPress={() => Linking.openURL('https://play.google.com/store/apps/details?id=com.engrenantorres.sesmc')}>
                         <AntDesign name="star" size={14} color="white" /> Avalie o App
-                </Text>
+                    </Text>
                 </View>
             </View>
 

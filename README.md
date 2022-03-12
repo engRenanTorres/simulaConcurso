@@ -8,8 +8,12 @@ A ideia é ir incrementando as funcionalidades e refatorando o código com o tem
 
 *Usar `expo build:android` pra buildar.
 
+## Erros a serem corrigidos:
+[ ] NR 1X não aparecendo;
+
 ## Próximas etapas:
 [X] _Readme padrão Markdown_;
+[ ] Limpar os Else com Returns;
 [ ] Melhorar o filtros;
 [ ] Adicionar um BD;
 [ ] Inserir testes automatizados;
