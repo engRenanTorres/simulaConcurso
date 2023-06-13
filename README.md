@@ -8,6 +8,12 @@ A ideia é ir incrementando as funcionalidades e refatorando o código com o tem
 
 *Usar `expo build:android` pra buildar.
 
+comandos para update
+npm i expo@^48.0.0
+npx expo install --fix  //corrige as compatibilidades das dep e informa qual vc tem que instalar na mão
+npm i com as dep sugeridas pelo expo fix
+npx expo-doctor
+
 ## Erros a serem corrigidos:
 [ ] NR 1X não aparecendo;
 
