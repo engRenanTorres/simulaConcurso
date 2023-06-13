@@ -18,13 +18,12 @@ npx expo-doctor
 [ ] NR 1X não aparecendo;
 
 ## Próximas etapas:
-[X] _Readme padrão Markdown_;
+[ ] Inserir <ActivityIndicator size={24}>
 [ ] Limpar os Else com Returns;
 [ ] Melhorar o filtros;
 [ ] Adicionar um BD;
 [ ] Inserir testes automatizados;
 [ ] Refatorar código continuamente;
-[X] _Remover questões NR37_;
 [ ] Inserir Funsaude 2021 e Petrobras 2022;
 [ ] componentizar os botões menu;
 [ ] adicionar questões Cesgranrio;
