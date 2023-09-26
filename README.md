@@ -6,7 +6,7 @@ Este App foi desenvolvido por Renan de Souza Torres/jan 2022.
 App em expo and react native para simulação de questoes de concursos. Já está lançado na Play Store com o nome de SESMC.
 A ideia é ir incrementando as funcionalidades e refatorando o código com o tempo.
 
-*Usar `expo build:android` pra buildar.
+*Usar `eas build -p android` expo build:adroid is decrepted pra buildar.
 
 comandos para update
 npm i expo@^48.0.0

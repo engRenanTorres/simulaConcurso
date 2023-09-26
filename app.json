@@ -2,7 +2,7 @@
   "expo": {
     "name": "sesmc",
     "slug": "sesmc",
-    "version": "1.0.10",
+    "version": "1.0.12",
     "orientation": "portrait",
     "icon": "./assets/icon2.png",
     "splash": {
@@ -20,13 +20,31 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode":10,
-      "permissions":["INTERNET","SYSTEM_ALERT_WINDOW","WAKE_LOCK","MANAGE_DOCUMENTS","READ_INTERNAL_STORAGE","READ_PHONE_STATE","USE_FINGERPRINT","INSTALL_SHORTCUT","VIBRATE","READ_EXTERNAL_STORAGE","WRITE_EXTERNAL_STORAGE","WRITE_SETTINGS"],
+      "versionCode": 12,
+      "permissions": [
+        "INTERNET",
+        "SYSTEM_ALERT_WINDOW",
+        "WAKE_LOCK",
+        "MANAGE_DOCUMENTS",
+        "READ_INTERNAL_STORAGE",
+        "READ_PHONE_STATE",
+        "USE_FINGERPRINT",
+        "INSTALL_SHORTCUT",
+        "VIBRATE",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "WRITE_SETTINGS"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#efefef"
       },
       "package": "com.engrenantorres.sesmc"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45af8dd6-35bf-4bb8-9919-9a06eef86946"
+      }
     }
   }
 }
